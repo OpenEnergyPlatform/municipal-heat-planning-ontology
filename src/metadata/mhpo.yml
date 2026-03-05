@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/mhpo
+
+idspace: MHPO
+base_url: /obo/mhpo
+
+products:
+- mhpo.owl: https://raw.githubusercontent.com/OpenEnergyPlatform/municipal-heat-planning-ontology/main/mhpo.owl
+- mhpo.obo: https://raw.githubusercontent.com/OpenEnergyPlatform/municipal-heat-planning-ontology/main/mhpo.obo
+
+term_browser: ontobee
+example_terms:
+- MHPO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/OpenEnergyPlatform/municipal-heat-planning-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/MHPO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/OpenEnergyPlatform/municipal-heat-planning-ontology/main/
+
