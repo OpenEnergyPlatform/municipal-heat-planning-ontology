@@ -9,30 +9,35 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mhpo.owl>
-
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/oeo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl>)
-
-
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Municipal Heat Planning Ontology")
-
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
 
 ############################
 #   Classes

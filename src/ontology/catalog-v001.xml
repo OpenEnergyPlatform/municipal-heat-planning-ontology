@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
   <group id="odk-managed-catalog" prefer="public">
-    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/oeo_import.owl" uri="imports/oeo_import.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl" uri="imports/cco_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl" uri="imports/bfo_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/iao_import.owl" uri="imports/iao_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/oeo_import.owl" uri="imports/oeo_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl" uri="imports/cco_import.owl" />
   </group>
 </catalog>

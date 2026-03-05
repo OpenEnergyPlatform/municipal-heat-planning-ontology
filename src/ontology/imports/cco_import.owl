@@ -1,12 +1,2504 @@
-Prefix(:=<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl>)
-Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(:=<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
 
 Ontology(<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl>
-# This is a placeholder, it will be regenerated when makefile is first executed.
+<http://purl.obolibrary.org/obo/mhpo/releases/2026-03-05/imports/cco_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <https://www.commoncoreontologies.org/2024-11-06/CommonCoreOntologiesMerged>)
+Annotation(owl:versionInfo "2026-03-05")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000061>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000067>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000074>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000120>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000124>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000140>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000198>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000217>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000229>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000239>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000263>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000275>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000276>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000374>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000390>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000398>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000444>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000469>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000497>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000502>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000518>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000527>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000630>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000659>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000686>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000707>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000770>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000829>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000844>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000852>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000891>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000940>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000958>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000959>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000969>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001004>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001090>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001235>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001290>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001307>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001317>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001328>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001345>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001351>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001352>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00001357>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001801>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001879>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001916>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001385>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001386>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001387>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001388>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001389>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001390>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001391>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001392>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001393>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001394>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001395>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001396>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001397>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001398>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001399>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001400>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001401>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001402>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001403>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001404>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001405>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001406>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001407>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001408>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001409>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001410>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001411>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001412>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001413>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001414>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001415>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001416>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001417>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001418>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001419>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001420>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001421>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001422>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001423>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001424>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001425>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001426>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001427>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001428>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001429>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001430>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001431>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001432>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001433>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001434>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001435>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001436>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001437>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001438>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001439>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001440>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001441>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001442>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001443>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001444>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001445>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001446>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001447>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001448>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001449>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001450>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001451>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001452>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001453>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001454>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001455>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001456>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001457>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001458>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001459>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001460>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001461>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001462>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001463>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001464>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001465>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001466>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001467>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001468>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001469>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001470>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001471>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001472>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001473>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001474>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001475>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001476>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001477>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001478>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001479>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001480>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001481>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001482>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001483>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001484>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001485>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001486>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001487>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001488>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001489>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001490>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001491>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001492>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001493>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001494>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001495>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001496>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001497>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001498>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001499>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001500>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001501>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001502>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001503>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001504>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001505>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001506>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001507>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001508>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001509>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001510>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001511>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001512>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001513>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001514>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001515>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001516>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001517>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001518>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001519>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001520>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001521>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001522>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001523>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001524>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001525>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001526>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001527>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001528>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001529>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001530>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001531>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001532>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001533>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001534>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001535>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001536>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001537>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001538>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001539>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001540>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001541>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001542>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001543>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001544>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001545>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001546>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001547>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001548>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001549>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001550>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001551>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001552>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001553>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001554>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001555>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001556>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001557>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001558>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001559>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001560>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001561>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001562>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001563>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001564>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001565>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001566>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001567>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001568>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001569>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001570>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001571>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001572>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001573>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001574>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001575>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001576>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001577>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001578>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001579>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001580>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001581>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001582>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001583>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001584>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001585>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001586>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001587>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001588>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001589>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001590>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001591>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001592>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001593>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001594>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001595>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001596>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001597>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001598>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001599>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001600>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001601>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001602>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001603>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001604>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001605>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001606>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001607>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001608>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001609>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001610>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001611>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001612>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001613>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001614>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001615>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001616>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001617>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001618>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001619>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001620>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001621>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001622>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001623>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001624>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001625>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001626>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001627>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001628>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001629>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001630>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001631>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001632>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001633>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001634>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001635>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001636>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001637>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001638>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001639>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001640>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001641>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001642>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001643>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001644>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001645>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001646>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001647>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001648>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001649>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001650>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001651>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001652>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001653>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001654>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001655>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001656>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001657>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001658>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001659>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001660>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001661>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001662>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001663>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001664>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001665>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001666>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001667>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001668>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001669>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001670>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001671>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001672>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001673>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001674>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001675>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001676>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001677>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001678>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001679>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001680>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001681>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001682>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001683>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001684>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001685>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001686>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001687>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001688>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001689>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001690>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001691>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001692>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001693>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001694>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001695>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001696>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001697>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001698>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001699>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001700>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001701>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001702>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001703>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001704>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001705>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001706>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001707>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001708>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001709>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001710>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001711>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001712>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001713>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001714>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001715>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001716>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001717>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001718>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001719>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001720>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001721>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001722>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001723>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001724>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001725>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001726>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001727>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001728>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001729>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001730>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001731>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001732>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001733>))
+Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001734>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <https://www.commoncoreontologies.org/ont00001801> (is subject of)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001801> "is subject of"@en)
+InverseObjectProperties(<https://www.commoncoreontologies.org/ont00001801> <https://www.commoncoreontologies.org/ont00001808>)
+ObjectPropertyRange(<https://www.commoncoreontologies.org/ont00001801> <https://www.commoncoreontologies.org/ont00000958>)
+
+# Object Property: <https://www.commoncoreontologies.org/ont00001808> (is about)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001808> "is about"@en)
+ObjectPropertyDomain(<https://www.commoncoreontologies.org/ont00001808> <https://www.commoncoreontologies.org/ont00000958>)
+ObjectPropertyRange(<https://www.commoncoreontologies.org/ont00001808> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Object Property: <https://www.commoncoreontologies.org/ont00001879> (designated by)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001879> "designated by"@en)
+SubObjectPropertyOf(<https://www.commoncoreontologies.org/ont00001879> <https://www.commoncoreontologies.org/ont00001801>)
+InverseObjectProperties(<https://www.commoncoreontologies.org/ont00001879> <https://www.commoncoreontologies.org/ont00001916>)
+ObjectPropertyRange(<https://www.commoncoreontologies.org/ont00001879> <https://www.commoncoreontologies.org/ont00000686>)
+
+# Object Property: <https://www.commoncoreontologies.org/ont00001916> (designates)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001916> "designates"@en)
+SubObjectPropertyOf(<https://www.commoncoreontologies.org/ont00001916> <https://www.commoncoreontologies.org/ont00001808>)
+ObjectPropertyDomain(<https://www.commoncoreontologies.org/ont00001916> <https://www.commoncoreontologies.org/ont00000686>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000006> (spatial region)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000006> "spatial region"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000006> <http://purl.obolibrary.org/obo/BFO_0000141>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000020> "specifically dependent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000141> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000061> (Measurement Unit of Flow)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000061> "Measurement Unit of Flow"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000061> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000067> (Civil Time Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000067> "Civil Time Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000067> <https://www.commoncoreontologies.org/ont00001328>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000074> (Measurement Unit of Acceleration)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000074> "Measurement Unit of Acceleration"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000074> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000120> (Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000120> "Measurement Unit"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000120> <https://www.commoncoreontologies.org/ont00000853>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000124> (Solar Time Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000124> "Solar Time Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000124> <https://www.commoncoreontologies.org/ont00001328>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000140> (Measurement Unit of Amount of Substance)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000140> "Measurement Unit of Amount of Substance"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000198> (Measurement Unit of Sound Level)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000198> "Measurement Unit of Sound Level"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000198> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000217> (Measurement Unit of Area)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000217> "Measurement Unit of Area"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000229> (Measurement Unit of Power)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000229> "Measurement Unit of Power"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000239> (Measurement Unit of Mass)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000239> "Measurement Unit of Mass"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000263> (Clock Time System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000263> "Clock Time System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000263> <https://www.commoncoreontologies.org/ont00001328>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000275> (Spatial Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000275> "Spatial Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000275> <https://www.commoncoreontologies.org/ont00000398>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000276> (Solar Calendar System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000276> "Solar Calendar System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000276> <https://www.commoncoreontologies.org/ont00000891>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000374> (Measurement Unit of Volumetric Flow Rate)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000374> "Measurement Unit of Volumetric Flow Rate"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000374> <https://www.commoncoreontologies.org/ont00000061>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000390> (Spatial Region Identifier)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000390> "Spatial Region Identifier"@en)
+EquivalentClasses(<https://www.commoncoreontologies.org/ont00000390> ObjectIntersectionOf(<https://www.commoncoreontologies.org/ont00000686> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001916> <http://purl.obolibrary.org/obo/BFO_0000006>)))
+SubClassOf(<https://www.commoncoreontologies.org/ont00000390> <https://www.commoncoreontologies.org/ont00000686>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000398> (Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000398> "Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000398> <https://www.commoncoreontologies.org/ont00000853>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000444> (Measurement Unit of Energy)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000444> "Measurement Unit of Energy"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000444> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000469> (Geospatial Coordinate Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000469> "Geospatial Coordinate Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00000275>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000497> (Measurement Unit of Force)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000497> "Measurement Unit of Force"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000497> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000502> (Measurement Unit of Area Moment of Inertia)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000502> "Measurement Unit of Area Moment of Inertia"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000502> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000518> (Measurement Unit of Currency)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000518> "Measurement Unit of Currency"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000527> (Measurement Unit of Rotational Inertia)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000527> "Measurement Unit of Rotational Inertia"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000527> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000630> (Universal Time Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000630> "Universal Time Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00000124>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000659> (Measurement Unit of Torque)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000659> "Measurement Unit of Torque"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000659> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000686> (Designative Information Content Entity)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000686> "Designative Information Content Entity"@en)
+EquivalentClasses(<https://www.commoncoreontologies.org/ont00000686> ObjectIntersectionOf(<https://www.commoncoreontologies.org/ont00000958> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001916> <http://purl.obolibrary.org/obo/BFO_0000001>)))
+SubClassOf(<https://www.commoncoreontologies.org/ont00000686> <https://www.commoncoreontologies.org/ont00000958>)
+DisjointClasses(<https://www.commoncoreontologies.org/ont00000686> <https://www.commoncoreontologies.org/ont00000853>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000707> (Measurement Unit of Angle)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000707> "Measurement Unit of Angle"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000770> (Measurement Unit of Density)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000770> "Measurement Unit of Density"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000770> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000829> (Time Zone Identifier)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000829> "Time Zone Identifier"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000829> <https://www.commoncoreontologies.org/ont00000390>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000844> (Measurement Unit of Temperature)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000844> "Measurement Unit of Temperature"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000844> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000852> (Measurement Unit of Work)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000852> "Measurement Unit of Work"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000852> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000853> (Descriptive Information Content Entity)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000853> "Descriptive Information Content Entity"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000853> <https://www.commoncoreontologies.org/ont00000958>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000891> (Calendar System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000891> "Calendar System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000891> <https://www.commoncoreontologies.org/ont00001328>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000940> (Measurement Unit of Momentum)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000940> "Measurement Unit of Momentum"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000940> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000958> (Information Content Entity)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000958> "Information Content Entity"@en)
+EquivalentClasses(<https://www.commoncoreontologies.org/ont00000958> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000031> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <http://purl.obolibrary.org/obo/BFO_0000001>)))
+SubClassOf(<https://www.commoncoreontologies.org/ont00000958> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000959> (Measurement Unit of Frequency)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000959> "Measurement Unit of Frequency"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000969> (Measurement Unit of Speed)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000969> "Measurement Unit of Speed"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001004> (Measurement Unit of Electromagnetic Force)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001004> "Measurement Unit of Electromagnetic Force"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001004> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001090> (Measurement Unit of Pressure)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001090> "Measurement Unit of Pressure"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001235> (Military Time Zone Identifier)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001235> "Military Time Zone Identifier"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00000829>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001290> (Measurement Unit of Length)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001290> "Measurement Unit of Length"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001307> (Measurement Unit of Mass Flow Rate)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001307> "Measurement Unit of Mass Flow Rate"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001307> <https://www.commoncoreontologies.org/ont00000061>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001317> (Measurement Unit of Volume)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001317> "Measurement Unit of Volume"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001328> (Temporal Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001328> "Temporal Reference System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00000398>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001345> (Measurement Unit of Impulse)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001345> "Measurement Unit of Impulse"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001345> <https://www.commoncoreontologies.org/ont00000120>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001351> (Cartesian Coordinate System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001351> "Cartesian Coordinate System"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001351> <https://www.commoncoreontologies.org/ont00000275>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001352> (Greenwich Mean Time Zone Identifier)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001352> "Greenwich Mean Time Zone Identifier"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00000829>)
+
+# Class: <https://www.commoncoreontologies.org/ont00001357> (Measurement Unit of Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001357> "Measurement Unit of Time"@en)
+SubClassOf(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00000120>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <https://www.commoncoreontologies.org/ont00001385> (Haiti Gourde)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001385> "Haiti Gourde"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001385>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001386> (Yemeni Rial)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001386> "Yemeni Rial"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001386>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001387> (Mauritania Ouguiya)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001387> "Mauritania Ouguiya"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001387>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001388> (Minute of Arc Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001388> "Minute of Arc Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001388>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001389> (Kenyan Shilling)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001389> "Kenyan Shilling"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001389>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001390> (Slug Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001390> "Slug Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001390>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001391> (Erg Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001391> "Erg Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001391>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000444> <https://www.commoncoreontologies.org/ont00001391>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000852> <https://www.commoncoreontologies.org/ont00001391>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001392> (GMT-8)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001392> "GMT-8"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001392>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001393> (Tablespoon Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001393> "Tablespoon Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001393>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001394> (Papua New Guinea Kina)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001394> "Papua New Guinea Kina"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001394>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001395> (GMT-3:30)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001395> "GMT-3:30"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001395>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001396> (Viet Nam Dong)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001396> "Viet Nam Dong"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001396>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001397> (Centimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001397> "Centimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001397>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001398> (Global Area Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001398> "Global Area Reference System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001398>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001399> (Ghana Cedi)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001399> "Ghana Cedi"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001399>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001400> (Sri Lanka Rupee)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001400> "Sri Lanka Rupee"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001400>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001401> (South Africa Rand)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001401> "South Africa Rand"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001401>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001402> (Kilogram Per Liter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001402> "Kilogram Per Liter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000770> <https://www.commoncoreontologies.org/ont00001402>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001403> (Bravo Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001403> "Bravo Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001403>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001404> (Afghanistan Afghani)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001404> "Afghanistan Afghani"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001404>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001405> (GMT-2)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001405> "GMT-2"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001405>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001406> (GMT+9:30)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001406> "GMT+9:30"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001406>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001407> (Shaft Horsepower Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001407> "Shaft Horsepower Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001407>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001408> (X-ray Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001408> "X-ray Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001408>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001409> (Singapore Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001409> "Singapore Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001409>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001410> (Guyana Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001410> "Guyana Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001410>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001411> (Pound Force Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001411> "Pound Force Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.commoncoreontologies.org/ont00001411>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001412> (GMT)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001412> "GMT"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001412>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001413> (Milligram Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001413> "Milligram Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001413>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001414> (Terrestrial Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001414> "Terrestrial Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001414>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001415> (Swiss Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001415> "Swiss Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001415>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001416> (Cubic Centimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001416> "Cubic Centimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001416>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001417> (Ephemeris Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001417> "Ephemeris Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001417>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001418> (Kilogram-Mole Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001418> "Kilogram-Mole Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00001418>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001419> (GMT+5)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001419> "GMT+5"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001419>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001420> (Dominican Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001420> "Dominican Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001420>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001421> (Sierra Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001421> "Sierra Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001421>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001422> (Quart Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001422> "Quart Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001422>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001423> (Deciliter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001423> "Deciliter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001423>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001424> (Alpha Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001424> "Alpha Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001424>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001425> (Miles Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001425> "Miles Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001425>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001426> (Chinese Renminbi)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001426> "Chinese Renminbi"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001426>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001427> (Canadian Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001427> "Canadian Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001427>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001428> (Kilometers Per Hour Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001428> "Kilometers Per Hour Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001428>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001429> (Gram-Mole Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001429> "Gram-Mole Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00001429>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001430> (Foxtrot Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001430> "Foxtrot Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001430>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001431> (Whiskey Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001431> "Whiskey Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001431>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001432> (Kilogram Force Per Centimeter Square Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001432> "Kilogram Force Per Centimeter Square Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001432>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001433> (Mile Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001433> "Mile Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001433>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001434> (GMT+1)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001434> "GMT+1"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001434>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001435> (Colombian Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001435> "Colombian Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001435>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001436> (Universal Time 1 D)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001436> "Universal Time 1 D"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001436>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001437> (Liter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001437> "Liter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001437>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001438> (Square Yard Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001438> "Square Yard Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001438>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001439> (Twenty-Four-Hour Clock Time System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001439> "Twenty-Four-Hour Clock Time System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000263> <https://www.commoncoreontologies.org/ont00001439>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001440> (GMT-9)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001440> "GMT-9"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001440>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001441> (Rwanda Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001441> "Rwanda Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001441>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001442> (Week Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001442> "Week Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001442>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001443> (Albania Lek)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001443> "Albania Lek"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001443>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001444> (Year Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001444> "Year Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001444>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001445> (Centiliter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001445> "Centiliter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001445>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001446> (Mike Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001446> "Mike Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001446>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001447> (CFP Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001447> "CFP Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001447>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001448> (Malawi Kwacha)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001448> "Malawi Kwacha"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001448>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001449> (Czech Koruna)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001449> "Czech Koruna"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001449>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001450> (Volt Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001450> "Volt Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001004> <https://www.commoncoreontologies.org/ont00001450>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001451> (Milliampere Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001451> "Milliampere Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001004> <https://www.commoncoreontologies.org/ont00001451>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001452> (Indian Rupee)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001452> "Indian Rupee"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001452>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001453> (Binary Degree Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001453> "Binary Degree Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001453>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001454> (Lima Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001454> "Lima Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001454>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001455> (Bolivia Boliviano)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001455> "Bolivia Boliviano"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001455>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001456> (Square Mile Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001456> "Square Mile Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001456>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001457> (Quebec Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001457> "Quebec Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001457>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001458> (Costa Rica Colon)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001458> "Costa Rica Colon"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001458>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001459> (Pound Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001459> "Pound Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001307> <https://www.commoncoreontologies.org/ont00001459>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001460> (Mauritius Rupee)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001460> "Mauritius Rupee"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001460>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001461> (Barycentric Dynamical Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001461> "Barycentric Dynamical Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001461>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001462> (Twenty Foot Equivalent Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001462> "Twenty Foot Equivalent Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001462>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001463> (Kilomole Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001463> "Kilomole Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00001463>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001464> (Uzbekistan Sum)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001464> "Uzbekistan Sum"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001464>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001465> (Namibia Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001465> "Namibia Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001465>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001466> (Revolutions Per Day Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001466> "Revolutions Per Day Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001466>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001467> (GMT-4)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001467> "GMT-4"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001467>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001468> (GMT+10)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001468> "GMT+10"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001468>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001469> (Kilometers Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001469> "Kilometers Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001469>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001470> (Megahertz Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001470> "Megahertz Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001470>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001471> (Square Centimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001471> "Square Centimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001471>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001472> (Cubic Millimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001472> "Cubic Millimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001472>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001473> (Euro)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001473> "Euro"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001473>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001474> (Atmosphere Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001474> "Atmosphere Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001474>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001475> (Kilohertz Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001475> "Kilohertz Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001475>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001476> (GMT+4)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001476> "GMT+4"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001476>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001477> (Kilogram Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001477> "Kilogram Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001477>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001478> (Angstrom Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001478> "Angstrom Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001478>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001479> (Angolan Kwanza)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001479> "Angolan Kwanza"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001479>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001480> (India Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001480> "India Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001480>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001481> (Macao Pataca)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001481> "Macao Pataca"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001481>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001482> (Algerian Dinar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001482> "Algerian Dinar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001482>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001483> (Mole Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001483> "Mole Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00001483>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001484> (Bangladesh Taka)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001484> "Bangladesh Taka"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001484>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001485> (Surinamese Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001485> "Surinamese Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001485>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001486> (Square Kilometer Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001486> "Square Kilometer Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001486>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001487> (Peru Nuevo Sol)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001487> "Peru Nuevo Sol"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001487>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001488> (Tango Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001488> "Tango Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001488>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001489> (Radian Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001489> "Radian Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001489>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001490> (Bulgarian Lev)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001490> "Bulgarian Lev"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001490>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001491> (Universal Time 1 A)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001491> "Universal Time 1 A"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001491>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001492> (Lebanese Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001492> "Lebanese Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001492>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001493> (Kilonewton Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001493> "Kilonewton Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.commoncoreontologies.org/ont00001493>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001494> (Yard Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001494> "Yard Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001494>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001495> (Sone Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001495> "Sone Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000198> <https://www.commoncoreontologies.org/ont00001495>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001496> (Square Meter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001496> "Square Meter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001496>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001497> (Kuwaiti Dinar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001497> "Kuwaiti Dinar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001497>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001498> (Fiji Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001498> "Fiji Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001498>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001499> (Kiloliter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001499> "Kiloliter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001499>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001500> (Echo Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001500> "Echo Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001500>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001501> (Tanzania Shilling)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001501> "Tanzania Shilling"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001501>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001502> (Decibel Isotropic Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001502> "Decibel Isotropic Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001502>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001503> (Hungary Forint)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001503> "Hungary Forint"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001503>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001504> (Newton Meter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001504> "Newton Meter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000659> <https://www.commoncoreontologies.org/ont00001504>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001505> (Uruguay Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001505> "Uruguay Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001505>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001506> (Universal Time 1 F)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001506> "Universal Time 1 F"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001506>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001507> (Lesotho Loti)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001507> "Lesotho Loti"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001507>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001508> (Brunei Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001508> "Brunei Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001508>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001509> (Belarussian Ruble)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001509> "Belarussian Ruble"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001509>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001510> (Tonga Pa anga)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001510> "Tonga Pa anga"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001510>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001511> (Meters Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001511> "Meters Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001511>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001512> (South Sudanese Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001512> "South Sudanese Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001512>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001513> (Mexican Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001513> "Mexican Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001513>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001514> (Laos Kip)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001514> "Laos Kip"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001514>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001515> (Liberian Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001515> "Liberian Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001515>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001516> (Oscar Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001516> "Oscar Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001516>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001517> (Nicaragua Cordoba Oro)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001517> "Nicaragua Cordoba Oro"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001517>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001518> (Madagascar Malagasy Ariary)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001518> "Madagascar Malagasy Ariary"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001518>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001519> (Turkish Lira)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001519> "Turkish Lira"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001519>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001520> (Zambia Kwacha)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001520> "Zambia Kwacha"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001520>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001521> (Philippine Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001521> "Philippine Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001521>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001522> (Square Foot Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001522> "Square Foot Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001522>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001523> (Pint Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001523> "Pint Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001523>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001524> (GMT-11)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001524> "GMT-11"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001524>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001525> (Newton Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001525> "Newton Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.commoncoreontologies.org/ont00001525>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001526> (Mach Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001526> "Mach Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001526>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001527> (Hotel Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001527> "Hotel Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001527>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001528> (Kilogram Meter Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001528> "Kilogram Meter Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000940> <https://www.commoncoreontologies.org/ont00001528>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001529> (Geocentric Coordinate Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001529> "Geocentric Coordinate Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001529>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001530> (Cubic Meter Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001530> "Cubic Meter Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000374> <https://www.commoncoreontologies.org/ont00001530>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001531> (Botswana Pula)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001531> "Botswana Pula"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001531>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001532> (Egyptian Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001532> "Egyptian Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001532>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001533> (Hour Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001533> "Hour Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001533>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001534> (GMT+7)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001534> "GMT+7"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001534>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001535> (Sudanese Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001535> "Sudanese Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001535>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001536> (Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001536> "Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001536>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001537> (Coordinated Universal Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001537> "Coordinated Universal Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000067> <https://www.commoncoreontologies.org/ont00001537>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001537>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001538> (Meters Per Second Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001538> "Meters Per Second Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000074> <https://www.commoncoreontologies.org/ont00001538>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001539> (Tajikistan Somoni)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001539> "Tajikistan Somoni"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001539>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001540> (Israel Shekel)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001540> "Israel Shekel"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001540>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001541> (GMT+12)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001541> "GMT+12"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001541>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001542> (Paraguay Guarani)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001542> "Paraguay Guarani"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001542>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001543> (Decimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001543> "Decimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001543>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001544> (Short Ton Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001544> "Short Ton Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001544>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001545> (Swaziland Lilangeni)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001545> "Swaziland Lilangeni"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001545>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001546> (Democratic Republic Of Congo Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001546> "Democratic Republic Of Congo Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001546>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001547> (Syrian Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001547> "Syrian Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001547>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001548> (Universal Time 1 R)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001548> "Universal Time 1 R"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001548>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001549> (Dyne Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001549> "Dyne Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.commoncoreontologies.org/ont00001549>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001550> (Julian Calendar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001550> "Julian Calendar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000276> <https://www.commoncoreontologies.org/ont00001550>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001551> (Cubic Foot Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001551> "Cubic Foot Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001551>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001552> (Gram Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001552> "Gram Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001552>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001553> (GMT+6)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001553> "GMT+6"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001553>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001554> (GMT-10)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001554> "GMT-10"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001554>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001555> (Pound Foot Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001555> "Pound Foot Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000659> <https://www.commoncoreontologies.org/ont00001555>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001556> (Samoa Tala)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001556> "Samoa Tala"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001556>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001557> (Pound Foot Second Square Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001557> "Pound Foot Second Square Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000527> <https://www.commoncoreontologies.org/ont00001557>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001558> (New Zealand Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001558> "New Zealand Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001558>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001559> (Pascal Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001559> "Pascal Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001559>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001560> (Calorie Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001560> "Calorie Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001560>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000444> <https://www.commoncoreontologies.org/ont00001560>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000852> <https://www.commoncoreontologies.org/ont00001560>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001561> (Uganda Shilling)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001561> "Uganda Shilling"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001561>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001562> (Cambodian Riel)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001562> "Cambodian Riel"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001562>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001563> (Horsepower Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001563> "Horsepower Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001563>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000444> <https://www.commoncoreontologies.org/ont00001563>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000852> <https://www.commoncoreontologies.org/ont00001563>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001564> (Decigram Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001564> "Decigram Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001564>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001565> (GMT-5)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001565> "GMT-5"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001565>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001566> (Watt Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001566> "Watt Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001566>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001567> (Ounce Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001567> "Ounce Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001567>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001568> (Gram Per Cubic Centimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001568> "Gram Per Cubic Centimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000770> <https://www.commoncoreontologies.org/ont00001568>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001569> (Kilogram Per Cubic Meter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001569> "Kilogram Per Cubic Meter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000770> <https://www.commoncoreontologies.org/ont00001569>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001570> (GMT+2)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001570> "GMT+2"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001570>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001571> (Day Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001571> "Day Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001571>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001572> (Kelvin Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001572> "Kelvin Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000844> <https://www.commoncoreontologies.org/ont00001572>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001573> (Teaspoon Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001573> "Teaspoon Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001573>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001574> (Revolutions Per Minute Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001574> "Revolutions Per Minute Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001574>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001575> (CFA Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001575> "CFA Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001575>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001576> (Milliliter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001576> "Milliliter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001576>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001577> (Ukraine Hryvnia)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001577> "Ukraine Hryvnia"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001577>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001578> (Nepalese Rupee)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001578> "Nepalese Rupee"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001578>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001579> (Liter Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001579> "Liter Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000374> <https://www.commoncoreontologies.org/ont00001579>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001580> (Papa Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001580> "Papa Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001580>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001581> (International Terrestrial Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001581> "International Terrestrial Reference System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001581>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001582> (Universal Transverse Mercator Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001582> "Universal Transverse Mercator Reference System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001582>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001583> (Feet Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001583> "Feet Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001583>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001584> (World Geographic Reference System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001584> "World Geographic Reference System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001584>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001585> (Newton Second Per Kilogram Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001585> "Newton Second Per Kilogram Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000940> <https://www.commoncoreontologies.org/ont00001585>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001586> (Poland Zloty)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001586> "Poland Zloty"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001586>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001587> (Bayre Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001587> "Bayre Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001587>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001588> (GMT+9)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001588> "GMT+9"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001588>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001589> (Cubic Inch Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001589> "Cubic Inch Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001589>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001590> (International Atomic Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001590> "International Atomic Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001590>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001591> (Uniform Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001591> "Uniform Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001591>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001592> (Kazakhstan Tenge)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001592> "Kazakhstan Tenge"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001592>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001593> (Ethiopian Birr)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001593> "Ethiopian Birr"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001593>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001594> (North Korean Won)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001594> "North Korean Won"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001594>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001595> (Swedish Krona)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001595> "Swedish Krona"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001595>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001596> (Kilogram Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001596> "Kilogram Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001307> <https://www.commoncoreontologies.org/ont00001596>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001597> (GMT+11)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001597> "GMT+11"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001597>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001598> (Kilometer Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001598> "Kilometer Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001598>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001599> (GMT+3:30)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001599> "GMT+3:30"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001599>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001600> (Guinean Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001600> "Guinean Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001600>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001601> (United Kingdom Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001601> "United Kingdom Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001601>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001602> (Miles Per Hour Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001602> "Miles Per Hour Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001602>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001603> (November Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001603> "November Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001603>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001604> (Degree Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001604> "Degree Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001604>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001605> (Argentine Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001605> "Argentine Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001605>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001606> (Degree Celsius Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001606> "Degree Celsius Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000844> <https://www.commoncoreontologies.org/ont00001606>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001607> (Victor Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001607> "Victor Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001607>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001608> (Pound-Mole Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001608> "Pound-Mole Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00001608>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001609> (Gradian Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001609> "Gradian Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001609>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001610> (Thai Baht)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001610> "Thai Baht"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001610>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001611> (Gallon Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001611> "Gallon Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001611>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001612> (Bar Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001612> "Bar Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001612>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001613> (Kilovolt Ampere Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001613> "Kilovolt Ampere Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001004> <https://www.commoncoreontologies.org/ont00001613>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001614> (Moldovan Leu)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001614> "Moldovan Leu"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001614>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001615> (GMT-7)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001615> "GMT-7"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001615>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001616> (Gambian Dalasi)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001616> "Gambian Dalasi"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001616>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001617> (Nigeria Naira)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001617> "Nigeria Naira"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001617>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001618> (United States Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001618> "United States Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001618>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001619> (Solomon Island Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001619> "Solomon Island Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001619>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001620> (Macedonian Denar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001620> "Macedonian Denar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001620>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001621> (Pakistani Rupee)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001621> "Pakistani Rupee"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001621>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001622> (Armenian Dram)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001622> "Armenian Dram"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001622>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001623> (Romanian Leu)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001623> "Romanian Leu"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001623>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001624> (Golf Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001624> "Golf Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001624>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001625> (Universal Time 0)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001625> "Universal Time 0"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001625>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001626> (Twelve-Hour Clock Time System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001626> "Twelve-Hour Clock Time System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000263> <https://www.commoncoreontologies.org/ont00001626>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001627> (HongKong Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001627> "HongKong Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001627>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001628> (Yankee Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001628> "Yankee Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001628>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001629> (Nautical Mile Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001629> "Nautical Mile Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001629>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001630> (World Geodetic System 1984)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001630> "World Geodetic System 1984"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001630>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001631> (Seychelles Rupee)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001631> "Seychelles Rupee"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001631>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001632> (South Korean Won)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001632> "South Korean Won"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001632>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001633> (Vanuatu Vatu)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001633> "Vanuatu Vatu"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001633>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001634> (GMT-1)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001634> "GMT-1"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001634>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001635> (Bosnia And Herzegovina Convertible Mark)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001635> "Bosnia And Herzegovina Convertible Mark"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001635>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001636> (Phon Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001636> "Phon Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000198> <https://www.commoncoreontologies.org/ont00001636>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001637> (Nanometer Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001637> "Nanometer Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001637>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001638> (Comoros Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001638> "Comoros Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001638>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001639> (Indonesia Rupiah)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001639> "Indonesia Rupiah"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001639>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001640> (Myanmar Kyat)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001640> "Myanmar Kyat"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001640>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001641> (Kilogram Meter Square Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001641> "Kilogram Meter Square Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000527> <https://www.commoncoreontologies.org/ont00001641>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001642> (Millimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001642> "Millimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001642>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001643> (Millibar Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001643> "Millibar Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001643>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001644> (Cubic Feet Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001644> "Cubic Feet Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000374> <https://www.commoncoreontologies.org/ont00001644>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001645> (Square Inch Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001645> "Square Inch Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001645>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001646> (Knot Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001646> "Knot Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.commoncoreontologies.org/ont00001646>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001647> (Feet Per Second Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001647> "Feet Per Second Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000074> <https://www.commoncoreontologies.org/ont00001647>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001648> (Earth-Centered Earth-Fixed Coordinate System)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001648> "Earth-Centered Earth-Fixed Coordinate System"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001648>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001351> <https://www.commoncoreontologies.org/ont00001648>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001649> (Mongolia Tugrik)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001649> "Mongolia Tugrik"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001649>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001650> (Tunisian Dinar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001650> "Tunisian Dinar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001650>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001651> (Gram Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001651> "Gram Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001307> <https://www.commoncoreontologies.org/ont00001651>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001652> (Russian Rouble)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001652> "Russian Rouble"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001652>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001653> (Joule Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001653> "Joule Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001653>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000444> <https://www.commoncoreontologies.org/ont00001653>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000852> <https://www.commoncoreontologies.org/ont00001653>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001654> (Iranian Rial)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001654> "Iranian Rial"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001654>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001655> (Cape Verde Escudo)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001655> "Cape Verde Escudo"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001655>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001656> (Newton Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001656> "Newton Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001345> <https://www.commoncoreontologies.org/ont00001656>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001657> (Trinidad and Tobago Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001657> "Trinidad and Tobago Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001657>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001658> (Jet Propulsion Laboratory Ephemeris Time Argument)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001658> "Jet Propulsion Laboratory Ephemeris Time Argument"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001658>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001659> (Turn Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001659> "Turn Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001659>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001660> (International Geomagnetic Reference Field)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001660> "International Geomagnetic Reference Field"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001660>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001661> (GMT+8)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001661> "GMT+8"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001661>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001662> (Mozambique Metical)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001662> "Mozambique Metical"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001662>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001663> (Cubic Meter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001663> "Cubic Meter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001663>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001664> (Decibel Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001664> "Decibel Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000198> <https://www.commoncoreontologies.org/ont00001664>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001665> (Georgian Lari)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001665> "Georgian Lari"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001665>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001666> (Barycentric Coordinate Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001666> "Barycentric Coordinate Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001666>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001667> (Minute Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001667> "Minute Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001667>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001668> (Sierra Leone Leone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001668> "Sierra Leone Leone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001668>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001669> (Gigahertz Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001669> "Gigahertz Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001669>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001670> (Malaysia Ringgit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001670> "Malaysia Ringgit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001670>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001671> (Azerbaijan Manat)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001671> "Azerbaijan Manat"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001671>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001672> (Square Decimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001672> "Square Decimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001672>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001673> (Japanese Yen)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001673> "Japanese Yen"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001673>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001674> (Gregorian Calendar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001674> "Gregorian Calendar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000276> <https://www.commoncoreontologies.org/ont00001674>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001675> (Slug Foot Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001675> "Slug Foot Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000940> <https://www.commoncoreontologies.org/ont00001675>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001676> (Metric Ton Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001676> "Metric Ton Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001676>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001677> (Inch Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001677> "Inch Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001677>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001678> (Cubic Decimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001678> "Cubic Decimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001678>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001679> (St Helena Pound)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001679> "St Helena Pound"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001679>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001680> (Miles Per Second Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001680> "Miles Per Second Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000074> <https://www.commoncoreontologies.org/ont00001680>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001681> (Gallon Per Minute Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001681> "Gallon Per Minute Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000374> <https://www.commoncoreontologies.org/ont00001681>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001682> (Kilopond Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001682> "Kilopond Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.commoncoreontologies.org/ont00001682>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001683> (Meter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001683> "Meter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001683>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001684> (Burundi Franc)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001684> "Burundi Franc"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001684>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001685> (Second of Arc Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001685> "Second of Arc Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.commoncoreontologies.org/ont00001685>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001686> (Standard Cubic Centimeter Per Minute Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001686> "Standard Cubic Centimeter Per Minute Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000374> <https://www.commoncoreontologies.org/ont00001686>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001687> (Cubic Yard Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001687> "Cubic Yard Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.commoncoreontologies.org/ont00001687>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001688> (Sao Tome Principe Dobra)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001688> "Sao Tome Principe Dobra"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001688>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001689> (British Thermal Unit Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001689> "British Thermal Unit Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001689>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000444> <https://www.commoncoreontologies.org/ont00001689>)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000852> <https://www.commoncoreontologies.org/ont00001689>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001690> (Turkmenistan Manat)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001690> "Turkmenistan Manat"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001690>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001691> (GMT-6)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001691> "GMT-6"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001691>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001692> (Unix Time)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001692> "Unix Time"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001692>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001693> (Zulu Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001693> "Zulu Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001693>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001694> (Pounds Per Square Inch Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001694> "Pounds Per Square Inch Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.commoncoreontologies.org/ont00001694>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001695> (Universal Time 2)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001695> "Universal Time 2"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001695>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001696> (Centigram Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001696> "Centigram Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001696>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001697> (Kilometers Per Second Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001697> "Kilometers Per Second Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000074> <https://www.commoncoreontologies.org/ont00001697>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001698> (Long Ton Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001698> "Long Ton Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001698>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001699> (Morocco Dirham)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001699> "Morocco Dirham"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001699>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001700> (Juliet Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001700> "Juliet Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001700>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001701> (GMT-3)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001701> "GMT-3"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001701>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001702> (GMT+5:30)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001702> "GMT+5:30"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001702>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001703> (Brazilian Real)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001703> "Brazilian Real"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001703>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001704> (GMT+3)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001704> "GMT+3"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001704>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001705> (Chilean Peso)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001705> "Chilean Peso"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001705>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001706> (Acre Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001706> "Acre Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001706>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001707> (Month Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001707> "Month Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.commoncoreontologies.org/ont00001707>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001708> (Serbian Dinar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001708> "Serbian Dinar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001708>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001709> (Quartic Meter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001709> "Quartic Meter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000502> <https://www.commoncoreontologies.org/ont00001709>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001710> (Danish Krone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001710> "Danish Krone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001710>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001711> (Dyne Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001711> "Dyne Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001345> <https://www.commoncoreontologies.org/ont00001711>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001712> (Romeo Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001712> "Romeo Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001712>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001713> (Square Millimeter Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001713> "Square Millimeter Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.commoncoreontologies.org/ont00001713>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001714> (Foot Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001714> "Foot Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.commoncoreontologies.org/ont00001714>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001715> (Terahertz Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001715> "Terahertz Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001715>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001716> (Universal Time 1)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001716> "Universal Time 1"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001716>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001717> (Croatia Kuna)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001717> "Croatia Kuna"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001717>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001718> (Honduras Lempira)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001718> "Honduras Lempira"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001718>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001719> (Kyrgyzstan Som)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001719> "Kyrgyzstan Som"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001719>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001720> (Guatemala Quetzal)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001720> "Guatemala Quetzal"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001720>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001721> (Libyan Dinar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001721> "Libyan Dinar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001721>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001722> (Bhutan Ngultrum)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001722> "Bhutan Ngultrum"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001722>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001723> (Delta Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001723> "Delta Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001723>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001724> (Degree Fahrenheit Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001724> "Degree Fahrenheit Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000844> <https://www.commoncoreontologies.org/ont00001724>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001725> (Iceland Krona)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001725> "Iceland Krona"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001725>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001726> (Norwegian Krone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001726> "Norwegian Krone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001726>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001727> (Kilo Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001727> "Kilo Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001727>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001728> (Pound Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001728> "Pound Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.commoncoreontologies.org/ont00001728>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001729> (Volt Ampere Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001729> "Volt Ampere Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001004> <https://www.commoncoreontologies.org/ont00001729>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001730> (Hertz Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001730> "Hertz Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.commoncoreontologies.org/ont00001730>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001731> (Jamaican Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001731> "Jamaican Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001731>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001732> (Charlie Time Zone)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001732> "Charlie Time Zone"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001732>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001733> (Slug Per Second Measurement Unit)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001733> "Slug Per Second Measurement Unit"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00001307> <https://www.commoncoreontologies.org/ont00001733>)
+
+# Individual: <https://www.commoncoreontologies.org/ont00001734> (Australian Dollar)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001734> "Australian Dollar"@en)
+ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.commoncoreontologies.org/ont00001734>)
+
+
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)
 )

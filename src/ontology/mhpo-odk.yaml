@@ -26,3 +26,5 @@ robot_report:
   custom_profile: TRUE
   report_on:
     - edit
+documentation:
+  documentation_system: mkdocs
