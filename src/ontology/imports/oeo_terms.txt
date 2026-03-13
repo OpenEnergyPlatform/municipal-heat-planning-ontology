@@ -1,0 +1,155 @@
+# energy carrier
+OEO:00020039  # energy carrier
+OEO:00140080  # final energy carrier
+OEO:00140078  # primary energy carrier
+OEO:00020050  # renewable energy carrier
+OEO:00140079  # secondary energy carrier
+
+# energy converting components
+OEO:00000011  # energy converting component
+OEO:00010300  # current collector
+OEO:00000188  # generator
+OEO:00000010  # electromotive generator
+OEO:00280016  # induction generator
+OEO:00280015  # squirrel-cage induction generator
+OEO:00280006  # permanent magnet synchronous generator
+OEO:00000016  # fuel cell
+OEO:00140134  # hydrogen fuel cell
+OEO:00000032  # photovoltaic cell
+OEO:00280010  # passivated emitter rear contact solar cell
+OEO:00140102  # heat exchanger
+OEO:00010414  # downhole heat exchanger
+OEO:00310010  # plate heat exchanger
+OEO:00310009  # rotary heat exchanger
+OEO:00010413  # subsurface collector
+OEO:00000210  # heater
+OEO:00310013  # boiler
+OEO:00310014  # combustion-based heater
+OEO:00310015  # electrical heater
+OEO:00000212  # heat pump
+OEO:00000009  # electric heat pump
+OEO:00000387  # solar thermal collector
+OEO:00310022  # flat-plate collector
+OEO:00310021  # tube collector
+OEO:00010032  # motor
+OEO:00010027  # electric motor
+OEO:00010028  # electric traction motor
+OEO:00010029  # internal combustion engine
+OEO:00010244  # diesel engine
+OEO:00320008  # gas engine
+OEO:00320009  # compressed gas engine
+OEO:00010243  # gasoline engine
+OEO:00010254  # traction motor
+OEO:00010090  # pump
+OEO:00010480  # compressor
+OEO:00010022  # steam reformer
+OEO:00000425  # turbine
+OEO:00000185  # gas turbine
+OEO:00000222  # hydrogen turbine
+OEO:00010303  # jet fuel turbine
+OEO:00140135  # natural gas turbine
+OEO:00080002  # turbofan gas turbine
+OEO:00080003  # turbojet gas turbine
+OEO:00080001  # turboprop gas turbine
+OEO:00080000  # turboshaft gas turbine
+OEO:00000396  # steam turbine
+OEO:00000442  # water turbine
+OEO:00000448  # wind rotor
+OEO:00010021  # water electrolyser
+
+# energy converting units
+OEO:00020102  # energy transformation unit
+OEO:00240010  # combined heat and power generating unit
+OEO:00240011  # combined heat and power plant
+OEO:00010481  # compressor station
+OEO:00010483  # electric compressor station
+OEO:00010482  # gas compressor station
+OEO:00320058  # Filling station
+OEO:00320059  # hydrogen station
+OEO:00020006  # grid component
+OEO:00000144  # electricity grid component
+OEO:00320040  # vehicle charging station
+OEO:00000399  # energy storage unit
+OEO:00020249  # compressed-air energy storage unit
+OEO:00020007  # gas grid component
+OEO:00000255  # grid component link
+OEO:00000253  # power line
+OEO:00000256  # grid node
+OEO:00020008  # heating grid component
+OEO:00020009  # switchyard
+OEO:00000420  # transformer
+OEO:00310008  # heat generating unit
+OEO:00310012  # heat transfer unit
+OEO:00310017  # geothermal heat unit
+OEO:00310048  # solar heat unit
+OEO:00310011  # heat plant
+OEO:00310018  # geothermal heat plant
+OEO:00310047  # solar heat plant
+OEO:00010318  # mineral oil refinery
+OEO:00000334  # power generating unit
+OEO:00000003  # biofuel power unit
+OEO:00000005  # biogas power unit
+OEO:00000037  # solid biomass power unit
+OEO:00000008  # coal power unit
+OEO:00000021  # hard coal power unit
+OEO:00000024  # lignite power unit
+OEO:00000175  # fueled power unit
+OEO:00000017  # gas fired power unit
+OEO:00000019  # geothermal power unit
+OEO:00010085  # hydro power unit
+OEO:00010108  # marine current energy converting unit
+OEO:00010109  # marine tidal energy converting unit
+OEO:00010110  # marine wave energy converting unit
+OEO:00000022  # hydrogen power unit
+OEO:00000029  # nuclear power unit
+OEO:00000030  # oil power unit
+OEO:00010401  # power-only generating unit
+OEO:00010361  # renewable power unit
+OEO:00000034  # solar power unit
+OEO:00000348  # PV panel
+OEO:00280011  # PERC panel
+OEO:00000035  # solar thermal power unit
+OEO:00310028  # steam power unit
+OEO:00000041  # waste power unit
+OEO:00000044  # wind energy converting unit
+OEO:00280018  # direct drive wind energy converting unit
+OEO:00280019  # gearbox wind energy converting unit
+OEO:00280008  # PMSG wind energy converting unit
+OEO:00280017  # SCIG wind energy converting unit
+OEO:00000031  # power plant
+OEO:00000073  # biofuel power plant
+OEO:00000004  # biogas power plant
+OEO:00000036  # solid biomass power plant
+OEO:00000089  # coal power plant
+OEO:00000205  # hard coal power plant
+OEO:00000252  # lignite power plant
+OEO:00000174  # fueled power plant
+OEO:00000184  # gas power plant
+OEO:00000192  # geothermal power plant
+OEO:00010086  # hydro power plant
+OEO:00010088  # hydro storage power plant
+OEO:00010089  # pumped hydro storage power plant
+OEO:00010092  # closed-loop pumped hydro storage power plant
+OEO:00010091  # open-loop pumped hydro storage power plant
+OEO:00010094  # reservoir hydro storage power plant
+OEO:00010111  # marine current energy power plant
+OEO:00010112  # marine tidal energy power plant
+OEO:00010113  # marine wave energy power plant
+OEO:00010087  # run of river power plant
+OEO:00000221  # hydrogen power plant
+OEO:00000303  # nuclear power plant
+OEO:00000310  # oil power plant
+OEO:00140162  # power plant with electro motive generator
+OEO:00010362  # renewable power plant
+OEO:00000386  # solar power plant
+OEO:00000324  # photovoltaic power plant
+OEO:00000165  # field photovoltaic power plant
+OEO:00000361  # rooftop photovoltaic power plant
+OEO:00000389  # solar thermal power plant
+OEO:00000440  # waste power plant
+OEO:00000447  # wind farm
+OEO:00000308  # offshore wind farm
+OEO:00000311  # onshore wind farm
+OEO:00330009  # power-to-fuel system
+OEO:00000335  # power-to-gas system
+OEO:00010020  # power-to-liquid system
