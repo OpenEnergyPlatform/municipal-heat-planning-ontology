@@ -5,6 +5,152 @@ OEO:00140078  # primary energy carrier
 OEO:00020050  # renewable energy carrier
 OEO:00140079  # secondary energy carrier
 
+# portion of matter
+OEO:00000331  # portion of matter
+OEO:00010012  # air pollutant
+OEO:00010000  # ammonia
+OEO:00010221  # synthetic ammonia
+OEO:00000071  # biodiesel
+OEO:00000075  # biogasoline
+OEO:00010214  # biomass
+OEO:00000449  # wood
+OEO:00000006  # carbon dioxide
+OEO:00010001  # carbon monoxide
+OEO:00240029  # cement
+OEO:00000084  # charcoal
+OEO:00240027  # chemical substance
+OEO:00000088  # coal
+OEO:00000204  # hard coal
+OEO:00000251  # lignite
+OEO:00000401  # sub bituminous coal
+OEO:00000115  # crude oil
+OEO:00010408  # Brent crude
+OEO:00010409  # Western Texas Intermediate
+OEO:00020001  # ethanol
+OEO:00010446  # bioethanol
+OEO:00000173  # fuel
+OEO:00000099  # combustion fuel
+OEO:00000072  # biofuel
+OEO:00010153  # gaseous biofuel
+OEO:00000258  # liquid biofuel
+OEO:00010337  # non-sustainable biofuel
+OEO:00000332  # solid biofuel
+OEO:00010336  # sustainable biofuel
+OEO:00320015  # compressed gas fuel
+OEO:00010242  # diesel fuel
+OEO:00010448  # B7
+OEO:00000014  # fossil combustion fuel
+OEO:00010148  # gaseous fossil fuel
+OEO:00010147  # liquid fossil fuel
+OEO:00010317  # mineral oil
+OEO:00010316  # mineral oil product
+OEO:00000391  # solid fossil fuel
+OEO:00010146  # gaseous combustion fuel
+OEO:00010241  # gasoline fuel
+OEO:00010447  # E10
+OEO:00010145  # liquid combustion fuel
+OEO:00010445  # blended liquid fuel
+OEO:00010144  # solid combustion fuel
+OEO:00000302  # nuclear fuel
+OEO:00000033  # renewable fuel
+OEO:00010151  # gaseous renewable fuel
+OEO:00010150  # liquid renewable fuel
+OEO:00010149  # solid renewable fuel
+OEO:00000173  # synthetic fuel
+OEO:00010155  # gaseous synthetic fuel
+OEO:00010156  # liquid synthetic fuel
+OEO:00010019  # PtL fuel
+OEO:00010154  # solid synthetic fuel
+OEO:00000439  # waste fuel
+OEO:00010223  # biogenic waste fuel
+OEO:00010224  # fossil waste fuel
+OEO:00000226  # industrial waste fuel
+OEO:00010225  # biogenic industrial waste fuel
+OEO:00010226  # fossil industrial waste fuel
+OEO:00000290  # municipal waste fuel
+OEO:00000356  # biogenic municipal waste fuel
+OEO:00000299  # fossil municipal waste fuel
+OEO:00000181  # gas diesel oil
+OEO:00000131  # fossil diesel fuel
+OEO:00000211  # heating oil
+OEO:00010236  # gas mixture
+OEO:00000054  # air
+OEO:00000102  # compressed air
+OEO:00000257  # liquid air
+OEO:00000074  # biogas
+OEO:00010215  # biomethane
+OEO:00320013  # compressed biomethane
+OEO:00320011  # liquefied petroleum gas
+OEO:00000263  # manufactured coal based gas
+OEO:00000077  # blast furnace gas
+OEO:00000093  # coke oven gas
+OEO:00000186  # gasworks gas
+OEO:00000292  # natural gas
+OEO:00000062  # associated gas
+OEO:00000096  # colliery gas
+OEO:00320012  # compressed natural gas
+OEO:00010237  # liquefied natural gas
+OEO:00000297  # non associated gas
+OEO:00010326  # refinery gas
+OEO:00140160  # syngas
+OEO:00000183  # gasoline
+OEO:00000066  # aviation gasoline
+OEO:00000286  # motor gasoline
+OEO:00000020  # greenhouse gas
+OEO:00000013  # fluorinated greenhouse gas
+OEO:00140159  # hydrocarbon
+OEO:00000025  # methane
+OEO:00010484  # methanol
+OEO:00000219  # hydrofluorocarbon
+OEO:00000220  # hydrogen
+OEO:00010383  # abated steam reforming hydrogen
+OEO:00010379  # electrolytic hydrogen
+OEO:00010416  # nuclear electric hydrogen
+OEO:00010380  # renewable electrolytic hydrogen
+OEO:00010418  # solar electrolytic hydrogen
+OEO:00010015  # fossil hydrogen
+OEO:00010382  # fossil steam reforming hydrogen
+OEO:00010381  # steam reforming hydrogen
+OEO:00010016  # synthetic hydrogen
+OEO:00000246  # kerosene
+OEO:00000245  # jet fuel
+OEO:00010491  # manufactured commodity
+OEO:00240026  # manufactured material
+OEO:00240032  # metal
+OEO:00240035  # non-ferrous metal
+OEO:00240034  # steel
+OEO:00240030  # mineral
+OEO:00240031  # non-metallic mineral
+OEO:00010002  # nitrogen oxides
+OEO:00010003  # nitric oxide
+OEO:00010004  # nitrogen dioxide
+OEO:00000026  # nitrogen trifluoride
+OEO:00000027  # nitrous oxide
+OEO:00010218  # oxygen
+OEO:00240028  # paper
+OEO:00000318  # particulate matter
+OEO:00010009  # PM10
+OEO:00010010  # PM2.5
+OEO:00000320  # peat
+OEO:00000322  # perfluorocarbon
+OEO:00010327  # petroleum coke
+OEO:00140091  # plutonium
+OEO:00020058  # rock
+OEO:00020210  # sirup
+OEO:00010007  # sulphur dioxide
+OEO:00000038  # sulphur hexafluoride
+OEO:00140092  # thorium
+OEO:00000040  # uranium
+OEO:00000437  # volatile organic compound
+OEO:00000298  # non-methane volatile organic compound
+OEO:00000441  # water
+OEO:00110000  # liquid water
+OEO:00000345  # pumped water
+OEO:00010104  # water body
+OEO:00010105  # ocean
+OEO:00010093  # river
+OEO:00110001  # steam
+
 # energy converting components
 OEO:00000011  # energy converting component
 OEO:00010300  # current collector
