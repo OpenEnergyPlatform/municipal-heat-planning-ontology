@@ -18,11 +18,13 @@ The aim is to reduce greenhouse gas emissions and heat consumption, increase the
 Annotation(dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(dcterms:license <https://opensource.org/license/mit>)
 Annotation(dcterms:title "Municipal Heat Planning Ontology")
+Annotation(dcterms:creator "MHPO Developer Team <add link>")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
+Declaration(AnnotationProperty(dcterms:creator))
 ############################
 #   Annotation Properties
 ############################
@@ -39,7 +41,9 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
+# Annotation Property: dcterms:creator (creator)
 
+AnnotationAssertion(rdfs:label dcterms:creator "creator")
 
 ############################
 #   Classes
