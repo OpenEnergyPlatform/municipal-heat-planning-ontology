@@ -13,23 +13,27 @@ Import(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/oeo_import.owl>)
+Annotation(dcterms:creator "MHPO Developer Team <https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/blob/production/CITATION.cff>")
 Annotation(dcterms:description "The municipal heat planning ontology (MHPO) is a domain reference ontology that covers the relevant terminology for the German \"Kommunale Wärmeplanung\". Community heat planning in Germany is a structured process in which municipalities and cities plan their future heat supply based on energy demand, existing infrastructure, and climate protection goals. 
 The aim is to reduce greenhouse gas emissions and heat consumption, increase the use of renewable energy, decrease dependence on fossil fuels and improve resilience of the system. The planning is typically carried out within the framework of climate protection programs and is supported by federal funding. The primary use case of MHPO is to describe data and metadata of the heat plans.")
 Annotation(dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(dcterms:license <https://opensource.org/license/mit>)
 Annotation(dcterms:title "Municipal Heat Planning Ontology")
-Annotation(dcterms:creator "MHPO Developer Team <add link>")
 Annotation(owl:versionInfo "to be added after first release")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
+Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(owl:versionInfo))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: dcterms:creator (creator)
+
+AnnotationAssertion(rdfs:label dcterms:creator "creator")
 
 # Annotation Property: dcterms:description (description)
 
@@ -43,13 +47,11 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
-# Annotation Property: dcterms:creator (creator)
-
-AnnotationAssertion(rdfs:label dcterms:creator "creator")
-
 # Annotation Property: owl:versionInfo (versionInfo)
 
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
+
+
 
 ############################
 #   Classes
