@@ -16,8 +16,8 @@ Ontology: <http://purl.obolibrary.org/obo/mhpo/mhpo-idranges.owl>
 
 Annotations: 
     idsfor: "MHPO",
-    idprefix: "http://purl.obolibrary.org/obo/MHPO_",
-    iddigits: 7
+    idprefix: "https://purl.org/mhpo/ontology/MHPO_",
+    iddigits: 8
 
 AnnotationProperty: idprefix:
 
@@ -33,19 +33,28 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
+        allocatedto: "Mirjam Stappel"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 20000 , <= 29999]
 
     
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
+        allocatedto: "Ludwig Huelk"
     
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[>= 10000 , <= 19999]
+		
+
+Datatype: idrange:3
+
+    Annotations: 
+        allocatedto: "Norman Zielke"
+    
+    EquivalentTo: 
+        xsd:integer[>= 30000 , <= 39999]
     
     
 Datatype: xsd:integer
