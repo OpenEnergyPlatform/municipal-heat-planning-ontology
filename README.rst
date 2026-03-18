@@ -20,7 +20,7 @@ Municipal Heat Planning Ontology
    * - License
      - |badge_license_CC0| |badge_license_MIT|
    * - Documentation
-     - 
+     - https://openenergyplatform.github.io/municipal-heat-planning-ontology/
    * - Tests
      - 
    * - Publication
