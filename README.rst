@@ -20,7 +20,7 @@ Municipal Heat Planning Ontology
    * - License
      - |badge_license_CC0| |badge_license_MIT|
    * - Documentation
-     - 
+     - https://openenergyplatform.github.io/municipal-heat-planning-ontology/
    * - Tests
      - 
    * - Publication
@@ -80,6 +80,7 @@ municipal heat transition strategies.
 
 Documentation
 =============
+| The documentation of the MHPO can be found here https://openenergyplatform.github.io/municipal-heat-planning-ontology/
 | The documentation is created with Markdown using `MkDocs <https://www.mkdocs.org/>`_ and `mike <https://github.com/jimporter/mike>`_.
 | All files are stored in the ``docs`` folder of the repository.
 
