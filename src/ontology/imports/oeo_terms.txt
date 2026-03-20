@@ -4,6 +4,9 @@ OEO:00140080  # final energy carrier
 OEO:00140078  # primary energy carrier
 OEO:00020050  # renewable energy carrier
 OEO:00140079  # secondary energy carrier
+OEO:00000151 #energy carrier disposition
+OEO:00000173 #fuel
+OEO:00000001 #fuel role
 
 # portion of matter
 OEO:00000331  # portion of matter
