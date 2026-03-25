@@ -21,6 +21,7 @@ Annotation(dcterms:license <https://opensource.org/license/mit>)
 Annotation(dcterms:title "Municipal Heat Planning Ontology")
 Annotation(owl:versionInfo "to be added after first release")
 Annotation(rdfs:comment "External documentation see <https://openenergyplatform.github.io/municipal-heat-planning-ontology> or <https://purl.org/mhpo>")
+Annotation(rdfs:comment "Contact <mirjam.stappel@uos.de> or <Ludwig.Huelk@rl-institut.de>")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
 Declaration(AnnotationProperty(dcterms:creator))
