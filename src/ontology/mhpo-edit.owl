@@ -25,7 +25,7 @@ Annotation(owl:versionInfo "to be added after first release")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/iao_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -36,9 +36,9 @@ Declaration(AnnotationProperty(owl:versionInfo))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/mhpo.owl#<http://purl.obolibrary.org/obo/iao.owl#0000118> (alternative term)
+# Annotation Property: <http://purl.obolibrary.org/obo/iao_0000118> (alternative label)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/mhpo.owl#<http://purl.obolibrary.org/obo/iao.owl#0000118> "alternative term")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/iao_0000118> "alternative label")
 
 # Annotation Property: dcterms:creator (creator)
 
@@ -77,9 +77,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MHPO_0000000> "ro
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020003> (municipal heat plan)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020003> "A municipal heat plan is a plan specification that contains a heating plan in accordance with §23 of the German Heating Planning Act (WPG). It includes a cartographic representation of the current status and potential analysis, the division into heat supply zones, the indicators of the target scenario, the presentation of heat supply types for the target year, and measures of the implementation strategy. The textual and graphical explanations of the suitability assessment, the current status analysis, the target scenario, and the implementation strategy may be attached to the heat plan as external references."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "Kommunale Wärmeplanung"@de)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "KWP"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/iao_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "KWP"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/iao_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "Kommunale Wärmeplanung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/iao_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
