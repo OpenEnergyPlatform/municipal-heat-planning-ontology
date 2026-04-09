@@ -6,9 +6,7 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
-Prefix(oeo:=<https://openenergyplatform.org/ontology/oeo/>)
-Prefix(iao:=<<http://purl.obolibrary.org/obo/iao.owl#>)
-Prefix(bfo:=<http://purl.obolibrary.org/obo/bfo.owl#>)
+
 
 Ontology(<http://purl.obolibrary.org/obo/mhpo.owl>
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>)
@@ -27,16 +25,20 @@ Annotation(owl:versionInfo "to be added after first release")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(owl:versionInfo))
-Declaration(AnnotationProperty(iao:0000118))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/mhpo.owl#<http://purl.obolibrary.org/obo/iao.owl#0000118> (alternative term)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/mhpo.owl#<http://purl.obolibrary.org/obo/iao.owl#0000118> "alternative term")
 
 # Annotation Property: dcterms:creator (creator)
 
@@ -62,9 +64,7 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
-# Annotation Property: iao:0000118 (alternative term)
 
-AnnotationAssertion(rdfs:label iao:0000118 "alternative term")
 
 ############################
 #   Classes
@@ -77,7 +77,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MHPO_0000000> "ro
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020003> (municipal heat plan)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020003> "A municipal heat plan is a plan specification that contains a heating plan in accordance with §23 of the German Heating Planning Act (WPG). It includes a cartographic representation of the current status and potential analysis, the division into heat supply zones, the indicators of the target scenario, the presentation of heat supply types for the target year, and measures of the implementation strategy. The textual and graphical explanations of the suitability assessment, the current status analysis, the target scenario, and the implementation strategy may be attached to the heat plan as external references."@en)
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "Kommunale Wärmeplanung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "KWP"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 
