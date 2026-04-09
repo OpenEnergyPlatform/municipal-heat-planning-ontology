@@ -6,7 +6,9 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
-
+Prefix(oeo:=<https://openenergyplatform.org/ontology/oeo/>)
+Prefix(iao:=<<http://purl.obolibrary.org/obo/iao.owl#>)
+Prefix(bfo:=<http://purl.obolibrary.org/obo/bfo.owl#>)
 
 Ontology(<http://purl.obolibrary.org/obo/mhpo.owl>
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>)
@@ -31,6 +33,7 @@ Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(owl:versionInfo))
+Declaration(AnnotationProperty(iao:0000118))
 ############################
 #   Annotation Properties
 ############################
@@ -59,7 +62,9 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
+# Annotation Property: iao:0000118 (alternative term)
 
+AnnotationAssertion(rdfs:label iao:0000118 "alternative term")
 
 ############################
 #   Classes
