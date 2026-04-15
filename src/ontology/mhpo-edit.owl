@@ -19,20 +19,27 @@ The aim is to reduce greenhouse gas emissions and heat consumption, increase the
 Annotation(dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(dcterms:license <https://opensource.org/license/mit>)
 Annotation(dcterms:title "Municipal Heat Planning Ontology")
-Annotation(owl:versionInfo "to be added after first release")
-Annotation(rdfs:comment "External documentation see <https://openenergyplatform.github.io/municipal-heat-planning-ontology> or <https://purl.org/mhpo>")
 Annotation(rdfs:comment "Contact <mirjam.stappel@uos.de> or <Ludwig.Huelk@rl-institut.de>")
+Annotation(rdfs:comment "External documentation see <https://openenergyplatform.github.io/municipal-heat-planning-ontology> or <https://purl.org/mhpo>")
+Annotation(owl:versionInfo "to be added after first release")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-Declaration(AnnotationProperty(owl:versionInfo))
 Declaration(AnnotationProperty(rdfs:comment))
+Declaration(AnnotationProperty(owl:versionInfo))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative label")
 
 # Annotation Property: dcterms:creator (creator)
 
@@ -50,15 +57,17 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
-# Annotation Property: owl:versionInfo (versionInfo)
-
-AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
-
 # Annotation Property: rdfs:comment (comment)
 
 AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
+# Annotation Property: owl:versionInfo (versionInfo)
 
+AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
 ############################
 #   Classes
@@ -67,6 +76,15 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 # Class: <http://purl.obolibrary.org/obo/MHPO_0000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MHPO_0000000> "root node"@en)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020003> (municipal heat plan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020003> "A municipal heat plan is a plan specification that contains a heating plan in accordance with §23 of the German Heating Planning Act (WPG). It includes a cartographic representation of the current status and potential analysis, the division into heat supply zones, the indicators of the target scenario, the presentation of heat supply types for the target year, and measures of the implementation strategy. The textual and graphical explanations of the suitability assessment, the current status analysis, the target scenario, and the implementation strategy may be attached to the heat plan as external references."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "KWP"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "Kommunale Wärmeplanung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 
 )
