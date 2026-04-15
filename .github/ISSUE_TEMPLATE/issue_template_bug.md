@@ -1,5 +1,5 @@
 ---
-name: [B] Bug Issue
+name: Bug Issue
 about: For bugs and errors
 title: Your title should make sense if said after "The issue is <your issue title>"
 labels: ["status: active :construction:", "type: bug :bug:"]
