@@ -24,6 +24,7 @@ Annotation(rdfs:comment "External documentation see <https://openenergyplatform.
 Annotation(owl:versionInfo "to be added after first release")
 
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020005>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
@@ -70,6 +71,7 @@ AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
 
 
+
 ############################
 #   Classes
 ############################
@@ -82,6 +84,21 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020005>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020005> (aggregated inventory analysis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020005> "An aggregated inventory analysis is a descriptive information content entity that contains an aggregation of the existing conditions analysis for a certain heat planning area, in accordance with WPG Annex 2 I.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020005> "Bestandsanalyse")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020005> "WP_Bestandsanalyse")
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020005> "According to the WPG Annex 2 I, the aggregated inventory analysis contains information about
+1. the current annual final energy consumption of heat by energy source and final energy sector in kilowatt-hours, and the resulting greenhouse gas emissions in tons of carbon dioxide equivalent,
+2. the current share of renewable energy and unavoidable waste heat in the annual final energy consumption of heat by energy source, expressed as a percentage,
+3. the current annual final energy consumption of district heating by energy source in kilowatt-hours,
+4. the current share of renewable energy and unavoidable waste heat in the annual final energy consumption of district heating by energy source, expressed as a percentage,
+5. the current number of decentralized heat generators, including building transfer stations, by type of heat generator, including the energy source used.")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020005> "aggregated inventory analysis"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020005> <https://www.commoncoreontologies.org/ont00000853>)
 
 
 )
