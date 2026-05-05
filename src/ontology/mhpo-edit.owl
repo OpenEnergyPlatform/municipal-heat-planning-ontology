@@ -23,10 +23,9 @@ Annotation(rdfs:comment "Contact <mirjam.stappel@uos.de> or <Ludwig.Huelk@rl-ins
 Annotation(rdfs:comment "External documentation see <https://openenergyplatform.github.io/municipal-heat-planning-ontology> or <https://purl.org/mhpo>")
 Annotation(owl:versionInfo "to be added after first release")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/MHPO_0000000>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -36,6 +35,10 @@ Declaration(AnnotationProperty(owl:versionInfo))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
 
@@ -65,17 +68,11 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/MHPO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MHPO_0000000> "root node"@en)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020003> (municipal heat plan)
 
