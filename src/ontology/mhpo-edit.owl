@@ -111,6 +111,11 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020005> <https://www.commoncor
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020006> "An aggregated potential analysis is a descriptive information content entity that contains an summary of the analysis of the potentials for a certain heat planning area, in accordance with WPG Annex 2 II.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020006> "Potenzialanalyse")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020006> "WP_Potenzialanalyse_aggregiert")
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020006> "In accordance with WPG §16, the planning authority determines the potentials for:
+- heat generation from renewable energy sources
+- utilization of unavoidable waste heat
+- utilization of central heat storage systems
+- energy savings through the reduction of heat demand in buildings, as well as in industrial and commercial processes.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020006> "aggregated potential analysis"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://www.commoncoreontologies.org/ont00000853>)
 
