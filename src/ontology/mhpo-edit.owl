@@ -28,6 +28,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020006>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020007>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020008>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
@@ -142,6 +143,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "WP_Maßnahme")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "implementation measure"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncoreontologies.org/ont00000965>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> (implementation strategy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "An implementation strategy is a descriptive information content entity that describes the implementation measures to be realized in order to achieve the objective of supplying heat generated exclusively from renewable energy sources or unavoidable waste heat by the target year.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "Umsetzungsstrategie")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "implementation strategy"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> <https://www.commoncoreontologies.org/ont00000853>)
 
 
 )
