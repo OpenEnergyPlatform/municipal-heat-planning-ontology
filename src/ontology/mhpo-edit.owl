@@ -125,10 +125,11 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <https://www.commoncor
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020008> (implementation measure)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020008> "An implementation measure is an action specification that specifies the measures to be taken according to the implementation strategy of a municipal heat plan.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "Maßnahme")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "WP_Maßnahme")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "implementation measure"@de)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <http://purl.obolibrary.org/obo/IAO_0000007>)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "implementation measure"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncoreontologies.org/ont00000965>)
 
 
 )
