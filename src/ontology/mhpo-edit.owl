@@ -121,7 +121,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "Zielszenario")
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> "The implementation measures shall be outlined with regard to 1) the steps required to implement a measure, 2) the target date for completing the implementation of the measure, 3) the costs associated with planning and implementing the measure, 4) who bears the costs referred to in item 3, 5) what positive effects the measures are expected to have on achieving the target scenario and the objectives of this Act, and 6) in the case of an area with more than 45,000 inhabitants: which financing mechanisms for implementing the strategies and measures to transition consumers to renewable energy were identified and how they were weighted.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020007> "target scenario"@de)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <http://purl.obolibrary.org/obo/IAO_0000005>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <https://www.commoncoreontologies.org/ont00000476>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020008> (implementation measure)
 
