@@ -11,7 +11,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/mhpo.owl>
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/mhpo/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mhpo/imports/oeo_import.owl>)
+Import(<https://openenergyplatform.org/ontology/oeo/dev/oeo.omn>)
 Import(<https://www.commoncoreontologies.org/2026-04-04/CommonCoreOntologiesMerged>)
 Annotation(dcterms:creator "MHPO Developer Team <https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/blob/production/CITATION.cff>")
 Annotation(dcterms:description "The municipal heat planning ontology (MHPO) is a domain reference ontology that covers the relevant terminology for the German \"Kommunale Wärmeplanung\". Community heat planning in Germany is a structured process in which municipalities and cities plan their future heat supply based on energy demand, existing infrastructure, and climate protection goals. 
@@ -23,11 +23,13 @@ Annotation(rdfs:comment "Contact <mirjam.stappel@uos.de> or <Ludwig.Huelk@rl-ins
 Annotation(rdfs:comment "External documentation see <https://openenergyplatform.github.io/municipal-heat-planning-ontology> or <https://purl.org/mhpo>")
 Annotation(owl:versionInfo "to be added after first release")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020006>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020007>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020008>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
