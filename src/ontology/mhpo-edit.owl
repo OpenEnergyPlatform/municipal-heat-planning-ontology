@@ -148,6 +148,14 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncor
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "An implementation strategy is a descriptive information content entity that describes the implementation measures to be realized in order to achieve the objective of supplying heat generated exclusively from renewable energy sources or unavoidable waste heat by the target year.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "Umsetzungsstrategie")
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "According to WPG Annex 2 VI, the implementation strategy shall be described in textual form. In particular, the implementation measures shall specify:
+
+1. which steps are required for the implementation of a measure.
+2. by which point in time the implementation of the measure is intended to be completed.
+3. which costs are associated with the planning and implementation of the measure,
+4. who bears the costs referred to in No. 3.
+5. which positive effects of the measures on achieving the target scenario and the objectives of this Act are expected, and
+6. in the case of an area with more than 45,000 inhabitants, which financing mechanisms for implementing the strategies and measures for transitioning consumers to renewable energies were identified and how they were weighted.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "implementation strategy"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> <https://www.commoncoreontologies.org/ont00000853>)
 
