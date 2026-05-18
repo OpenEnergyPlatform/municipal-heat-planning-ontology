@@ -124,7 +124,14 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://www.commoncor
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020007> "The target scenario is an objective specification that uses indicators to describe how the goal of a heat supply based on renewable energy or the use of unavoidable waste heat is to be achieved. Unless otherwise specified, the indicators must be provided for the planned area as a whole and for the years 2030, 2035, 2040, and 2045, respectively. In accordance with WPG Annex 2 III.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "WP_Zielszenarioindikatoren")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "Zielszenario")
-AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> "The implementation measures shall be outlined with regard to 1) the steps required to implement a measure, 2) the target date for completing the implementation of the measure, 3) the costs associated with planning and implementing the measure, 4) who bears the costs referred to in item 3, 5) what positive effects the measures are expected to have on achieving the target scenario and the objectives of this Act, and 6) in the case of an area with more than 45,000 inhabitants: which financing mechanisms for implementing the strategies and measures to transition consumers to renewable energy were identified and how they were weighted.")
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> "The indicators are defined in WPG Annex 2 III (to Section 23) and are:
+1. the annual final energy consumption of the entire heat supply in kilowatt-hours per year, differentiated by final energy sectors and energy carriers.
+2. the annual greenhouse gas emissions, within the meaning of Section 2 No. 1 of the Federal Climate Change Act, of the entire heat supply of the planned area, in tonnes of carbon dioxide equivalent
+3. the annual final energy consumption of district heating or other grid-based heat supply by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of the grid-based heat supply in percent
+4. the share of grid-based heat supply in the total final energy consumption of the heat supply in percent.
+5. the number of buildings connected to a heating network and their share of the total number of buildings in the planned area in percent.
+6. the annual final energy consumption from gas networks by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of gaseous energy carriers in percent.
+7. the number of buildings connected to a gas network and their share of the total number of buildings in the planned area in percent.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020007> "target scenario"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <https://www.commoncoreontologies.org/ont00000476>)
 
