@@ -128,7 +128,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://www.commoncor
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020007> "The target scenario is an objective specification that uses indicators to describe how the goal of a heat supply based on renewable energy or the use of unavoidable waste heat is to be achieved. Unless otherwise specified, the indicators must be provided for the planned area as a whole and for the years 2030, 2035, 2040, and 2045, respectively. In accordance with WPG Annex 2 III.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "WP_Zielszenarioindikatoren"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "Zielszenario"@de)
-AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> "The indicators are defined in WPG Annex 2 III (to Section 23) and are:
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> "The indicators are defined in WPG Annex 2 III and are:
 1. the annual final energy consumption of the entire heat supply in kilowatt-hours per year, differentiated by final energy sectors and energy carriers.
 2. the annual greenhouse gas emissions, within the meaning of Section 2 No. 1 of the Federal Climate Change Act, of the entire heat supply of the planned area, in tonnes of carbon dioxide equivalent
 3. the annual final energy consumption of district heating or other grid-based heat supply by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of the grid-based heat supply in percent
