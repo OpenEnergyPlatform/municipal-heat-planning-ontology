@@ -99,35 +99,35 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020005> (aggregated inventory analysis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020005> "An aggregated inventory analysis is a descriptive information content entity that contains an aggregation of the existing conditions analysis for a certain heat planning area, in accordance with WPG §15.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020005> "Bestandsanalyse")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020005> "WP_Bestandsanalyse_aggregiert")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020005> "Bestandsanalyse"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020005> "WP_Bestandsanalyse_aggregiert"@de)
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020005> "According to the WPG Annex 2 I, the aggregated inventory analysis contains information about
 1. the current annual final energy consumption of heat by energy source and final energy sector in kilowatt-hours, and the resulting greenhouse gas emissions in tons of carbon dioxide equivalent,
 2. the current share of renewable energy and unavoidable waste heat in the annual final energy consumption of heat by energy source, expressed as a percentage,
 3. the current annual final energy consumption of district heating by energy source in kilowatt-hours,
 4. the current share of renewable energy and unavoidable waste heat in the annual final energy consumption of district heating by energy source, expressed as a percentage,
 5. the current number of decentralized heat generators, including building transfer stations, by type of heat generator, including the energy source used.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020005> "aggregated inventory analysis"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020005> "aggregated inventory analysis"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020005> <https://www.commoncoreontologies.org/ont00000853>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020006> (aggregated potential analysis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020006> "An aggregated potential analysis is a descriptive information content entity that contains an summary of the analysis of the potentials for a certain heat planning area, in accordance with WPG Annex 2 II.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020006> "Potenzialanalyse")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020006> "WP_Potenzialanalyse_aggregiert")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020006> "Potenzialanalyse"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020006> "WP_Potenzialanalyse_aggregiert"@de)
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020006> "In accordance with WPG §16, the planning authority determines the potentials for:
 - heat generation from renewable energy sources
 - utilization of unavoidable waste heat
 - utilization of central heat storage systems
 - energy savings through the reduction of heat demand in buildings, as well as in industrial and commercial processes.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020006> "aggregated potential analysis"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020006> "aggregated potential analysis"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://www.commoncoreontologies.org/ont00000853>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020007> (target scenario)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020007> "The target scenario is an objective specification that uses indicators to describe how the goal of a heat supply based on renewable energy or the use of unavoidable waste heat is to be achieved. Unless otherwise specified, the indicators must be provided for the planned area as a whole and for the years 2030, 2035, 2040, and 2045, respectively. In accordance with WPG Annex 2 III.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "WP_Zielszenarioindikatoren")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "Zielszenario")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "WP_Zielszenarioindikatoren"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020007> "Zielszenario"@de)
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> "The indicators are defined in WPG Annex 2 III (to Section 23) and are:
 1. the annual final energy consumption of the entire heat supply in kilowatt-hours per year, differentiated by final energy sectors and energy carriers.
 2. the annual greenhouse gas emissions, within the meaning of Section 2 No. 1 of the Federal Climate Change Act, of the entire heat supply of the planned area, in tonnes of carbon dioxide equivalent
@@ -136,21 +136,21 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> 
 5. the number of buildings connected to a heating network and their share of the total number of buildings in the planned area in percent.
 6. the annual final energy consumption from gas networks by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of gaseous energy carriers in percent.
 7. the number of buildings connected to a gas network and their share of the total number of buildings in the planned area in percent.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020007> "target scenario"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020007> "target scenario"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <https://www.commoncoreontologies.org/ont00000476>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020008> (implementation measure)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020008> "An implementation measure is an action specification that specifies the measures to be taken according to the implementation strategy of a municipal heat plan.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "Maßnahme")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "WP_Maßnahme")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "Maßnahme"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "WP_Maßnahme"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "implementation measure"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncoreontologies.org/ont00000965>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> (implementation strategy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "An implementation strategy is a descriptive information content entity that describes the implementation measures to be realized in order to achieve the objective of supplying heat generated exclusively from renewable energy sources or unavoidable waste heat by the target year.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "Umsetzungsstrategie")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "Umsetzungsstrategie"@de)
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "According to WPG Annex 2 VI, the implementation strategy shall be described in textual form. In particular, the implementation measures shall specify:
 
 1. which steps are required for the implementation of a measure.
@@ -159,7 +159,7 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_9906e7db_3
 4. who bears the costs referred to in No. 3.
 5. which positive effects of the measures on achieving the target scenario and the objectives of this Act are expected, and
 6. in the case of an area with more than 45,000 inhabitants, which financing mechanisms for implementing the strategies and measures for transitioning consumers to renewable energies were identified and how they were weighted.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "implementation strategy"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "implementation strategy"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> <https://www.commoncoreontologies.org/ont00000974>)
 
 
