@@ -159,7 +159,7 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_9906e7db_3
 5. which positive effects of the measures on achieving the target scenario and the objectives of this Act are expected, and
 6. in the case of an area with more than 45,000 inhabitants, which financing mechanisms for implementing the strategies and measures for transitioning consumers to renewable energies were identified and how they were weighted.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> "implementation strategy"@de)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> <https://www.commoncoreontologies.org/ont00000853>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e> <https://www.commoncoreontologies.org/ont00000974>)
 
 
 )
