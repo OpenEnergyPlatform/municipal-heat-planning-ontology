@@ -94,6 +94,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020006>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020007>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020008>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_9906e7db_3024_4463_b77c_22a8bd185f7e>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020005> (aggregated inventory analysis)
 
