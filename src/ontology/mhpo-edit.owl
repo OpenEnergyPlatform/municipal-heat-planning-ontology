@@ -29,6 +29,11 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020006>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020007>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020008>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020009>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020010>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020011>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020012>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -154,6 +159,32 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "i
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020008> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncoreontologies.org/ont00000965>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020009> (role of region in municipal heat plan)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020009> "role of region in municipal heat plan"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020009> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020010> (municipality area role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020010> "municipality area role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020010> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020011> (heat supply area role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020011> "heat supply area role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020011> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020012> (unallocated heat supply subarea role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020012> "unallocated heat supply subarea role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020012> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020012> <https://purl.org/mhpo/ontology/MHPO_00020013>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020013> (designated heat supply subarea role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020013> "designated heat supply subarea role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 
