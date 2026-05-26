@@ -34,6 +34,9 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020010>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020011>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020013>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020014>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020015>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020016>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -162,6 +165,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncor
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020009> (role of region in municipal heat plan)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020009> "A role of a region in a municipal heat plan is a role that can be assigned to a region of relevance in a municipal heat plan.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020009> "role of region in municipal heat plan"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020009> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
@@ -189,6 +193,21 @@ DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020012> <https://purl.org
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020013> "A role of a subarea of a heat supply area that  is designated for heat supply.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020013> "designated heat supply subarea role"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020014> (excluded area role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020014> "excluded area role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020014> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020015> (area under suitability assessment role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020015> "area under suitability assessment role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020015> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020016> (energy saving area role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020016> "energy saving area role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020016> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 
