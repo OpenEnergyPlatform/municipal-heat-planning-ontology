@@ -39,6 +39,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020015>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020016>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020017>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020018>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020019>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -170,7 +171,6 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncor
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020009> "A role of a region in a municipal heat plan is a role that can be assigned to a region of relevance in a municipal heat plan.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020009> "role of region in municipal heat plan"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020009> <http://purl.obolibrary.org/obo/BFO_0000023>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://purl.org/mhpo/ontology/MHPO_00020018>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020010> (municipality area role)
 
@@ -188,6 +188,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020011> "h
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020011> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020011> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://purl.org/mhpo/ontology/MHPO_00020018>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020012> (unallocated heat supply subarea role)
 
@@ -199,8 +200,11 @@ DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020012> <https://purl.org
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020013> (designated heat supply subarea role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020013> "A role of a subarea of a heat supply area that  is designated for heat supply.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020013> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020013> "designated heat supply subarea role"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020014> (excluded area role)
 
@@ -229,7 +233,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020017> ObjectSomeValuesFrom(<
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020018> (heat supply area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020018> "A heat supply area is a subarea of a municipality that has been designated as a prospective heat supply area.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020018> "A heat supply area is a subarea of a municipality that has been designated as a prospective heat supply area. It consists of several heat supply subregions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "WP_Waermversorgungsgebiet")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "Wärmeversorgungsgebiet")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020018> "heat supply area"@de)
@@ -237,6 +241,16 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020018> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020011>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020019> (designated heat supply subarea)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020019> "A designated heat supply subarea is a region of relevance that consists of several parcels of land or parts thereof, comprising individual or multiple building blocks. It is part of a heat supply area of a municipality and is grouped together by the planning authority for the purpose of assessing potential heat supply options and for the corresponding division into projected heat supply areas, according to Section 3 of the WPG.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020019> "WP_BeplantesTeilgebiet")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020019> "beplantes Teilgebiet")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020019> "designated heat supply subarea"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020019> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.org/mhpo/ontology/MHPO_00020018>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020013>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 
