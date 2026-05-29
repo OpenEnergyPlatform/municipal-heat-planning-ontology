@@ -182,10 +182,10 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020010> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://purl.org/mhpo/ontology/MHPO_00020017>))
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00020011> (heat supply area role)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020011> (heat plan area role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020011> "A role of a region of relevance that is designated as a region with heat supply within a municipality.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020011> "heat supply area role"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020011> "A role of a region of relevance within a municipality for which a municipal heat plan is created, see WPG §3.")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020011> "heat plan area role"@de)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020011> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020011> <https://purl.org/mhpo/ontology/MHPO_00020009>)
@@ -235,12 +235,13 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020017> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020010>))
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00020018> (heat supply area)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020018> (heat plan area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020018> "A heat supply area is a subarea of a municipality that has been designated as a prospective heat supply area. It consists of several heat supply subregions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020018> "A heat plan area is a subarea of a municipality for which a municipal heat plan is created, according to WPG §3. It consists of several heat supply subregions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "WP_Waermversorgungsgebiet")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "Wärmeversorgungsgebiet")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020018> "heat supply area"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "Beplantes Gebiet")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020018> "heat plan area"@de)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020018> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020018> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
