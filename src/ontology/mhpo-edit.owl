@@ -238,7 +238,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020016> <https://purl.org/mhpo
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020017> "A municipality area is a region of relevance that encompasses the exact territory of a municipality.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020017> "Gemeindegebiet")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020017> "municipality area"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020017> "municipality area"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020017> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020017> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
@@ -250,7 +250,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "Beplantes Gebiet")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "WP_Waermversorgungsgebiet")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020018> "Wärmeversorgungsgebiet")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020018> "heat plan area"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020018> "heat plan area"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020018> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020018> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
@@ -262,7 +262,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020018> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020019> "A heat plan subarea is a region of relevance that consists of several parcels of land or parts thereof, comprising individual or multiple building blocks. It is part of a heat supply area of a municipality and is grouped together by the planning authority for the purpose of assessing potential heat supply options and for the corresponding division into projected heat supply areas, according to Section 3 of the WPG.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020019> "WP_BeplantesTeilgebiet")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020019> "beplantes Teilgebiet")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020019> "heat plan subarea"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020019> "heat plan subarea"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020019> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020019> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
@@ -274,7 +274,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020019> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020020> "An unallocated heat supply subarea is a region of relevance that is part of a municipality area and that is not designated as a prospective heat supply area in the municipal heat plan.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020020> "WP_NichtBeplantesTeilgebiet")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020020> "nicht beplantes Teilgebiet")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020020> "unallocated heat supply subarea"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020020> "unallocated heat supply subarea"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020020> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020020> <https://openenergyplatform.org/ontology/oeo/OEO_00360020>)
@@ -346,7 +346,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030007> "Section 3(18) of the German Heat Planning Act (WPG)")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030007> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "district heating area"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "district heating area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00030008>))
 
