@@ -50,6 +50,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030007>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030008>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030009>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030010>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030011>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -317,14 +318,14 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030001> <https://www.commoncoreontologies.org/ont00000974>)
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00030005> (Hydrogen grid area)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030005> (hydrogen grid area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030005> "Hydrogen network area is heat plan subarea in which a hydrogen network exists or is planned, and a significant proportion of the local end users are to be supplied via the hydrogen network for the purpose of heat generation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030005> "An hydrogen network area is heat plan subarea in which a hydrogen network exists or is planned, and a significant proportion of the local end users are to be supplied via the hydrogen network for the purpose of heat generation.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030005> "Wasserstoffnetzgebiet"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030005> "Section 3(23) of the German Heat Planning Act (WPG)")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030005> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030005> "Hydrogen grid area"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030005> "hydrogen grid area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.org/mhpo/ontology/MHPO_00020018>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00030006>))
@@ -337,14 +338,14 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030006> "hydrogen grid area role"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030006> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00030007> (District heating area)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030007> (district heating area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030007> "A District heating area is a heat plan subarea in which a district heating network exists or is planned, and a significant proportion of the local end users are to be supplied via the district heating network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030007> "A district heating area is a heat plan subarea in which a district heating network exists or is planned, and a significant proportion of the local end users are to be supplied via the district heating network.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030007> "Wärmenetzgebiet"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030007> "Section 3(18) of the German Heat Planning Act (WPG)")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030007> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "District heating area"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "district heating area"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00030008>))
 
@@ -356,25 +357,45 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030008> "district heating area role"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030008> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00030009> (Heat network densification area)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030009> (heat network densification area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030009> "An Heat network densification area is a district heating area in which end users located in the immediate vicinity of an existing heat network are to be connected to it without requiring the expansion of the heat network")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030009> "Wärmenetzverdichtungsgebiet")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030009> "An heat network densification area is a district heating area in which end users located in the immediate vicinity of an existing heat network are to be connected to it without requiring the expansion of the heat network")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030009> "Wärmenetzverdichtungsgebiet"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030009> "Section 3(18) of the German Heat Planning Act (WPG)")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030009> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030009> "Heat network densification area"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030009> "heat network densification area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030009> <https://purl.org/mhpo/ontology/MHPO_00030007>)
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00030010> (Heat network expansion area)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030010> (heat network expansion area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030010> "An Heat network expansion area is an district heating area where no heat network currently exists and which are to be connected to an existing heat network for the first time through the construction of new heat pipelines.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030010> "Wärmenetzausbaugebiet")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030010> "An heat network expansion area is an district heating area where no heat network currently exists and which are to be connected to an existing heat network for the first time through the construction of new heat pipelines.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030010> "Wärmenetzausbaugebiet"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030010> "Section 3(18) of the German Heat Planning Act (WPG)")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030010> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030010> "Heat network expansion area"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030010> "heat network expansion area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030010> <https://purl.org/mhpo/ontology/MHPO_00030007>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030011> (heat network development area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030011> "An heat network development area is a district heating area that is to be connected to a new heating network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030011> "Wärmenetzneubaugebiet"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030011> "Section 3(18) of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030011> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00030011> "“new heating network” means a heating network, 
+
+a) 
+construction of which begins after December 31, 2023, 
+
+b) 
+which, for the first time after January 1, 2024, exceeds the size of a building network
+
+c) 
+construction of which for the purpose of network expansion begins after December 31, 2023, and which is not connected, or is connected only to a minor extent, to an existing upstream network—either directly via a hydraulic connection or indirectly via heat transfer; a minor extent is deemed to exist if the annual average share of heat supplied from the existing network is less than 20 percent,")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030011> "heat network development area"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030011> <https://purl.org/mhpo/ontology/MHPO_00030007>)
 
 
 )
