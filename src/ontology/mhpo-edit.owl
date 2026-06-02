@@ -46,6 +46,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020022>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030006>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030007>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -330,6 +331,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.o
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030006> "hydrogen grid area role"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030006> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030007> (District heating area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030007> "A District heating area is a heat plan subarea in which a district heating network exists or is planned, and a significant proportion of the local end users are to be supplied via the district heating network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030007> "Wärmenetzgebiet"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030007> "Section 3(18) of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030007> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "District heating area"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 
 
 )
