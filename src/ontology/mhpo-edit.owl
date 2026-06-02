@@ -51,6 +51,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030008>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030009>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030010>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030011>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -397,6 +398,17 @@ c)
 construction of which for the purpose of network expansion begins after December 31, 2023, and which is not connected, or is connected only to a minor extent, to an existing upstream network—either directly via a hydraulic connection or indirectly via heat transfer; a minor extent is deemed to exist if the annual average share of heat supplied from the existing network is less than 20 percent,")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030011> "heat network development area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030011> <https://purl.org/mhpo/ontology/MHPO_00030007>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030012> (energy saving area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030012> "An energy saving area is a planned heat plan subarea with increased energy saving potential, identified either by its energy- or climate-related suitability as a redevelopment area under the German Building Act or by a high share of buildings with high specific final energy consumption for space heating.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030012> "Energieeinspargebiet"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030012> "Section 136(2) of the German Building Act (BauGB)
+Section 18(5)  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030012> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030012> "energy saving area"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030012> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 
 
 )
