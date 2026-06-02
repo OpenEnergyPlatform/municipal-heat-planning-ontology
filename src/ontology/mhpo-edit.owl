@@ -45,6 +45,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020021>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020022>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030006>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -289,7 +290,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> ObjectSomeValuesFrom(<
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020022> (role of area for decentralized heat suply)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020022> "A role of an area for decentralized heat suply is a heat plan subarea that is not primarily indented to be supplied by a district heating or natural gas network, see WPG §3 part 6.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020022> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00020022> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020022> "role of area for decentralized heat suply"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020022> <https://purl.org/mhpo/ontology/MHPO_00020009>)
@@ -321,6 +322,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.o
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030005> "Hydrogen grid area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> <https://purl.org/mhpo/ontology/MHPO_00020019>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030006> (hydrogen grid area role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030006> "A role that inheres in a heat plan subarea and indicates that the subarea is designated for heat supply through a hydrogen network, where a hydrogen network exists or is planned and a significant proportion of end users are intended to be supplied with hydrogen-based heat generation."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030006> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030006> "hydrogen grid area role"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030006> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 
 )
