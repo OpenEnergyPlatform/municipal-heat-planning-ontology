@@ -44,6 +44,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020020>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020021>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020022>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -310,6 +311,16 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030001> "i
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030001> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030001> <https://www.commoncoreontologies.org/ont00000974>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030005> (Hydrogen grid area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030005> "Hydrogen network area is heat plan subarea in which a hydrogen network exists or is planned, and a significant proportion of the local end users are to be supplied via the hydrogen network for the purpose of heat generation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030005> "Wasserstoffnetzgebiet"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030005> "Section 3(23) of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030005> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030005> "Hydrogen grid area"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 
 
 )
