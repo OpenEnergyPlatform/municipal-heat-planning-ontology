@@ -47,6 +47,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030006>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030007>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030008>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -341,6 +342,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.o
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "District heating area"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00020019>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030008> (district heating area role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030008> "A role that inheres in a heat plan subarea and indicates that the subarea is designated for heat supply through a district heating network, where a district heating network exists or is planned and a significant proportion of local end users are intended to be supplied via that network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030008> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030008> "district heating area role"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030008> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 
 )
