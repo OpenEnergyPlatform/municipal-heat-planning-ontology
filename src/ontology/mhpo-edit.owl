@@ -52,6 +52,8 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030009>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030010>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030011>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -418,6 +420,25 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.o
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030012> "energy saving area"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030012> <https://purl.org/mhpo/ontology/MHPO_00020019>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030013> (review area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030013> "A review area is a planned heat plan subarea that is not assigned to a hydrogen network area, district heating area, or an area for decentralized heat supply because the conditions required for such an assignment are not yet sufficiently known, or because a significant share of the local end users is expected to be supplied with heat in another way, such as through grid-bound green methane supplied via an existing or planned gas distribution network. In this case, the gas distribution network operator must provide the planning authority with all relevant planning documents and evidence needed to assess the suitability of the area for green methane supply, including documents showing consistency with upstream gas network planning or evidence that sufficient green methane can be produced and stored for the target year.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030013> "Prüfgebiet"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030013> "Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030013> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030013> "review area"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030013> <https://purl.org/mhpo/ontology/MHPO_00020019>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030014> (review area role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030014> "A review area role is a role that inheres in a planned heat plan subarea when, within municipal heat planning, the subarea is not assigned to a hydrogen network area, district heating area, or decentralized heat supply area because the conditions required for such an assignment are not yet sufficiently known, or because a significant share of the local end users is expected to be supplied with heat in another way, such as through grid-bound green methane supplied via an existing or planned gas distribution network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030014> "Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00030014> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030014> "review area role"@de)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030014> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 
 )
