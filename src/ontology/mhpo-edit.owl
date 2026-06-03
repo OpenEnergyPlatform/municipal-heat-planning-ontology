@@ -54,6 +54,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030011>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -439,6 +440,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.o
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030014> "review area role"@de)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030014> <https://purl.org/mhpo/ontology/MHPO_00020009>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030016> (excluded area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030016> "An exclusion area is a spatially delimited area within the planned area, such as a water protection area or mineral spring protection area, in which certain heat supply potentials are excluded or significantly restricted and which is identified in a spatially differentiated manner as part of the potential analysis in municipal heat planning.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030016> "Ausschlussgebiet")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030016> "Annex 2, Part II of the German Heat Planning Act (WPG)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030016> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030016> "excluded area"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> <https://purl.org/mhpo/ontology/MHPO_00020017>)
 
 
 )
