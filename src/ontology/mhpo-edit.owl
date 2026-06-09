@@ -224,7 +224,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> ObjectSomeValuesFrom(<
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020014> (excluded area role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020014> "An exclusion area role is a role of a spatially delimited area within the planned area that is identified in the potential analysis because the use of certain heat supply potentials is excluded or significantly restricted due to legal, environmental, technical, or other site-specific constraints.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020014> "A role of a spatially delimited area within the planned area that is identified in the potential analysis because the use of certain heat supply potentials is excluded or significantly restricted due to legal, environmental, technical, or other site-specific constraints.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020014> "Annex 2, Part II of the German Heat Planning Act (WPG)")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020014> "excluded area role"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020014> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
