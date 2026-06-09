@@ -207,7 +207,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020011> ObjectSomeValuesFrom(<
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020012> (unallocated heat supply subarea role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020012> "A role of a subarea of a heat supply area that is unallocated for heat supply.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020012> "unallocated heat supply subarea role"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020012> "unallocated heat supply subarea role"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020012> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020012> <https://purl.org/mhpo/ontology/MHPO_00020009>)
@@ -219,7 +219,7 @@ DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020012> <https://purl.org
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020013> "A role of a subarea of a heat supply area that  is designated for heat supply.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020013> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020013> "heat plan subarea role"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020013> "heat plan subarea role"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
@@ -229,12 +229,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020014> "Annex 2, Part II of the German Heat Planning Act (WPG)")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://purl.org/mhpo/ontology/MHPO_00020014> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020014> "excluded area role"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020014> "excluded area role"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020014> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020015> (area under suitability assessment role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020015> "area under suitability assessment role"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020015> "area under suitability assessment role"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020015> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020016> (energy saving area role)
@@ -250,7 +250,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020016> <https://purl.org/mhpo
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020017> (municipality area)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020017> "A municipality area is a region of relevance that encompasses the exact territory of a municipality.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020017> "Gemeindegebiet")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020017> "Gemeindegebiet"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020017> "municipality area"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020017> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
