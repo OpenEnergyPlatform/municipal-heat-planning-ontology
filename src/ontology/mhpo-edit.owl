@@ -183,7 +183,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncor
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020009> (role of region in municipal heat plan)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020009> "A role of a region in a municipal heat plan is a role that can be assigned to a region of relevance in a municipal heat plan.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020009> "role of region in municipal heat plan"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020009> "role of region in municipal heat plan"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020009> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020010> (municipality area role)
