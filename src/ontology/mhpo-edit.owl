@@ -189,7 +189,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020009> <http://purl.obolibrar
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020010> (municipality area role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020010> "A role of a two-dimensional spatial region that covers the area of a municipality.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020010> "municipality area role"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020010> "municipality area role"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020010> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020010> <https://purl.org/mhpo/ontology/MHPO_00020009>)
