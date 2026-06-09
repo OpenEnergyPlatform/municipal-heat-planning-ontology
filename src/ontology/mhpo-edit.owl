@@ -35,7 +35,6 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020011>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020014>))
-Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020015>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020016>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020017>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020018>))
@@ -231,11 +230,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020014> "e
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020014> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020014> <https://purl.org/mhpo/ontology/MHPO_00020009>)
-
-# Class: <https://purl.org/mhpo/ontology/MHPO_00020015> (area under suitability assessment role)
-
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020015> "area under suitability assessment role"@en)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020015> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020016> (energy saving area role)
 
@@ -436,11 +430,11 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030013> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00030014> (review area role)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030014> (area under suitability assessment role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030014> "A review area role is a role that inheres in a planned heat plan subarea when, within municipal heat planning, the subarea is not assigned to a hydrogen network area, district heating area, or decentralized heat supply area because the conditions required for such an assignment are not yet sufficiently known, or because a significant share of the local end users is expected to be supplied with heat in another way, such as through grid-bound green methane supplied via an existing or planned gas distribution network.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030014> "Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030014> "review area role"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030014> "area under suitability assessment role"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030014> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030014> <https://purl.org/mhpo/ontology/MHPO_00020009>)
