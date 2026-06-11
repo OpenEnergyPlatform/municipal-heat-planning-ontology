@@ -42,6 +42,9 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020019>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020020>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020021>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020022>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020023>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020024>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020025>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030006>))
@@ -312,6 +315,33 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020022> <https://purl.org/mhpo/ontology/MHPO_00020009>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020023> (role of district heating development area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020023> "A role of a district heating area where the area will be connected to a newly developed district heating grid in the future.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020023> "Section 3(1) no. 18  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020023> "role of district heating development area"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020023> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00030008>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020024> (role of district heating densification area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020024> "A role of a district heating area in which end users located in the immediate vicinity of an existing heat network are to be connected to it without requiring the expansion of the heat network")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020024> "Section 3(1) no. 18  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020024> "role of district heating densification area"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020024> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00030008>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020025> (role of district heating expansion area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020025> "A role of a district heating area where the area will be connected for the first time to an existing district heating grid through the construction of new heat pipelines.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020025> "Section 3(1) no. 18  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020025> "role of district heating expansion area"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020025> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020025> <https://purl.org/mhpo/ontology/MHPO_00030008>)
+
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030001> "An implementation strategy is a descriptive information content entity that describes the implementation measures to be realized in order to achieve the objective of supplying heat generated exclusively from renewable energy sources or unavoidable waste heat by the target year.")
@@ -381,6 +411,8 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030009> "d
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030009> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030009> <https://purl.org/mhpo/ontology/MHPO_00030007>)
+DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00030009> <https://purl.org/mhpo/ontology/MHPO_00030010>)
+DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00030009> <https://purl.org/mhpo/ontology/MHPO_00030011>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030010> (district heating expansion area)
 
@@ -392,6 +424,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030010> "d
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030010> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030010> <https://purl.org/mhpo/ontology/MHPO_00030007>)
+DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00030010> <https://purl.org/mhpo/ontology/MHPO_00030011>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030011> (district heating development area)
 
@@ -456,4 +489,5 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> <https://purl.org/mhpo
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020014>))
 
 
+DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
 )
