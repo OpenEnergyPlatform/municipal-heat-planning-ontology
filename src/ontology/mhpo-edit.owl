@@ -290,12 +290,12 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020020> <https://openenergypla
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.org/mhpo/ontology/MHPO_00020017>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020012>))
 
-# Class: <https://purl.org/mhpo/ontology/MHPO_00020021> (area for decentralized heat suply)
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020021> (area for decentralized heat supply)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020021> "An area for decentralized heat suply is a heat plan subarea that is not primarily indented to be supplied by a district heating or natural gas network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020021> "An area for decentralized heat supply is a heat plan subarea that has or is expected to have a decentralized primary heat supply, i.e. other than via district heating or a natural gas network.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020021> "Gebiet für dezentrale Wärmeversorgung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020021> "Section 3(1) no. 6 WPG  of the German Heat Planning Act (WPG)")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020021> "area for decentralized heat suply"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020021> "area for decentralized heat supply"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020021> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> <https://purl.org/mhpo/ontology/MHPO_00020019>)
