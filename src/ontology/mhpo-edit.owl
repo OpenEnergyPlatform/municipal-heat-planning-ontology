@@ -224,7 +224,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020013> ObjectSomeValuesFrom(<
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020014> (excluded area role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020014> "A role of a spatially delimited area within the planned area that is identified in the potential analysis because the use of certain heat supply potentials is excluded or significantly restricted due to legal, environmental, technical, or other site-specific constraints.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020014> "A role of a heat plan subarea identified in the potential analysis because the use of certain heat supply potentials is excluded or significantly restricted due to legal, environmental, technical, or other site-specific constraints.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020014> "Annex 2, Part II of the German Heat Planning Act (WPG)")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020014> "excluded area role"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020014> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
@@ -450,6 +450,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030016> "a
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030016> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> <https://purl.org/mhpo/ontology/MHPO_00020019>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020014>))
 
 
 )
