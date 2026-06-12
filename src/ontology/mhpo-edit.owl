@@ -45,6 +45,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020022>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020023>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020024>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020025>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020026>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030006>))
@@ -341,6 +342,17 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020025> "r
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020025> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020025> <https://purl.org/mhpo/ontology/MHPO_00030008>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020026> (projected heat plan subarea)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020026> "A projected heat plan subarea is a heat plan subarea that is either a district heating area, a hydrogen grid area, an area for decentralized heat supply or an area under suitablility assessment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020026> "Voraussichtliches Wärmeversorgungsgebiet"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020026> "Section 3(1) no. 14  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020026> "projected heat plan subarea"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020026> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
+EquivalentClasses(<https://purl.org/mhpo/ontology/MHPO_00020026> ObjectUnionOf(<https://purl.org/mhpo/ontology/MHPO_00020021> <https://purl.org/mhpo/ontology/MHPO_00030005> <https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00030013>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020026> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 
