@@ -308,7 +308,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> ObjectSomeValuesFrom(<
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020022> (role of area for decentralized heat supply)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020022> "A role of an area for decentralized heat supply is a heat plan subarea that is not primarily indented to be supplied by a district heating or natural gas network, see WPG §3 part 6.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020022> "A role of an area for decentralized heat supply is a heat plan subarea that is not primarily indented to be supplied by a district heating or natural gas network.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020022> "Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020022> "role of area for decentralized heat supply"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020022> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
