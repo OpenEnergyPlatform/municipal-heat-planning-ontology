@@ -447,7 +447,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.o
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00030011> "A new district heating network is a heating network
 a) for which construction begins after December 31, 2023.
 b) that, for the first time after January 1, 2024, exceeds the size of a building network
-
 c) 
 for which construction begins for the purpose of network expansion after December 31, 2023, and which is not thermally connected to an existing upstream network, or is connected only to a limited extent, either through a direct hydraulic connection or indirectly via heat transfer.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030011> "district heating development area")
