@@ -286,7 +286,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020019> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020020> "An unallocated heat supply subarea is a region of relevance that is part of a municipality area and that is not designated as a prospective heat supply area in the municipal heat plan.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020020> "WP_NichtBeplantesTeilgebiet")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020020> "nicht beplantes Teilgebiet")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020020> "nicht beplantes Teilgebiet"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020020> "unallocated heat supply subarea"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020020> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
