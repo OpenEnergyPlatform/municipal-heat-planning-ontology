@@ -518,6 +518,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://www.commoncor
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "Dokumentation der verkürzten Wärmeplanung"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning documentation"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "verkürzte Wärmeplanung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030018> "Section 14  of the German Heat Planning Act (WPG)")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
 
