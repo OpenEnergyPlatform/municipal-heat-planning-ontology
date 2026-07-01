@@ -527,6 +527,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "s
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030018> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
