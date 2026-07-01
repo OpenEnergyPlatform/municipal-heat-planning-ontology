@@ -504,7 +504,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030017> (suitability assessment)
 
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030017> "suitability assessment"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030017> "suitability assessment"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://www.commoncoreontologies.org/ont00000853>)
 
 
