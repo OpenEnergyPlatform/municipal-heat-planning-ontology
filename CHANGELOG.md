@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- initial suitability assessment, shortened heat planning (#21)
 - municipal heat plan, aggregated inventory analysis, aggregated potential analysis, target scenario, implementation measure, implementation strategy (#9)
 - municipality area, heat supply area, area for decentralized heat supply, unallocated heat supply subarea, and respective roles (#15)
 - district heating area and subclasses, energy saving area, hydrogen grid area, area under suitability assessment, and respective roles (#15)
