@@ -520,6 +520,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "verkürzte Wärmeplanung"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030018> "Section 14  of the German Heat Planning Act (WPG)")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030018> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
 
 
