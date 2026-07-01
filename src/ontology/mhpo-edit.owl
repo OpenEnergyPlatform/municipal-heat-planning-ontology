@@ -506,6 +506,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030017> "A suitability assessment is a descriptive information content entity that documents, based on available information and stakeholder consultation, whether one or more heat plan subareas are highly likely not suitable for supply by a district heating network or a hydrogen grid.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030017> "Eignungsprüfung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030017> "Section 14  of the German Heat Planning Act (WPG)")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030017> "suitability assessment"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://www.commoncoreontologies.org/ont00000853>)
 
