@@ -515,7 +515,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://www.commoncor
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030018> (shortened heat planning)
 
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
 
 
