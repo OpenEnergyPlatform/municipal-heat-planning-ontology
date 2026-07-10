@@ -519,7 +519,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> ObjectSomeValuesFrom(<
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030018> (shortened heat planning)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030018> "A shortened heat planning is a descriptive information content entity that documents, in a municipal heat plan, that one or more heat plan subareas are represented as prospective decentralized heat supply areas based on a suitability assessment indicating that they are highly likely not suitable for supply by a district heating network or a hydrogen grid. Only potentials relevant for decentralized heat supply are considered for these subareas.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030018> "A shortened heat planning is a descriptive information content entity that documents, in a municipal heat plan, that one or more heat plan subareas are represented as prospective decentralized heat supply areas based on a suitability assessment indicating that they are highly likely not suitable for supply by a district heating network or a hydrogen grid. Only potentials relevant for decentralized heat supply are considered for these subareas."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "Dokumentation der verkürzten Wärmeplanung"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning documentation"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "verkürzte Wärmeplanung"@de)
