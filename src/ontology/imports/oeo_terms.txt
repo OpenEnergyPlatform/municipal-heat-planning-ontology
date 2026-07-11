@@ -1,0 +1,304 @@
+# energy carrier
+OEO:00020039  # energy carrier
+OEO:00140080  # final energy carrier
+OEO:00140078  # primary energy carrier
+OEO:00020050  # renewable energy carrier
+OEO:00140079  # secondary energy carrier
+OEO:00000151 #energy carrier disposition
+OEO:00000173 #fuel
+OEO:00000001 #fuel role
+
+# portion of matter
+OEO:00000331  # portion of matter
+OEO:00010012  # air pollutant
+OEO:00010000  # ammonia
+OEO:00010221  # synthetic ammonia
+OEO:00000071  # biodiesel
+OEO:00000075  # biogasoline
+OEO:00010214  # biomass
+OEO:00000449  # wood
+OEO:00000006  # carbon dioxide
+OEO:00010001  # carbon monoxide
+OEO:00240029  # cement
+OEO:00000084  # charcoal
+OEO:00240027  # chemical substance
+OEO:00000088  # coal
+OEO:00000204  # hard coal
+OEO:00000251  # lignite
+OEO:00000401  # sub bituminous coal
+OEO:00000115  # crude oil
+OEO:00010408  # Brent crude
+OEO:00010409  # Western Texas Intermediate
+OEO:00020001  # ethanol
+OEO:00010446  # bioethanol
+OEO:00000173  # fuel
+OEO:00000099  # combustion fuel
+OEO:00000072  # biofuel
+OEO:00010153  # gaseous biofuel
+OEO:00000258  # liquid biofuel
+OEO:00010337  # non-sustainable biofuel
+OEO:00000332  # solid biofuel
+OEO:00010336  # sustainable biofuel
+OEO:00320015  # compressed gas fuel
+OEO:00010242  # diesel fuel
+OEO:00010448  # B7
+OEO:00000014  # fossil combustion fuel
+OEO:00010148  # gaseous fossil fuel
+OEO:00010147  # liquid fossil fuel
+OEO:00010317  # mineral oil
+OEO:00010316  # mineral oil product
+OEO:00000391  # solid fossil fuel
+OEO:00010146  # gaseous combustion fuel
+OEO:00010241  # gasoline fuel
+OEO:00010447  # E10
+OEO:00010145  # liquid combustion fuel
+OEO:00010445  # blended liquid fuel
+OEO:00010144  # solid combustion fuel
+OEO:00000302  # nuclear fuel
+OEO:00000033  # renewable fuel
+OEO:00010151  # gaseous renewable fuel
+OEO:00010150  # liquid renewable fuel
+OEO:00010149  # solid renewable fuel
+OEO:00000173  # synthetic fuel
+OEO:00010155  # gaseous synthetic fuel
+OEO:00010156  # liquid synthetic fuel
+OEO:00010019  # PtL fuel
+OEO:00010154  # solid synthetic fuel
+OEO:00000439  # waste fuel
+OEO:00010223  # biogenic waste fuel
+OEO:00010224  # fossil waste fuel
+OEO:00000226  # industrial waste fuel
+OEO:00010225  # biogenic industrial waste fuel
+OEO:00010226  # fossil industrial waste fuel
+OEO:00000290  # municipal waste fuel
+OEO:00000356  # biogenic municipal waste fuel
+OEO:00000299  # fossil municipal waste fuel
+OEO:00000181  # gas diesel oil
+OEO:00000131  # fossil diesel fuel
+OEO:00000211  # heating oil
+OEO:00010236  # gas mixture
+OEO:00000054  # air
+OEO:00000102  # compressed air
+OEO:00000257  # liquid air
+OEO:00000074  # biogas
+OEO:00010215  # biomethane
+OEO:00320013  # compressed biomethane
+OEO:00320011  # liquefied petroleum gas
+OEO:00000263  # manufactured coal based gas
+OEO:00000077  # blast furnace gas
+OEO:00000093  # coke oven gas
+OEO:00000186  # gasworks gas
+OEO:00000292  # natural gas
+OEO:00000062  # associated gas
+OEO:00000096  # colliery gas
+OEO:00320012  # compressed natural gas
+OEO:00010237  # liquefied natural gas
+OEO:00000297  # non associated gas
+OEO:00010326  # refinery gas
+OEO:00140160  # syngas
+OEO:00000183  # gasoline
+OEO:00000066  # aviation gasoline
+OEO:00000286  # motor gasoline
+OEO:00000020  # greenhouse gas
+OEO:00000013  # fluorinated greenhouse gas
+OEO:00140159  # hydrocarbon
+OEO:00000025  # methane
+OEO:00010484  # methanol
+OEO:00000219  # hydrofluorocarbon
+OEO:00000220  # hydrogen
+OEO:00010383  # abated steam reforming hydrogen
+OEO:00010379  # electrolytic hydrogen
+OEO:00010416  # nuclear electric hydrogen
+OEO:00010380  # renewable electrolytic hydrogen
+OEO:00010418  # solar electrolytic hydrogen
+OEO:00010015  # fossil hydrogen
+OEO:00010382  # fossil steam reforming hydrogen
+OEO:00010381  # steam reforming hydrogen
+OEO:00010016  # synthetic hydrogen
+OEO:00000246  # kerosene
+OEO:00000245  # jet fuel
+OEO:00010491  # manufactured commodity
+OEO:00240026  # manufactured material
+OEO:00240032  # metal
+OEO:00240035  # non-ferrous metal
+OEO:00240034  # steel
+OEO:00240030  # mineral
+OEO:00240031  # non-metallic mineral
+OEO:00010002  # nitrogen oxides
+OEO:00010003  # nitric oxide
+OEO:00010004  # nitrogen dioxide
+OEO:00000026  # nitrogen trifluoride
+OEO:00000027  # nitrous oxide
+OEO:00010218  # oxygen
+OEO:00240028  # paper
+OEO:00000318  # particulate matter
+OEO:00010009  # PM10
+OEO:00010010  # PM2.5
+OEO:00000320  # peat
+OEO:00000322  # perfluorocarbon
+OEO:00010327  # petroleum coke
+OEO:00140091  # plutonium
+OEO:00020058  # rock
+OEO:00020210  # sirup
+OEO:00010007  # sulphur dioxide
+OEO:00000038  # sulphur hexafluoride
+OEO:00140092  # thorium
+OEO:00000040  # uranium
+OEO:00000437  # volatile organic compound
+OEO:00000298  # non-methane volatile organic compound
+OEO:00000441  # water
+OEO:00110000  # liquid water
+OEO:00000345  # pumped water
+OEO:00010104  # water body
+OEO:00010105  # ocean
+OEO:00010093  # river
+OEO:00110001  # steam
+
+# energy converting components
+OEO:00000011  # energy converting component
+OEO:00010300  # current collector
+OEO:00000188  # generator
+OEO:00000010  # electromotive generator
+OEO:00280016  # induction generator
+OEO:00280015  # squirrel-cage induction generator
+OEO:00280006  # permanent magnet synchronous generator
+OEO:00000016  # fuel cell
+OEO:00140134  # hydrogen fuel cell
+OEO:00000032  # photovoltaic cell
+OEO:00280010  # passivated emitter rear contact solar cell
+OEO:00140102  # heat exchanger
+OEO:00010414  # downhole heat exchanger
+OEO:00310010  # plate heat exchanger
+OEO:00310009  # rotary heat exchanger
+OEO:00010413  # subsurface collector
+OEO:00000210  # heater
+OEO:00310013  # boiler
+OEO:00310014  # combustion-based heater
+OEO:00310015  # electrical heater
+OEO:00000212  # heat pump
+OEO:00000009  # electric heat pump
+OEO:00000387  # solar thermal collector
+OEO:00310022  # flat-plate collector
+OEO:00310021  # tube collector
+OEO:00010032  # motor
+OEO:00010027  # electric motor
+OEO:00010028  # electric traction motor
+OEO:00010029  # internal combustion engine
+OEO:00010244  # diesel engine
+OEO:00320008  # gas engine
+OEO:00320009  # compressed gas engine
+OEO:00010243  # gasoline engine
+OEO:00010254  # traction motor
+OEO:00010090  # pump
+OEO:00010480  # compressor
+OEO:00010022  # steam reformer
+OEO:00000425  # turbine
+OEO:00000185  # gas turbine
+OEO:00000222  # hydrogen turbine
+OEO:00010303  # jet fuel turbine
+OEO:00140135  # natural gas turbine
+OEO:00080002  # turbofan gas turbine
+OEO:00080003  # turbojet gas turbine
+OEO:00080001  # turboprop gas turbine
+OEO:00080000  # turboshaft gas turbine
+OEO:00000396  # steam turbine
+OEO:00000442  # water turbine
+OEO:00000448  # wind rotor
+OEO:00010021  # water electrolyser
+
+# energy transformation units
+OEO:00020102  # energy transformation unit
+OEO:00240010  # combined heat and power generating unit
+OEO:00240011  # combined heat and power plant
+OEO:00010481  # compressor station
+OEO:00010483  # electric compressor station
+OEO:00010482  # gas compressor station
+OEO:00320058  # Filling station
+OEO:00320059  # hydrogen station
+OEO:00020006  # grid component
+OEO:00000144  # electricity grid component
+OEO:00320040  # vehicle charging station
+OEO:00000399  # energy storage unit
+OEO:00020249  # compressed-air energy storage unit
+OEO:00020007  # gas grid component
+OEO:00000255  # grid component link
+OEO:00000253  # power line
+OEO:00000256  # grid node
+OEO:00020008  # heating grid component
+OEO:00020009  # switchyard
+OEO:00000420  # transformer
+OEO:00310008  # heat generating unit
+OEO:00310012  # heat transfer unit
+OEO:00310017  # geothermal heat unit
+OEO:00310048  # solar heat unit
+OEO:00310011  # heat plant
+OEO:00310018  # geothermal heat plant
+OEO:00310047  # solar heat plant
+OEO:00010318  # mineral oil refinery
+OEO:00000334  # power generating unit
+OEO:00000003  # biofuel power unit
+OEO:00000005  # biogas power unit
+OEO:00000037  # solid biomass power unit
+OEO:00000008  # coal power unit
+OEO:00000021  # hard coal power unit
+OEO:00000024  # lignite power unit
+OEO:00000175  # fueled power unit
+OEO:00000017  # gas fired power unit
+OEO:00000019  # geothermal power unit
+OEO:00010085  # hydro power unit
+OEO:00010108  # marine current energy converting unit
+OEO:00010109  # marine tidal energy converting unit
+OEO:00010110  # marine wave energy converting unit
+OEO:00000022  # hydrogen power unit
+OEO:00000029  # nuclear power unit
+OEO:00000030  # oil power unit
+OEO:00010401  # power-only generating unit
+OEO:00010361  # renewable power unit
+OEO:00000034  # solar power unit
+OEO:00000348  # PV panel
+OEO:00280011  # PERC panel
+OEO:00000035  # solar thermal power unit
+OEO:00310028  # steam power unit
+OEO:00000041  # waste power unit
+OEO:00000044  # wind energy converting unit
+OEO:00280018  # direct drive wind energy converting unit
+OEO:00280019  # gearbox wind energy converting unit
+OEO:00280008  # PMSG wind energy converting unit
+OEO:00280017  # SCIG wind energy converting unit
+OEO:00000031  # power plant
+OEO:00000073  # biofuel power plant
+OEO:00000004  # biogas power plant
+OEO:00000036  # solid biomass power plant
+OEO:00000089  # coal power plant
+OEO:00000205  # hard coal power plant
+OEO:00000252  # lignite power plant
+OEO:00000174  # fueled power plant
+OEO:00000184  # gas power plant
+OEO:00000192  # geothermal power plant
+OEO:00010086  # hydro power plant
+OEO:00010088  # hydro storage power plant
+OEO:00010089  # pumped hydro storage power plant
+OEO:00010092  # closed-loop pumped hydro storage power plant
+OEO:00010091  # open-loop pumped hydro storage power plant
+OEO:00010094  # reservoir hydro storage power plant
+OEO:00010111  # marine current energy power plant
+OEO:00010112  # marine tidal energy power plant
+OEO:00010113  # marine wave energy power plant
+OEO:00010087  # run of river power plant
+OEO:00000221  # hydrogen power plant
+OEO:00000303  # nuclear power plant
+OEO:00000310  # oil power plant
+OEO:00140162  # power plant with electro motive generator
+OEO:00010362  # renewable power plant
+OEO:00000386  # solar power plant
+OEO:00000324  # photovoltaic power plant
+OEO:00000165  # field photovoltaic power plant
+OEO:00000361  # rooftop photovoltaic power plant
+OEO:00000389  # solar thermal power plant
+OEO:00000440  # waste power plant
+OEO:00000447  # wind farm
+OEO:00000308  # offshore wind farm
+OEO:00000311  # onshore wind farm
+OEO:00330009  # power-to-fuel system
+OEO:00000335  # power-to-gas system
+OEO:00010020  # power-to-liquid system
