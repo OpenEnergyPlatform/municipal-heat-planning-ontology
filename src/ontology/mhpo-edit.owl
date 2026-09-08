@@ -59,6 +59,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
 Declaration(Class(<https://www.commoncoreontologies.org/ont00000476>))
 Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
 Declaration(Class(<https://www.commoncoreontologies.org/ont00000965>))
@@ -513,6 +514,11 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030020> "b
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030020> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/23
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030020> <http://purl.obolibrary.org/obo/BFO_0000027>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030021> (building count)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030021> "building count"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
