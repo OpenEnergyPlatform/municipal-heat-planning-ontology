@@ -60,7 +60,13 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000476>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000965>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000974>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00030019>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
@@ -105,6 +111,15 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <https://purl.org/mhpo/ontology/MHPO_00030019> (has represented heat supply area)
+
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030019> "has represented heat supply area"@en)
+SubObjectPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://openenergyplatform.org/ontology/oeo/OEO_00010378>)
 
 
 
