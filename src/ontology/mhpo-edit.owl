@@ -58,6 +58,12 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000476>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000965>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000974>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
@@ -500,6 +506,24 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020014>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030020> (building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030020> "A building stock is an object aggregate of buildings located in a spatial region."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030020> "building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030020> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/23
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030020> <http://purl.obolibrary.org/obo/BFO_0000027>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030021> (building count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030021> "A building count is a quantity value that measures the number of buildings in a building stock."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030021> "building stock size"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030021> "building count"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030021> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/23
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <https://purl.org/mhpo/ontology/MHPO_00030020>))
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
