@@ -58,7 +58,15 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000476>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000965>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000974>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00030019>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(dcterms:creator))
@@ -104,6 +112,21 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
 
+############################
+#   Object Properties
+############################
+
+# Object Property: <https://purl.org/mhpo/ontology/MHPO_00030019> (represents heat supply area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030019> "An is-about-relation between a municipal heat plan and the heat supply area the heat municipal heat plan refers to."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030019> "represents heat supply area"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030019> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://purl.org/mhpo/ontology/MHPO_00030019> "Section 14  of the German Heat Planning Act (WPG)")
+SubObjectPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://openenergyplatform.org/ontology/oeo/OEO_00010378>)
+ObjectPropertyDomain(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl.org/mhpo/ontology/MHPO_00020003>)
+ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl.org/mhpo/ontology/MHPO_00020021>)
+
 
 
 ############################
@@ -125,6 +148,8 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020007>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020008>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00030001>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00030017>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00030018>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020005> (aggregated inventory analysis)
 
@@ -500,6 +525,31 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020014>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030017> (initial suitability assessment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030017> "A suitability assessment is a descriptive information content entity that documents the initial research of grid bound heat supply, based on available information and stakeholder consultation, whether one or more heat plan subareas are highly likely not suitable for supply by a district heating network or a hydrogen grid."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030017> "Eignungsprüfung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030017> "suitability screeening"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030017> "Section 14  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030017> "initial suitability assessment"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030017> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://www.commoncoreontologies.org/ont00000853>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <https://purl.org/mhpo/ontology/MHPO_00020019>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030018> (shortened heat planning)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030018> "A shortened heat planning is a descriptive information content entity that documents, in a municipal heat plan, that one or more heat plan subareas are represented as prospective decentralized heat supply areas based on a suitability assessment indicating that they are highly likely not suitable for supply by a district heating network or a hydrogen grid. Only potentials relevant for decentralized heat supply are considered for these subareas."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "Dokumentation der verkürzten Wärmeplanung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning documentation"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030018> "verkürzte Wärmeplanung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030018> "Section 14  of the German Heat Planning Act (WPG)")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030018> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
