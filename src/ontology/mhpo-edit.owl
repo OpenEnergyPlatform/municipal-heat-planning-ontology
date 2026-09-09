@@ -119,7 +119,7 @@ AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 # Object Property: <https://purl.org/mhpo/ontology/MHPO_00030019> (has represented heat supply area)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030019> "An is-about-relation between an information content entity of a municipal heat plan and a heat supply area to indicate a heat supply area represented in the municipal heat plan."@en)
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030019> "has represented heat supply area"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030019> "represents heat supply area"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030019> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
 AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://purl.org/mhpo/ontology/MHPO_00030019> "Section 14  of the German Heat Planning Act (WPG)")
