@@ -124,7 +124,7 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
 AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://purl.org/mhpo/ontology/MHPO_00030019> "Section 14  of the German Heat Planning Act (WPG)")
 SubObjectPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://openenergyplatform.org/ontology/oeo/OEO_00010378>)
-ObjectPropertyDomain(<https://purl.org/mhpo/ontology/MHPO_00030019> <http://purl.obolibrary.org/obo/IAO_0000030>)
+ObjectPropertyDomain(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl.org/mhpo/ontology/MHPO_00020003>)
 ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl.org/mhpo/ontology/MHPO_00020021>)
 
 
