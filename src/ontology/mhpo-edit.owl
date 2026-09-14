@@ -114,8 +114,9 @@ AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020000> (descriptive information content entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020000> "An Information Content Entity that consists of a set of propositions that describe some Entity.")
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020000> "descriptive information content entity"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020000> "descriptive information content entity"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.org/mhpo/ontology/MHPO_00020000> "https://www.commoncoreontologies.org/ont00000853")
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020000> "pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020000> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020003> (municipal heat plan)
@@ -126,7 +127,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020003> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <http://purl.obolibrary.org/obo/IAO_0000104>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020005>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020006>))
@@ -147,7 +149,8 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020005> 
 5. the current number of decentralized heat generators, including building transfer stations, by type of heat generator, including the energy source used.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020005> "aggregated inventory analysis"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020005> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020005> <https://purl.org/mhpo/ontology/MHPO_00020000>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020006> (aggregated potential analysis)
@@ -162,7 +165,8 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020006> 
 - energy savings through the reduction of heat demand in buildings, as well as in industrial and commercial processes.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020006> "aggregated potential analysis"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020006> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://purl.org/mhpo/ontology/MHPO_00020000>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020007> (target scenario)
@@ -179,6 +183,7 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> 
 6. the annual final energy consumption from gas networks by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of gaseous energy carriers in percent.
 7. the number of buildings connected to a gas network and their share of the total number of buildings in the planned area in percent.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020007> "target scenario"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020007> "pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <http://purl.obolibrary.org/obo/IAO_0000005>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020008> (implementation measure)
@@ -188,7 +193,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "WP_Maßnahme"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "implementation measure"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020008> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <http://purl.obolibrary.org/obo/IAO_0000007>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020009> (role of region in municipal heat plan)
@@ -377,7 +383,8 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00030001> 
 6. in the case of an area with more than 45,000 inhabitants, which financing mechanisms for implementing the strategies and measures for transitioning consumers to renewable energies were identified and how they were weighted.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030001> "implementation strategy"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030001> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030001> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030005> (hydrogen grid area)
