@@ -1,0 +1,14 @@
+https://openenergyplatform.org/ontology/oeo/OEO_00020005	# heating grid
+https://openenergyplatform.org/ontology/oeo/OEO_00020004	# gas grid
+
+https://openenergyplatform.org/ontology/oeo/OEO_00020307	# solar thermal heat technology
+https://openenergyplatform.org/ontology/oeo/OEO_00020306	# geo thermal heat technology
+
+https://openenergyplatform.org/ontology/oeo/OEO_00000162	# factsheet
+http://purl.obolibrary.org/obo/IAO_0000088					# report
+
+https://openenergyplatform.org/ontology/oeo/OEO_00020187	# software licence
+https://openenergyplatform.org/ontology/oeo/OEO_00010412	# creative work licence
+https://openenergyplatform.org/ontology/oeo/OEO_00020186	# data licence
+
+https://openenergyplatform.org/ontology/oeo/OEO_00000350	# quantity value
