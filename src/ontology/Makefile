@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                88a5a5388be90cfbe543204f62c57eaf15fd55d489d1de147f019432776ffc2a
+CONFIG_HASH=                ba5f61a373660796b27776a0c3c5965a2f59fdda1a7a2c50f0938e20705ab712
 
 
 # ----------------------------------------
@@ -448,6 +448,42 @@ no-mirror-refresh-%:
 	$(MAKE) --assume-new=$(SRC) --assume-new=$(IMPORTDIR)/$*_terms.txt \
 		IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl
 
+# ----------------------------------------
+# Components
+# ----------------------------------------
+# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
+
+ifeq ($(COMP),true)
+.PHONY: all_components
+all_components: $(OTHER_SRC)
+
+.PHONY: recreate-components
+recreate-components:
+	$(MAKE) COMP=true IMP=false MIR=true PAT=true all_components
+
+.PHONY: no-mirror-recreate-components
+no-mirror-recreate-components:
+	$(MAKE) COMP=true IMP=false MIR=false PAT=true all_components
+
+.PHONY: recreate-%
+recreate-%:
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-$*.owl \
+		COMP=true IMP=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl
+
+.PHONY: no-mirror-recreate-%
+no-mirror-recreate-%:
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-$*.owl \
+		COMP=true IMP=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl
+
+$(COMPONENTSDIR)/%.owl: $(TMPDIR)/stamp-component-%.owl | $(COMPONENTSDIR)
+	test -f $@ || touch $@
+.PRECIOUS: $(COMPONENTSDIR)/%.owl
+
+$(TMPDIR)/stamp-component-%.owl: | $(TMPDIR)
+	touch $@
+.PRECIOUS: $(TMPDIR)/stamp-component-%.owl
+
+endif # COMP=true
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
