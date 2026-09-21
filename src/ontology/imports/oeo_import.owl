@@ -632,7 +632,7 @@ Declaration(Datatype(xsd:integer))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IAO_0000118> "In the OEO, we don't follow the definition strictly. We use alternative term for synonyms and ambiguous terms as well. See https://github.com/OpenEnergyPlatform/ontology/wiki/Handling-ambiguous-terms")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative term"@en)
