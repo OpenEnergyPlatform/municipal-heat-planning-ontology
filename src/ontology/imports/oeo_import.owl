@@ -4838,7 +4838,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2007
 Remove uncertainty axiom and add inverse to uncertainty instead
 issue:https://github.com/OpenEnergyPlatform/ontology/issues/1989
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2012")
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00020353>)))
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00020353>)))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> <http://purl.obolibrary.org/obo/BFO_0000002>)
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140164> <http://purl.obolibrary.org/obo/BFO_0000015>))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140164> <http://purl.obolibrary.org/obo/RO_0002577>))
@@ -6159,7 +6159,7 @@ SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00400022> <http://pu
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00400043> "A model uncertainty location is a continuant that has the role to be a location of model uncertainty.")
 AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00400043> "model uncertainty location"@en)
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00400043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00400022>)))
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00400043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00400022>)))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00400043> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00410009> (legislation)
