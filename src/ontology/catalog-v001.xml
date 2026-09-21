@@ -2,8 +2,6 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="https://purl.org/mhpo/releases/2026-07-22/imports/oeo_import.owl" uri="imports/oeo_import.owl"/>
     <uri id="Imports Wizard Entry" name="https://purl.org/mhpo/releases/2026-03-05/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/mhpo/releases/2026-03-05/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/mhpo/releases/2026-07-22/imports/oeo_import.owl" uri="imports/oeo_import.owl"/>
     <group id="odk-managed-catalog" prefer="public">
         <uri name="https://purl.org/mhpo/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
         <uri name="https://purl.org/mhpo/imports/iao_import.owl" uri="imports/iao_import.owl"/>
