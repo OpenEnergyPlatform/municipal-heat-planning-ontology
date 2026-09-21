@@ -348,7 +348,7 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.org/mhpo/ontology/MHPO_00020018>))
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020022>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020022>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020022> (role of area for decentralized heat supply)
 
@@ -427,7 +427,7 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> <https://purl.org/mhpo/ontology/MHPO_00020019>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.org/mhpo/ontology/MHPO_00020018>))
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00030006>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00030006>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030006> (hydrogen grid area role)
 
@@ -447,7 +447,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030007> "d
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030007> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00020019>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00030008>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00030008>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030008> (district heating area role)
 
@@ -510,7 +510,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030012> "e
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030012> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030012> <https://purl.org/mhpo/ontology/MHPO_00020019>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020016>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020016>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030013> (area under suitability assessment)
 
@@ -521,7 +521,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030013> "a
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030013> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030013> <https://purl.org/mhpo/ontology/MHPO_00020019>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00030014>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00030014>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030014> (role of area under suitability assessment)
 
@@ -543,7 +543,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030016> "a
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030016> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> <https://purl.org/mhpo/ontology/MHPO_00020019>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://purl.org/mhpo/ontology/MHPO_00020014>))
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://purl.org/mhpo/ontology/MHPO_00020014>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030017> (initial suitability assessment)
 
