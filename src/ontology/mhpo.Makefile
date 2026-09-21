@@ -15,3 +15,16 @@ $(MIRRORDIR)/oeo.owl:
 .PRECIOUS: $(MIRRORDIR)/bfo.owl
 $(MIRRORDIR)/bfo.owl: 
 	curl -L https://raw.githubusercontent.com/BFO-ontology/BFO-2020/refs/heads/master/21838-2/owl/bfo-core.owl -o $(MIRRORDIR)/bfo.owl
+
+# -----------------------------------------------------------------------------
+# Custom URI Overrides for MHPO
+# -----------------------------------------------------------------------------
+
+# Überschreibt die globale OBO Basis-URI
+OBOBASE = http://purl.org/mhpo/
+
+# Überschreibt die Basis-URI für die Generierung
+URIBASE = http://purl.org/mhpo/ontology
+
+# Überschreibt die spezifische Basis-URI für diese Ontologie
+ONTBASE = http://purl.org/mhpo/

@@ -6,8 +6,8 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.org/mhpo/imports/oeo_import.owl>
-<http://purl.org/mhpo/releases/2026-07-22/imports/oeo_import.owl>
+Ontology(<https://purl.org/mhpo/imports/oeo_import.owl>
+<https://purl.org/mhpo/releases/2026-07-22/imports/oeo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://openenergyplatform.org/ontology/oeo/releases/2.12.0/oeo.owl>)
 Annotation(owl:versionInfo "2026-07-22")
 

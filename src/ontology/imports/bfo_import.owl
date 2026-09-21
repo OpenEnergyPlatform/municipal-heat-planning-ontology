@@ -6,7 +6,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>
+Ontology(<http://purl.org/mhpo/imports/bfo_import.owl>
 <http://purl.obolibrary.org/obo/mhpo/releases/2026-03-05/imports/bfo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl>)
 Annotation(owl:versionInfo "2026-03-05")
