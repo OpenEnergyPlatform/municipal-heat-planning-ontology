@@ -9,9 +9,9 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<https://purl.org/mhpo/ontology/mhpo.owl>
+Import(<http://purl.obolibrary.org/obo/mhpo/releases/2026-03-05/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/mhpo/releases/2026-07-22/imports/oeo_import.owl>)
 Import(<https://purl.org/mhpo/imports/bfo_import.owl>)
-Import(<https://purl.org/mhpo/imports/iao_import.owl>)
-Import(<https://purl.org/mhpo/imports/oeo_import.owl>)
 Annotation(dcterms:creator "MHPO Developer Team <https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/blob/production/CITATION.cff>")
 Annotation(dcterms:description "The municipal heat planning ontology (MHPO) is a domain reference ontology that covers the relevant terminology for the German \"Kommunale Wärmeplanung\". Community heat planning in Germany is a structured process in which municipalities and cities plan their future heat supply based on energy demand, existing infrastructure, and climate protection goals. 
 The aim is to reduce greenhouse gas emissions and heat consumption, increase the use of renewable energy, decrease dependence on fossil fuels and improve resilience of the system. The planning is typically carried out within the framework of climate protection programs and is supported by federal funding. The primary use case of MHPO is to describe data and metadata of the heat plans.")
@@ -61,8 +61,16 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00010378>))
+Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00030019>))
+Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -83,7 +91,7 @@ Declaration(AnnotationProperty(<https://www.commoncoreontologies.org/ont00001754
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative label")
 
@@ -112,8 +120,6 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
 
-
-
 ############################
 #   Object Properties
 ############################
@@ -128,7 +134,6 @@ AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://
 SubObjectPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://openenergyplatform.org/ontology/oeo/OEO_00010378>)
 ObjectPropertyDomain(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl.org/mhpo/ontology/MHPO_00020003>)
 ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl.org/mhpo/ontology/MHPO_00020021>)
-
 
 
 
