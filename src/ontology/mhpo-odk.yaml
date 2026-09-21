@@ -3,6 +3,10 @@ title: "Municipal Heat Planning Ontology"
 github_org: OpenEnergyPlatform
 git_main_branch: main
 repo: municipal-heat-planning-ontology
+components:
+  base_iris: https://purl.org/mhpo/ontology/mhpo.owl
+  create_obo_metadata: false
+  dosdp_tools_options: --prefixes=mhpo_prefixes.yaml
 release_artefacts:
   - base
   - full

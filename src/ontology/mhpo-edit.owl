@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/mhpo.owl#>)
+Prefix(:=<https://purl.org/mhpo/ontology/mhpo.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -8,11 +8,11 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/mhpo.owl>
-Import(<http://purl.obolibrary.org/obo/mhpo/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mhpo/imports/iao_import.owl>)
-Import(<https://openenergyplatform.org/ontology/oeo/dev/oeo.omn>)
-Import(<https://www.commoncoreontologies.org/2026-04-04/CommonCoreOntologiesMerged>)
+Ontology(<https://purl.org/mhpo/ontology/mhpo.owl>
+Import(<https://purl.org/mhpo/imports/bfo_import.owl>)
+Import(<https://purl.org/mhpo/imports/cco_import.owl>)
+Import(<https://purl.org/mhpo/imports/iao_import.owl>)
+Import(<https://purl.org/mhpo/imports/oeo_import.owl>)
 Annotation(dcterms:creator "MHPO Developer Team <https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/blob/production/CITATION.cff>")
 Annotation(dcterms:description "The municipal heat planning ontology (MHPO) is a domain reference ontology that covers the relevant terminology for the German \"Kommunale Wärmeplanung\". Community heat planning in Germany is a structured process in which municipalities and cities plan their future heat supply based on energy demand, existing infrastructure, and climate protection goals. 
 The aim is to reduce greenhouse gas emissions and heat consumption, increase the use of renewable energy, decrease dependence on fossil fuels and improve resilience of the system. The planning is typically carried out within the framework of climate protection programs and is supported by federal funding. The primary use case of MHPO is to describe data and metadata of the heat plans.")
@@ -23,7 +23,11 @@ Annotation(rdfs:comment "Contact <mirjam.stappel@uos.de> or <Ludwig.Huelk@rl-ins
 Annotation(rdfs:comment "External documentation see <https://openenergyplatform.github.io/municipal-heat-planning-ontology> or <https://purl.org/mhpo>")
 Annotation(owl:versionInfo "to be added after first release")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00360020>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020000>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020003>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020006>))
@@ -58,25 +62,20 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030012>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030013>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030014>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030016>))
-Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
-Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
-Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
-Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
-Declaration(Class(<https://www.commoncoreontologies.org/ont00000476>))
-Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
-Declaration(Class(<https://www.commoncoreontologies.org/ont00000965>))
-Declaration(Class(<https://www.commoncoreontologies.org/ont00000974>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00030019>))
-Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(owl:versionInfo))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#exactMatch>))
+Declaration(AnnotationProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020426>))
+Declaration(AnnotationProperty(<https://www.commoncoreontologies.org/ont00001754>))
 ############################
 #   Annotation Properties
 ############################
@@ -114,6 +113,8 @@ AnnotationAssertion(rdfs:label rdfs:comment "comment")
 AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 
 
+
+
 ############################
 #   Object Properties
 ############################
@@ -131,9 +132,18 @@ ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl
 
 
 
+
 ############################
 #   Classes
 ############################
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020000> (descriptive information content entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020000> "An Information Content Entity that consists of a set of propositions that describe some Entity.")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020000> "descriptive information content entity"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.org/mhpo/ontology/MHPO_00020000> "https://www.commoncoreontologies.org/ont00000853")
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020000> "pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020000> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020003> (municipal heat plan)
 
@@ -143,15 +153,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020003> "WP_Plan"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020003> "municipal heat plan"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020003> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <https://www.commoncoreontologies.org/ont00000974>)
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> <http://purl.obolibrary.org/obo/IAO_0000104>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020005>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020006>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020007>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00020008>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00030001>))
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00030017>))
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.org/mhpo/ontology/MHPO_00030018>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020005> (aggregated inventory analysis)
 
@@ -166,8 +175,9 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020005> 
 5. the current number of decentralized heat generators, including building transfer stations, by type of heat generator, including the energy source used.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020005> "aggregated inventory analysis"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020005> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020005> <https://www.commoncoreontologies.org/ont00000853>)
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020005> <https://purl.org/mhpo/ontology/MHPO_00020000>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020006> (aggregated potential analysis)
 
@@ -181,8 +191,9 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020006> 
 - energy savings through the reduction of heat demand in buildings, as well as in industrial and commercial processes.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020006> "aggregated potential analysis"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020006> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://www.commoncoreontologies.org/ont00000853>)
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020006> <https://purl.org/mhpo/ontology/MHPO_00020000>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020007> (target scenario)
 
@@ -198,7 +209,8 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020007> 
 6. the annual final energy consumption from gas networks by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of gaseous energy carriers in percent.
 7. the number of buildings connected to a gas network and their share of the total number of buildings in the planned area in percent.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020007> "target scenario"@en)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <https://www.commoncoreontologies.org/ont00000476>)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020007> "pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020007> <http://purl.obolibrary.org/obo/IAO_0000005>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020008> (implementation measure)
 
@@ -207,8 +219,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020008> "WP_Maßnahme"@de)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020008> "implementation measure"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020008> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <https://www.commoncoreontologies.org/ont00000965>)
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020008> <http://purl.obolibrary.org/obo/IAO_0000007>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020009> (role of region in municipal heat plan)
 
@@ -396,8 +409,9 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00030001> 
 6. in the case of an area with more than 45,000 inhabitants, which financing mechanisms for implementing the strategies and measures for transitioning consumers to renewable energies were identified and how they were weighted.")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030001> "implementation strategy"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030001> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030001> <https://www.commoncoreontologies.org/ont00000974>)
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030001> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030005> (hydrogen grid area)
 
@@ -552,6 +566,7 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <https://purl.org/mhpo/ontology/MHPO_00020019>))
+
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030020> (building stock)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030020> "A building stock is an object aggregate of buildings located in a spatial region."@en)
