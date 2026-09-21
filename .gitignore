@@ -68,4 +68,7 @@ src/patterns/all_pattern_terms.txt
 
 # End of ODK-managed rules
 
+# mhpo specific rules
+src/ontology/imports/*.properties
+
 .idea
