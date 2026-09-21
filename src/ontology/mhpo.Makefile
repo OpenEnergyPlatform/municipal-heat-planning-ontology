@@ -28,3 +28,8 @@ URIBASE = http://purl.org/mhpo/ontology
 
 # Überschreibt die spezifische Basis-URI für diese Ontologie
 ONTBASE = http://purl.org/mhpo/
+
+# Ein neues Target, das die URIs in den generierten Dateien korrigiert
+fix-uris:
+	find src/ontology/imports -name "*.owl" -exec sed -i 's|http://purl.obolibrary.org/obo|http://purl.org/mhpo|g' {} +
+	sed -i 's|http://purl.obolibrary.org/obo|http://purl.org/mhpo|g' src/ontology/catalog-v001.xml
