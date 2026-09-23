@@ -20,6 +20,7 @@ import_group:
   products:
     - id: bfo
     - id: iao
+      mirror_from: https://raw.githubusercontent.com/information-artifact-ontology/IAO/v2026-03-30/iao.owl
     - id: oeo
       mirror_from: https://openenergyplatform.org/ontology/oeo/
 robot_java_args: "-Xmx8G"
