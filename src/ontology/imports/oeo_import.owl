@@ -128,7 +128,6 @@ Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010082>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010083>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010116>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010117>))
-Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010123>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010126>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010127>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010130>))
@@ -177,7 +176,6 @@ Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010412>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010420>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010422>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010445>))
-Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010458>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010464>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010489>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010490>))
@@ -279,7 +277,6 @@ Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140116>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140124>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140149>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140150>))
-Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140151>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140159>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140167>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00240003>))
@@ -1146,7 +1143,6 @@ rework module structure
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
 SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010119> <http://purl.obolibrary.org/obo/IAO_0000136>)
-ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00010119> <https://openenergyplatform.org/ontology/oeo/OEO_00140151>)
 ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00010119> <https://openenergyplatform.org/ontology/oeo/OEO_00140149>)
 
 # Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00010128> (governs)
@@ -1155,7 +1151,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openen
 AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010128> "governs"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010128> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/855
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/868")
-ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00010128> ObjectUnionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140150> <https://openenergyplatform.org/ontology/oeo/OEO_00140151>))
 
 # Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00010231> (is subject of)
 
@@ -2146,7 +2141,6 @@ rework module structure
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000139> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000139> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00040011>))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000139> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020182> <https://openenergyplatform.org/ontology/oeo/OEO_00020207>))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000139> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020182> <https://openenergyplatform.org/ontology/oeo/OEO_00020208>))
 
@@ -3239,20 +3233,6 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2161")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010117> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <https://openenergyplatform.org/ontology/oeo/OEO_00000139>)))
 
-# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010123> (effort sharing)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010123> "Effort sharing is a regulatory instrument that sets a common emission reduction goal for a number of countries. Each country has a national reduction goal. Under- or overachievement of that goal can be compensated by various flexibilities given in the regulation."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010123> "Lastenteilung"@de)
-AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010123> "effort sharing"@en)
-AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010123> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/834
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/857
-
-Make subclass of 'regulatory instrument' and improve definition:
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1545
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1786")
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010123> <https://openenergyplatform.org/ontology/oeo/OEO_00010458>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010123> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000503> <https://openenergyplatform.org/ontology/oeo/OEO_00020063>))
-
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010126> (Annual Emission Allocation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010126> "An Annual Emission Allocation (AEA) is an emission certificate used in the Effort Sharing Decision (ESD) and the Effort Sharing Regulation (ESR). It permits the emission of a CO2 equivalent quantity of 1 tonne.")
@@ -3915,19 +3895,6 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1723")
 EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00010445> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00010147>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectUnionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000258> <https://openenergyplatform.org/ontology/oeo/OEO_00010150>))))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010445> <https://openenergyplatform.org/ontology/oeo/OEO_00010145>)
 
-# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010458> (regulatory instrument)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010458> "A regulatory instrument is a policy instrument that stipulates rules made by a government (=institution) to control the way something is done."@en)
-AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010458> "regulatory instrument"@en)
-AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010458> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1545
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1786
-
-Convert to equivalent class:
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1826
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1906")
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00010458> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00010495>)))
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010458> <https://openenergyplatform.org/ontology/oeo/OEO_00140151>)
-
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010464> (subsector)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010464> "A subsector is a sector that is a part of an other sector."@en)
@@ -3978,7 +3945,6 @@ AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010495> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1826
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1906")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010495> <http://purl.obolibrary.org/obo/BFO_0000034>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010495> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://openenergyplatform.org/ontology/oeo/OEO_00140151>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010501> (product)
 
@@ -4838,7 +4804,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2007
 Remove uncertainty axiom and add inverse to uncertainty instead
 issue:https://github.com/OpenEnergyPlatform/ontology/issues/1989
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2012")
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00020353>)))
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00020353>)))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> <http://purl.obolibrary.org/obo/BFO_0000002>)
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140164> <http://purl.obolibrary.org/obo/BFO_0000015>))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020352> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140164> <http://purl.obolibrary.org/obo/RO_0002577>))
@@ -4854,7 +4820,7 @@ add axiom:
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020353> <http://purl.obolibrary.org/obo/BFO_0000023>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020353> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <https://openenergyplatform.org/ontology/oeo/OEO_00020352>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020353> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://openenergyplatform.org/ontology/oeo/OEO_00020352>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020354> (mathematical model)
 
@@ -4863,7 +4829,7 @@ AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020354> "issue:https://github.com/OpenEnergyPlatform/ontology/issues/1444
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1707")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020354> <http://purl.obolibrary.org/obo/IAO_0000030>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020354> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00020353>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020354> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00020353>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020427> (monetary price)
 
@@ -4872,7 +4838,6 @@ AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020427> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1902
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1915")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020427> <http://purl.obolibrary.org/obo/BFO_0000019>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020427> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://openenergyplatform.org/ontology/oeo/OEO_00010501>))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020427> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140002> <https://openenergyplatform.org/ontology/oeo/OEO_00040003>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030001> (biogenic)
@@ -5053,7 +5018,6 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1990")
 EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00030029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020189> <https://openenergyplatform.org/ontology/oeo/OEO_00000275>)))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030029> <http://purl.obolibrary.org/obo/IAO_0000027>)
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>))
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00400022>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030030> (endogenous data)
 
@@ -5718,45 +5682,6 @@ issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140150> <http://purl.obolibrary.org/obo/IAO_0000104>)
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020093>))
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00140151>))
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://openenergyplatform.org/ontology/oeo/OEO_00030022>))
-
-# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00140151> (policy instrument)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00140151> "A policy instrument is an action specification of an organisation (e.g. a government) that promotes transformative measures."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140151> "Politikinstrument"@de)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140151> "policies and measures"@en)
-AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00140151> "policy instrument"@en)
-AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00140151> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/444
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/797
-
-Redefine as 'plan specification' and add axiom:
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1507
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1563
-
-move to oeo-shared, alternative label
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1329
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1614
-
-rework module structure 
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
-
-reclassify
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1684
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1778
-
-update definition
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1766
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1791
-
-add oekg annotation
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1529
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1897")
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140151> <http://purl.obolibrary.org/obo/IAO_0000007>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://openenergyplatform.org/ontology/oeo/OEO_00030022>))
-SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/444
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/853") <https://openenergyplatform.org/ontology/oeo/OEO_00140151> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00010119> <https://openenergyplatform.org/ontology/oeo/OEO_00140149>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00140159> (hydrocarbon)
 
@@ -6159,7 +6084,7 @@ SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00400022> <http://pu
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00400043> "A model uncertainty location is a continuant that has the role to be a location of model uncertainty.")
 AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00400043> "model uncertainty location"@en)
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00400043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00400022>)))
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00400043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00400022>)))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00400043> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00410009> (legislation)
@@ -7226,7 +7151,6 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/944
 move govern axioms to oeo-shared-axioms
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1399
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1724")
-ClassAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00140151> <https://openenergyplatform.org/ontology/oeo/OEO_00010122>)
 ClassAssertion(ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000503> <https://openenergyplatform.org/ontology/oeo/OEO_00020064>) <https://openenergyplatform.org/ontology/oeo/OEO_00010122>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00010122> <https://openenergyplatform.org/ontology/oeo/OEO_00010129>)
 ObjectPropertyAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00010128> <https://openenergyplatform.org/ontology/oeo/OEO_00010122> <https://openenergyplatform.org/ontology/oeo/OEO_00010131>)
@@ -7242,7 +7166,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openen
 AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010124> "Effort Sharing Decision"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010124> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/834
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/857")
-ClassAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00010123> <https://openenergyplatform.org/ontology/oeo/OEO_00010124>)
 ClassAssertion(ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000503> <https://openenergyplatform.org/ontology/oeo/OEO_00010126>) <https://openenergyplatform.org/ontology/oeo/OEO_00010124>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00010124> <https://openenergyplatform.org/ontology/oeo/OEO_00010129>)
 
@@ -7254,7 +7177,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openen
 AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010125> "Effort Sharing Regulation"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010125> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/834
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/857")
-ClassAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00010123> <https://openenergyplatform.org/ontology/oeo/OEO_00010125>)
 ClassAssertion(ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000503> <https://openenergyplatform.org/ontology/oeo/OEO_00010126>) <https://openenergyplatform.org/ontology/oeo/OEO_00010125>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00010125> <https://openenergyplatform.org/ontology/oeo/OEO_00010129>)
 
