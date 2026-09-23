@@ -20,9 +20,6 @@ $(MIRRORDIR)/bfo.owl:
 # Custom URI Overrides for MHPO
 # -----------------------------------------------------------------------------
 
-# Überschreibt die globale OBO Basis-URI
-OBOBASE = http://purl.org/mhpo/
-
 # Überschreibt die Basis-URI für die Generierung
 URIBASE = http://purl.org/mhpo/ontology
 
