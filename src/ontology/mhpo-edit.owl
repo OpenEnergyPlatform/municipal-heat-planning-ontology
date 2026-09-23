@@ -64,7 +64,6 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
-Declaration(Class(<https://www.commoncoreontologies.org/ont00000853>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00010378>))
@@ -554,7 +553,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.o
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030017> "initial suitability assessment"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030017> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://www.commoncoreontologies.org/ont00000853>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> <https://purl.org/mhpo/ontology/MHPO_00020000>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030017> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030018> (shortened heat planning)
@@ -567,7 +566,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.o
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030018> "shortened heat planning"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030018> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21")
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://www.commoncoreontologies.org/ont00000853>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> <https://purl.org/mhpo/ontology/MHPO_00020000>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030018> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <https://purl.org/mhpo/ontology/MHPO_00020019>))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030020> (building stock)
