@@ -99,7 +99,6 @@ Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000214>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000227>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000253>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000255>))
-Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000258>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000274>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000275>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000276>))
@@ -2665,20 +2664,6 @@ issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652"@en)
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000255> <https://openenergyplatform.org/ontology/oeo/OEO_00020006>)
 
-# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000258> (liquid biofuel)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000258> "A liquid biofuel is a biofuel that has liquid as its normal state of matter.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000258> "biogener Flüssigkraftstoff"@de)
-AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000258> "liquid biofuel"@en)
-AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000258> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/811
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/931")
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00000258> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000072> ObjectHasValue(<https://openenergyplatform.org/ontology/oeo/OEO_00000529> <https://openenergyplatform.org/ontology/oeo/OEO_00000256>)))
-SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "Add `SubClass Of` axiom for `liquid biofuel`
-issue: https://github.com/OpenEnergyPlatform/ontology/issues/1191
-pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1201") <https://openenergyplatform.org/ontology/oeo/OEO_00000258> <https://openenergyplatform.org/ontology/oeo/OEO_00000072>)
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000258> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00030001>))
-SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000258> ObjectHasValue(<https://openenergyplatform.org/ontology/oeo/OEO_00000529> <https://openenergyplatform.org/ontology/oeo/OEO_00000256>))
-
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000274> (numerical computer model)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000274> "A numerical computer model is a mathematical model that is calculated by a computer."@en)
@@ -4138,7 +4123,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openen
 AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010445> "blended liquid fuel"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010445> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1504
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1723")
-EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00010445> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00010147>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectUnionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000258> <https://openenergyplatform.org/ontology/oeo/OEO_00010150>))))
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010445> <https://openenergyplatform.org/ontology/oeo/OEO_00010145>)
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010458> (regulatory instrument)
