@@ -3,6 +3,11 @@ title: "Municipal Heat Planning Ontology"
 github_org: OpenEnergyPlatform
 git_main_branch: main
 repo: municipal-heat-planning-ontology
+uribase: https://purl.org/mhpo/ontology 
+components:
+  base_iris: https://purl.org/mhpo/ontology/mhpo.owl
+  create_obo_metadata: false
+  dosdp_tools_options: --prefixes=mhpo_prefixes.yaml
 release_artefacts:
   - base
   - full
@@ -15,10 +20,9 @@ import_group:
   products:
     - id: bfo
     - id: iao
+      mirror_from: https://raw.githubusercontent.com/information-artifact-ontology/IAO/v2026-03-30/iao.owl
     - id: oeo
       mirror_from: https://openenergyplatform.org/ontology/oeo/
-    - id: cco
-      mirror_from: https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/510dad76be0ef710b65a421075af912af25342b7/src/cco-merged/CommonCoreOntologiesMerged.ttl
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE
