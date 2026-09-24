@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl#>)
+Prefix(:=<http://purl.org/mhpo/imports/cco_import.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,17 +6,21 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/mhpo/imports/cco_import.owl>
-<http://purl.obolibrary.org/obo/mhpo/releases/2026-03-05/imports/cco_import.owl>
+Ontology(<http://purl.org/mhpo/imports/cco_import.owl>
+<http://purl.org/mhpo/releases/2026-09-24/imports/cco_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://www.commoncoreontologies.org/2024-11-06/CommonCoreOntologiesMerged>)
-Annotation(owl:versionInfo "2026-03-05")
+Annotation(owl:versionInfo "2026-09-24")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))
 Declaration(Class(<https://www.commoncoreontologies.org/ont00000061>))
 Declaration(Class(<https://www.commoncoreontologies.org/ont00000067>))
@@ -420,9 +424,19 @@ Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001732>))
 Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001733>))
 Declaration(NamedIndividual(<https://www.commoncoreontologies.org/ont00001734>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<https://www.commoncoreontologies.org/ont00001754>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <https://www.commoncoreontologies.org/ont00001754> (definition source)
+
+AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001754> "definition source"@en)
+
 
 ############################
 #   Object Properties
@@ -437,6 +451,7 @@ ObjectPropertyRange(<https://www.commoncoreontologies.org/ont00001801> <https://
 # Object Property: <https://www.commoncoreontologies.org/ont00001808> (is about)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001808> "is about"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001808> "http://purl.obolibrary.org/obo/IAO_0000136")
 ObjectPropertyDomain(<https://www.commoncoreontologies.org/ont00001808> <https://www.commoncoreontologies.org/ont00000958>)
 ObjectPropertyRange(<https://www.commoncoreontologies.org/ont00001808> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
@@ -478,15 +493,36 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000006> "spatial region"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000006> <http://purl.obolibrary.org/obo/BFO_0000141>)
 
+# Class: <http://purl.obolibrary.org/obo/BFO_0000017> (realizable entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
 # Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000020> "specifically dependent continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
+# Class: <http://purl.obolibrary.org/obo/BFO_0000023> (role)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000023> "role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000027> (object aggregate)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000027> "object aggregate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000027> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
 # Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000141>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
 
@@ -500,6 +536,8 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00000061> <https://www.commo
 
 # Class: <https://www.commoncoreontologies.org/ont00000067> (Civil Time Reference System)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000067> "In traditional astronomical usage, civil time is mean solar time as calculated from midnight as the beginning of the Civil Day."@en)
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000067> "Note that Civil Time Reference System is more accurately represented as a Temporal Reference System that participates in an act of usage that is sanctioned by an appropriate civil authority. As such, it should be represented as a defined class."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000067> "Civil Time Reference System"@en)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000067> <https://www.commoncoreontologies.org/ont00001328>)
 
@@ -511,6 +549,7 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00000074> <https://www.commo
 # Class: <https://www.commoncoreontologies.org/ont00000120> (Measurement Unit)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000120> "Measurement Unit"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00000120> "https://en.wikipedia.org/w/index.php?title=Unit_of_measurement&oldid=1061038125"^^xsd:anyURI)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000120> <https://www.commoncoreontologies.org/ont00000853>)
 
 # Class: <https://www.commoncoreontologies.org/ont00000124> (Solar Time Reference System)
@@ -520,6 +559,7 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00000124> <https://www.commo
 
 # Class: <https://www.commoncoreontologies.org/ont00000140> (Measurement Unit of Amount of Substance)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000140> "The type of particle quantified is typically either atoms or molecules, but may also be protons, neutrons, electrons, quarks, or other particles. The type of particle being measured should always be specified along with the measurement and its unit."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000140> "Measurement Unit of Amount of Substance"@en)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00000120>)
 
@@ -545,17 +585,21 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00000239> <https://www.commo
 
 # Class: <https://www.commoncoreontologies.org/ont00000263> (Clock Time System)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000263> "A single Clock Time System does not provide a complete means for identifying or measuring times. Depending on the particular Clock Time System, it may be compatible for use with one or more other Temporal Reference Systems."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000263> "Clock Time System"@en)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000263> <https://www.commoncoreontologies.org/ont00001328>)
 
 # Class: <https://www.commoncoreontologies.org/ont00000275> (Spatial Reference System)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000275> "Note that, while reference systems and reference frames are treated as synonyms here, some people treat them as related but separate entities. See: http://www.ggos-portal.org/lang_en/GGOS-Portal/EN/Topics/GeodeticApplications/GeodeticReferenceSystemsAndFrames/GeodeticReferenceSystemsAndFrames.html"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000275> "Spatial Reference System"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00000275> "https://en.wikipedia.org/w/index.php?title=Coordinate_system&oldid=1060461397"^^xsd:anyURI)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000275> <https://www.commoncoreontologies.org/ont00000398>)
 
 # Class: <https://www.commoncoreontologies.org/ont00000276> (Solar Calendar System)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000276> "Solar Calendar System"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00000276> "https://en.wikipedia.org/w/index.php?title=Solar_calendar&oldid=1058016588"^^xsd:anyURI)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000276> <https://www.commoncoreontologies.org/ont00000891>)
 
 # Class: <https://www.commoncoreontologies.org/ont00000374> (Measurement Unit of Volumetric Flow Rate)
@@ -633,6 +677,10 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00000770> <https://www.commo
 
 # Class: <https://www.commoncoreontologies.org/ont00000829> (Time Zone Identifier)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000829> "Standards of date, time, and time zone data formats:
+ISO/WD 8601-2 (http://www.loc.gov/standards/datetime/iso-tc154-wg5_n0039_iso_wd_8601-2_2016-02-16.pdf)
+W3C (https://www.w3.org/TR/NOTE-datetime)"@en)
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000829> "There is no class 'Time Zone' (the region), only 'Time Zone Identifier' (the designator for some region). Instances of 'Time Zone Identifier' should be related to instances of 'Information Bearing Entity' by means of the object properites 'uses time zone identifier' and 'time zone identifier used by' as appropriate. This is supposed to be analogous to the way we represent the relationship between measurement values and measurement units, where the relevant instance of Information Bearing Entity 'uses measurement unit' some instance of Measurement Unit (i.e., an instance of Information Content Entity)."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000829> "Time Zone Identifier"@en)
 SubClassOf(<https://www.commoncoreontologies.org/ont00000829> <https://www.commoncoreontologies.org/ont00000390>)
 
@@ -664,6 +712,7 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00000940> <https://www.commo
 # Class: <https://www.commoncoreontologies.org/ont00000958> (Information Content Entity)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00000958> "Information Content Entity"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00000958> "http://purl.obolibrary.org/obo/IAO_0000030")
 EquivalentClasses(<https://www.commoncoreontologies.org/ont00000958> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000031> ObjectSomeValuesFrom(<https://www.commoncoreontologies.org/ont00001808> <http://purl.obolibrary.org/obo/BFO_0000001>)))
 SubClassOf(<https://www.commoncoreontologies.org/ont00000958> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
@@ -720,10 +769,12 @@ SubClassOf(<https://www.commoncoreontologies.org/ont00001345> <https://www.commo
 # Class: <https://www.commoncoreontologies.org/ont00001351> (Cartesian Coordinate System)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001351> "Cartesian Coordinate System"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001351> "https://en.wikipedia.org/w/index.php?title=Cartesian_coordinate_system&oldid=1058613323"^^xsd:anyURI)
 SubClassOf(<https://www.commoncoreontologies.org/ont00001351> <https://www.commoncoreontologies.org/ont00000275>)
 
 # Class: <https://www.commoncoreontologies.org/ont00001352> (Greenwich Mean Time Zone Identifier)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001352> "Greenwich Mean Time (GMT) is the mean solar time at the Royal Observatory in Greenwich, London and has been superseded by Coordinated Universal Time (UTC)."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001352> "Greenwich Mean Time Zone Identifier"@en)
 SubClassOf(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00000829>)
 
@@ -831,6 +882,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000770> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001403> (Bravo Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001403> "Offset from Universal Coordinated Time = UTC+2"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001403> "Bravo Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001403>)
 
@@ -856,6 +908,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001408> (X-ray Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001408> "Offset from Universal Coordinated Time = UTC-11"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001408> "X-ray Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001408>)
 
@@ -876,6 +929,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001412> (GMT)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001412> "Offset from Universal Coordinated Time = UTC+0"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001412> "GMT"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.commoncoreontologies.org/ont00001412>)
 
@@ -886,6 +940,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000239> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001414> (Terrestrial Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001414> "TT is an astronomical time standard that is a theoretical ideal designed to be free of the irregularities in Earth's rotation and is primarily used for time measurements of astronomical observations made from the surface of Earth. It was formerly called Terrestrial Dynamical Time (TDT), which was formulated to replace Ephemeris Time (ET)."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001414> "Terrestrial Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001414>)
 
@@ -901,6 +956,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001417> (Ephemeris Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001417> "ET is an astronomical time scale that was adopted as a standard in 1952 by the IAU but has since been superseded and is no longer actively used. ET is based on the ephemeris second, which was defined as a fraction of the tropical year for 1900 January 01 as calculated using Newcomb's 1895 tables of the Sun. ET was designed to avoid problems caused by variations in Earth's rotational period and was used for Solar System ephemeris calculations until being replaced by Terrestrial Dynamical Time (TDT) in 1979."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001417> "Ephemeris Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001417>)
 
@@ -921,6 +977,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001421> (Sierra Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001421> "Offset from Universal Coordinated Time = UTC-6"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001421> "Sierra Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001421>)
 
@@ -936,6 +993,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001424> (Alpha Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001424> "Offset from Universal Coordinated Time = UTC+1"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001424> "Alpha Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001424>)
 
@@ -966,11 +1024,13 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001430> (Foxtrot Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001430> "Offset from Universal Coordinated Time = UTC+6"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001430> "Foxtrot Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001430>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001431> (Whiskey Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001431> "Offset from Universal Coordinated Time = UTC-10"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001431> "Whiskey Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001431>)
 
@@ -1012,6 +1072,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.c
 # Individual: <https://www.commoncoreontologies.org/ont00001439> (Twenty-Four-Hour Clock Time System)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001439> "Twenty-Four-Hour Clock Time System"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001439> "https://en.wikipedia.org/w/index.php?title=24-hour_clock&oldid=1063744105"^^xsd:anyURI)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000263> <https://www.commoncoreontologies.org/ont00001439>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001440> (GMT-9)
@@ -1046,6 +1107,8 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001446> (Mike Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001446> "Mike Time Zone is the same local time as Yankee Time Zone, but is 1 Day (i.e. 24 Hours) ahead of Yankee Time Zone as they are on opposite sides of the International Date Line."@en)
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001446> "Offset from Universal Coordinated Time = UTC+12"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001446> "Mike Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001446>)
 
@@ -1086,6 +1149,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001454> (Lima Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001454> "Offset from Universal Coordinated Time = UTC+11"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001454> "Lima Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001454>)
 
@@ -1101,6 +1165,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000217> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001457> (Quebec Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001457> "Offset from Universal Coordinated Time = UTC-4"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001457> "Quebec Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001457>)
 
@@ -1121,6 +1186,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001461> (Barycentric Dynamical Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001461> "TDB is a linear scaling of Barycentric Coordinate Time (TCB) and is a relativistic coordinate time scale used in astronomy as a time standard that accounts for time dilation when calculating Orbits and Ephemerides of Astronomical Bodies and interplanetary Spacecraft in the Solar System. TDB is a successor of Ephemeris Time (ET) and is nearly equivalent to the time scale Teph used for DE405 planetary and lunar ephemerides generated by the Jet Propulsion Laboratory."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001461> "Barycentric Dynamical Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001461>)
 
@@ -1216,6 +1282,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001480> (India Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001480> "Offset from Universal Coordinated Time = UTC+9"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001480> "India Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001480>)
 
@@ -1231,6 +1298,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001483> (Mole Measurement Unit)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001483> "One mole contains exactly 6.02214076×10^23 elementary entities."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001483> "Mole Measurement Unit"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000140> <https://www.commoncoreontologies.org/ont00001483>)
 
@@ -1256,6 +1324,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001488> (Tango Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001488> "Offset from Universal Coordinated Time = UTC-7"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001488> "Tango Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001488>)
 
@@ -1316,6 +1385,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001500> (Echo Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001500> "Offset from Universal Coordinated Time = UTC+5"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001500> "Echo Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001500>)
 
@@ -1327,6 +1397,8 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 # Individual: <https://www.commoncoreontologies.org/ont00001502> (Decibel Isotropic Measurement Unit)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001502> "Decibel Isotropic Measurement Unit"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001502> "https://shopdelta.eu/dbi-power-gain-of-isotropic-antenna_l2_aid836.html"^^xsd:anyURI)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001502> "https://www.techtarget.com/whatis/definition/decibels-relative-to-isotropic-radiator-dBi"^^xsd:anyURI)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000229> <https://www.commoncoreontologies.org/ont00001502>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001503> (Hungary Forint)
@@ -1396,6 +1468,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001516> (Oscar Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001516> "Offset from Universal Coordinated Time = UTC-2"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001516> "Oscar Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001516>)
 
@@ -1451,6 +1524,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001527> (Hotel Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001527> "Offset from Universal Coordinated Time = UTC+8"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001527> "Hotel Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001527>)
 
@@ -1461,6 +1535,8 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000940> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001529> (Geocentric Coordinate Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001529> "\"TCG is a coordinate time standard intended to be used as the independent variable of time for all calculations pertaining to precession, nutation, the Moon, and artificial satellites of the Earth. It is equivalent to the proper time experienced by a clock at rest in a coordinate frame co-moving with the center of the Earth: that is, a clock that performs exactly the same movements as the Earth but is outside the Earth's gravity well. It is therefore not influenced by the gravitational time dilation caused by the Earth.\"
+From: (https://en.wikipedia.org/wiki/Geocentric_Coordinate_Time)"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001529> "Geocentric Coordinate Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001529>)
 
@@ -1501,6 +1577,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001357> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001537> (Coordinated Universal Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001537> "UTC is a variant of Universal Time that is calculated by combining Universal Time 1 with International Atomic Time by occasionally adding leap seconds to TAI in order to maintain UTC within 0.9 seconds of UT1. The difference between UTC and UT1 is called DUT1 and always has a value between -0.9 seconds and +0.9 seconds. Coordinated Universal Time is the current basis for civil time and is the reference time for time zones, whose local times are defined based on an offset from UTC."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001537> "Coordinated Universal Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000067> <https://www.commoncoreontologies.org/ont00001537>)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001537>)
@@ -1557,6 +1634,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001548> (Universal Time 1 R)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001548> "UT1R is a variant of Universal Time that is a smoothed version of UT1 by filtering out periodic variations due to tidal waves."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001548> "Universal Time 1 R"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001548>)
 
@@ -1567,7 +1645,9 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000497> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001550> (Julian Calendar)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001550> "The Julian Calendar was proposed by Julius Caesar as a reform of the Roman Calendar, took effect on 1 January 46 BC, and was the predominant Calendar System in Europe until being largely replaced by the Gregorian Calendar."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001550> "Julian Calendar"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001550> "https://en.wikipedia.org/w/index.php?title=Julian_calendar&oldid=1063127575"^^xsd:anyURI)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000276> <https://www.commoncoreontologies.org/ont00001550>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001551> (Cubic Foot Measurement Unit)
@@ -1721,11 +1801,18 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000374> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001580> (Papa Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001580> "Offset from Universal Coordinated Time = UTC-3"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001580> "Papa Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001580>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001581> (International Terrestrial Reference System)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001581> "The ITRS definition fulfills the following conditions:
+1. It is geocentric, the center of mass being defined for the whole earth, including oceans and atmosphere.
+2. The unit of length is the metre (SI). This scale is consistent with the TCG time coordinate for a geocentric local frame, in agreement with IAU and IUGG (1991) resolutions. This is obtained by appropriate relativistic modelling.
+3. Its orientation was initially given by the BIH orientation at 1984.0.
+4. The time evolution of the orientation is ensured by using a no-net-rotation condition with regards to horizontal tectonic motions over the whole earth.
+From: (https://www.iers.org/IERS/EN/Science/ITRS/ITRS.html)"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001581> "International Terrestrial Reference System"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001581>)
 
@@ -1771,11 +1858,13 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001317> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001590> (International Atomic Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001590> "TAI is a time standard the values of which are generated by calculating the weighted average of the measurements of more than 400 atomic clocks and is based on the International System of Units (SI) definition of one second equals the time it takes a Cesium-133 atom at the ground state to oscillate exactly 9,192,631,770 times. TAI is extremely precise, but does not perfectly synchronize with Earth times, which is why TAI and UT1 are both used to determine UTC. TAI serves as the main realization of TT."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001590> "International Atomic Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001590>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001591> (Uniform Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001591> "Offset from Universal Coordinated Time = UTC-8"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001591> "Uniform Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001591>)
 
@@ -1836,6 +1925,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000969> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001603> (November Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001603> "Offset from Universal Coordinated Time = UTC-1"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001603> "November Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001603>)
 
@@ -1856,6 +1946,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000844> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001607> (Victor Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001607> "Offset from Universal Coordinated Time = UTC-9"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001607> "Victor Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001607>)
 
@@ -1941,17 +2032,20 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001624> (Golf Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001624> "Offset from Universal Coordinated Time = UTC+7"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001624> "Golf Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001624>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001625> (Universal Time 0)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001625> "UT0 is a variant of Universal Time that is measured by observing the diurnal motion of stars or extragalactic radio sources at a specific location on Earth. It does not take into consideration distorting factors, in particular polar motion, such that its value will differ based on the location it is measured at."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001625> "Universal Time 0"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001625>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001626> (Twelve-Hour Clock Time System)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001626> "Twelve-Hour Clock Time System"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001626> "https://en.wikipedia.org/w/index.php?title=12-hour_clock&oldid=1057602523"^^xsd:anyURI)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000263> <https://www.commoncoreontologies.org/ont00001626>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001627> (HongKong Dollar)
@@ -1961,6 +2055,8 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001628> (Yankee Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001628> "Offset from Universal Coordinated Time = UTC-12"@en)
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001628> "Yankee Time Zone is the same local time as Mike Time Zone, but is 1 Day (i.e. 24 Hours) behind Mike Time Zone as they are on opposite sides of the International Date Line."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001628> "Yankee Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001628>)
 
@@ -1971,6 +2067,8 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001290> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001630> (World Geodetic System 1984)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001630> "\"WGS 84 is an Earth-centered, Earth-fixed terrestrial reference system and geodetic datum. WGS 84 is based on a consistent set of constants and model parameters that describe the Earth's size, shape, and gravity and geomagnetic fields. WGS 84 is the standard U.S. Department of Defense definition of a global reference system for geospatial information and is the reference system for the Global Positioning System (GPS). It is compatible with the International Terrestrial Reference System (ITRS).\"
+From: (http://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf)"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001630> "World Geodetic System 1984"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001630>)
 
@@ -2062,6 +2160,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000074> <https://www.c
 # Individual: <https://www.commoncoreontologies.org/ont00001648> (Earth-Centered Earth-Fixed Coordinate System)
 
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001648> "Earth-Centered Earth-Fixed Coordinate System"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001648> "https://en.wikipedia.org/w/index.php?title=Earth-centered,_Earth-fixed_coordinate_system&oldid=1062678600"^^xsd:anyURI)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001648>)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001351> <https://www.commoncoreontologies.org/ont00001648>)
 
@@ -2114,6 +2213,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001658> (Jet Propulsion Laboratory Ephemeris Time Argument)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001658> "Teph (the 'eph' is written as subscript) is an ephemeris time argument developed and calculated at the Jet Propulsion Laboratory (JPL) and implemented in a series of numerically integrated Development Ephemerides (DE), including the currently used DE405. Teph is characterized as a relativistic coordinate time that is nearly equivalent to the IAU's definition of TCB, though Teph is not currently an IAU time standard. Teph is used by the JPL to generate the ephemerides it publishes to support spacecraft navigation and astronomy."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001658> "Jet Propulsion Laboratory Ephemeris Time Argument"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001658>)
 
@@ -2124,7 +2224,9 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000707> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001660> (International Geomagnetic Reference Field)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001660> "This global main field model provides magnetic field values for any location on Earth, e.g. for  navigational purposes (declination) or as a standard for core field subtraction for aeromagnetic surveys. An updated version is adopted by International Association of Geomagnetism and Aeronomy (IAGA) every 5 years)."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001660> "International Geomagnetic Reference Field"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001660> "Alken, P., Thébault, E., Beggan, C.D. et al. International Geomagnetic Reference Field: the thirteenth generation. Earth Planets Space 73, 49 (2021). https://doi.org/10.1186/s40623-020-01288-x , https://www.iaga-aiga.org/")
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000469> <https://www.commoncoreontologies.org/ont00001660>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001661> (GMT+8)
@@ -2154,6 +2256,8 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001666> (Barycentric Coordinate Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001666> "\"Barycentric Coordinate Time (TCB, from the French Temps-coordonnée barycentrique) is a coordinate time standard intended to be used as the independent variable of time for all calculations pertaining to orbits of planets, asteroids, comets, and interplanetary spacecraft in the Solar system. It is equivalent to the proper time experienced by a clock at rest in a coordinate frame co-moving with the barycenter of the Solar system: that is, a clock that performs exactly the same movements as the Solar system but is outside the system's gravity well. It is therefore not influenced by the gravitational time dilation caused by the Sun and the rest of the system.\"
+From: (https://en.wikipedia.org/wiki/Barycentric_Coordinate_Time)"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001666> "Barycentric Coordinate Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001666>)
 
@@ -2194,7 +2298,9 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001674> (Gregorian Calendar)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001674> "The Gregorian Calendar was instituted by Pope Gregory XIII via papal bull on 24 February 1582 as a reform of the Julian Calendar to stop the drift of the calendar with respect to the equinoxes and solstices. The Gregorian Calendar is currently the most widely used civil Calendar System in the world and is 13 days ahead of the Julian Calendar Date."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001674> "Gregorian Calendar"@en)
+AnnotationAssertion(<https://www.commoncoreontologies.org/ont00001754> <https://www.commoncoreontologies.org/ont00001674> "https://en.wikipedia.org/w/index.php?title=Gregorian_calendar&oldid=1062360692"^^xsd:anyURI)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000276> <https://www.commoncoreontologies.org/ont00001674>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001675> (Slug Foot Per Second Measurement Unit)
@@ -2286,11 +2392,14 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001352> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001692> (Unix Time)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001692> "Unix Time is a Temporal Reference System for describing a point in time, defined as the number of seconds that have elapsed since 00:00:00 Coordinated Universal Time (UTC) Thursday, 1 January 1970 minus the number of leap seconds that have taken place since then.
+(See: https://en.wikipedia.org/wiki/Unix_time)"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001692> "Unix Time"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001328> <https://www.commoncoreontologies.org/ont00001692>)
 
 # Individual: <https://www.commoncoreontologies.org/ont00001693> (Zulu Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001693> "Offset from Universal Coordinated Time = UTC+0"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001693> "Zulu Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001693>)
 
@@ -2301,6 +2410,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001090> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001695> (Universal Time 2)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001695> "UT2 is a variant of Universal Time that smooths UT1 by accounting for both polar motion and variations in Earth's rotation due to seasonal factors, such as changes in vegetation and water or snow distribution."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001695> "Universal Time 2"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001695>)
 
@@ -2326,6 +2436,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001700> (Juliet Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001700> "Juliet time is used as an indexical to refer to local time without otherwise specifying the time zone."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001700> "Juliet Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001700>)
 
@@ -2386,6 +2497,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00001345> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001712> (Romeo Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001712> "Offset from Universal Coordinated Time = UTC-5"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001712> "Romeo Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001712>)
 
@@ -2406,6 +2518,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000959> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001716> (Universal Time 1)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001716> "UT1 is a derivation of UT0 that takes into account distortions caused by polar motion and is proportional to the rotation angle of the Earth with respect to distant quasars, specifically, the International Celestial Reference Frame (ICRF). UT1 is currently the most widely used variant of Universal Time and has the same value everywhere on Earth."@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001716> "Universal Time 1"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00000630> <https://www.commoncoreontologies.org/ont00001716>)
 
@@ -2441,6 +2554,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001723> (Delta Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001723> "Offset from Universal Coordinated Time = UTC+4"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001723> "Delta Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001723>)
 
@@ -2461,6 +2575,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001727> (Kilo Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001727> "Offset from Universal Coordinated Time = UTC+10"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001727> "Kilo Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001727>)
 
@@ -2486,6 +2601,7 @@ ClassAssertion(<https://www.commoncoreontologies.org/ont00000518> <https://www.c
 
 # Individual: <https://www.commoncoreontologies.org/ont00001732> (Charlie Time Zone)
 
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00001732> "Offset from Universal Coordinated Time = UTC+3"@en)
 AnnotationAssertion(rdfs:label <https://www.commoncoreontologies.org/ont00001732> "Charlie Time Zone"@en)
 ClassAssertion(<https://www.commoncoreontologies.org/ont00001235> <https://www.commoncoreontologies.org/ont00001732>)
 
