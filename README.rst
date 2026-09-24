@@ -18,9 +18,9 @@ Municipal Heat Planning Ontology
    :widths: auto
 
    * - License
-     - |badge_license_CC0| |badge_license_MIT|
+     - |badge_license_CC0| |badge_license_MIT| |badge_reuse|
    * - Documentation
-     - https://openenergyplatform.github.io/municipal-heat-planning-ontology/
+     - |badge_documentation|
    * - Tests
      - 
    * - Publication
@@ -111,6 +111,14 @@ License and Citation
 .. |badge_license_MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
     :target: https://opensource.org/license/mit
     :alt: License MIT
+
+.. |badge_reuse| image:: https://api.reuse.software/badge/github.com/OpenEnergyPlatform/municipal-heat-planning-ontology
+    :target: https://api.reuse.software/info/github.com/OpenEnergyPlatform/municipal-heat-planning-ontology
+    :alt: REUSE
+
+.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/OpenEnergyPlatform/municipal-heat-planning-ontology/docs.yml?branch=develop&label=documentation
+    :target: https://openenergyplatform.github.io/municipal-heat-planning-ontology/
+    :alt: Documentation
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/municipal-heat-planning-ontology
     :target: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues
