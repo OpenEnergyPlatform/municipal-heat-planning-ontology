@@ -9,6 +9,9 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<https://purl.org/mhpo/ontology/mhpo.owl>
+Import(<https://purl.org/mhpo//releases/2026-09-28/imports/bfo_import.owl>)
+Import(<https://purl.org/mhpo//releases/2026-09-28/imports/iao_import.owl>)
+Import(<https://purl.org/mhpo//releases/2026-09-28/imports/oeo_import.owl>)
 Import(<https://purl.org/mhpo/ontology/mhpo/imports/bfo_import.owl>)
 Import(<https://purl.org/mhpo/ontology/mhpo/imports/iao_import.owl>)
 Import(<https://purl.org/mhpo/ontology/mhpo/imports/oeo_import.owl>)
