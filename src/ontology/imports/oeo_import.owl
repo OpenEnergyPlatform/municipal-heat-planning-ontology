@@ -11,4 +11,1969 @@ Ontology(<https://purl.org/mhpo//imports/oeo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://openenergyplatform.org/ontology/oeo/releases/2.13.0/oeo.owl>)
 Annotation(owl:versionInfo "2026-09-28")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/RO_0002577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010006>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000011>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000061>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000150>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000151>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000162>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000191>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000200>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000207>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000210>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000316>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000331>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000333>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000350>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000384>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000387>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000388>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000407>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000419>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010248>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010385>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010387>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010412>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010489>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00010490>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020004>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020005>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020006>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020007>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020008>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020015>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020039>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020040>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020046>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020047>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020059>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020085>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020102>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020103>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020104>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020136>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020143>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020185>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020186>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020187>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020197>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020198>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020199>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020200>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020267>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020306>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020307>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020308>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030004>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030019>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030025>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140049>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140050>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140101>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140102>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00230021>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00310008>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00310011>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00310012>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00310017>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00310048>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00340062>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00340068>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00360020>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00410067>))
+Declaration(Class(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013>))
+Declaration(Class(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000004>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000131>))
+Declaration(Class(<https://www.commoncoreontologies.org/ont00000535>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000117>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000132>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000081>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000085>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002328>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00000500>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00000502>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00000530>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00010231>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00010378>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020056>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020188>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020461>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020462>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00040010>))
+Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00140002>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(owl:versionInfo))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#exactMatch>))
+Declaration(AnnotationProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020426>))
+Declaration(Datatype(rdf:PlainLiteral))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IAO_0000118> "In the OEO, we don't follow the definition strictly. We use alternative term for synonyms and ambiguous terms as well. See https://github.com/OpenEnergyPlatform/ontology/wiki/Handling-ambiguous-terms")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative term"@en)
+
+# Annotation Property: <https://openenergyplatform.org/ontology/oeo/OEO_00020426> (term tracker annotation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020426> "A term tracker annotation is an editor note used to track the history of an entity. For each change, it records the related GitHub issue and pull request.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020426> "term tracker annotation")
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020426> "Replace term tracker item
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1850
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1913
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1922
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1923")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (<http://purl.obolibrary.org/obo/BFO_0000050>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000050> "issue https://github.com/OpenEnergyPlatform/ontology/issues/596
+Pull request https://github.com/OpenEnergyPlatform/ontology/pull/599
+Pull request https://github.com/OpenEnergyPlatform/ontology/pull/603")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (<http://purl.obolibrary.org/obo/BFO_0000051>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000051> "issue https://github.com/OpenEnergyPlatform/ontology/issues/596
+Pull request https://github.com/OpenEnergyPlatform/ontology/pull/599
+Pull request https://github.com/OpenEnergyPlatform/ontology/pull/603
+
+fix duplicate implementation of `Inverse Of`
+issue https://github.com/OpenEnergyPlatform/ontology/issues/979
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000117> (<http://purl.obolibrary.org/obo/BFO_0000117>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000117> "issue https://github.com/OpenEnergyPlatform/ontology/issues/2014
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2016")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/BFO_0000132>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000132> (<http://purl.obolibrary.org/obo/BFO_0000132>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000132> "issue https://github.com/OpenEnergyPlatform/ontology/issues/2014
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2016")
+
+# Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (<http://purl.obolibrary.org/obo/IAO_0000136>)
+
+InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000136> <https://openenergyplatform.org/ontology/oeo/OEO_00010231>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (<http://purl.obolibrary.org/obo/RO_0000052>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000052> "add inverse:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (<http://purl.obolibrary.org/obo/RO_0000053>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic")
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000053> "update inverse:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (<http://purl.obolibrary.org/obo/RO_0000056>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000056> "make inverse of has participant
+issue https://github.com/OpenEnergyPlatform/ontology/issues/979
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/RO_0000057>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000002>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (<http://purl.obolibrary.org/obo/RO_0000057>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000057> "make inverse of participates in
+issue https://github.com/OpenEnergyPlatform/ontology/issues/979
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086
+
+Add range axiom for `has participant`
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1157
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1225")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000003>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000081> (<http://purl.obolibrary.org/obo/RO_0000081>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000081> "add domain and range:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/RO_0000052>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/RO_0000087>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/BFO_0000023>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000085> (<http://purl.obolibrary.org/obo/RO_0000085>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/RO_0000053>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000004>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (<http://purl.obolibrary.org/obo/RO_0000086>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000002>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (<http://purl.obolibrary.org/obo/RO_0000087>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000087> "extend domain / definition
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1030
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1101")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/RO_0000053>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000091> (<http://purl.obolibrary.org/obo/RO_0000091>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/RO_0000053>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/BFO_0000004>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002233> (<http://purl.obolibrary.org/obo/RO_0002233>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002233> "OEO adjustment: The range of this property has been changed from material entity to continuant. A subclass \"has physical input\" has been added for material entities and energies.")
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0002233> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/664
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/702")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000057>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0002352>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002234> (<http://purl.obolibrary.org/obo/RO_0002234>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0002234> "add inverse
+issue https://github.com/OpenEnergyPlatform/ontology/issues/979
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0000057>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0002353>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002352> (<http://purl.obolibrary.org/obo/RO_0002352>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0000056>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0002328>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002353> (<http://purl.obolibrary.org/obo/RO_0002353>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0002353> "add inverse
+issue https://github.com/OpenEnergyPlatform/ontology/issues/979
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/RO_0000056>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/RO_0002328>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0019000> (<http://purl.obolibrary.org/obo/RO_0019000>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0019000> "import from RO
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2094")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0019000> <http://purl.obolibrary.org/obo/BFO_0000015>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0019000> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0019001> (<http://purl.obolibrary.org/obo/RO_0019001>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0019001> "import from RO
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2094")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019001> <http://purl.obolibrary.org/obo/RO_0019000>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0019002> (<http://purl.obolibrary.org/obo/RO_0019002>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0019002> "import from RO
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2094")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019002> <http://purl.obolibrary.org/obo/RO_0019000>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00000500> (has process attribute)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000500> "A relation between a process and a process attribute that existentially depends on it.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000500> "has process attribute"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000500> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/66
+pull requests: https://github.com/OpenEnergyPlatform/ontology/pull/472
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/205
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/386
+
+add domain and range; move to oeo-shared
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/850
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/871")
+InverseObjectProperties(<https://openenergyplatform.org/ontology/oeo/OEO_00000500> <https://openenergyplatform.org/ontology/oeo/OEO_00000502>)
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00000500> <http://purl.obolibrary.org/obo/BFO_0000015>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00000500> <https://openenergyplatform.org/ontology/oeo/OEO_00030019>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00000502> (process attribute of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000502> "A relation between a process attribute and the process it existentially depends on.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000502> "process attribute of"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000502> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/66
+pull requests: https://github.com/OpenEnergyPlatform/ontology/pull/472
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/205
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/386
+
+add domains and ranges:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/973
+issue: https://github.com/OpenEnergyPlatform/ontology/pull/1085")
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00000502> <https://openenergyplatform.org/ontology/oeo/OEO_00030019>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00000502> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00000530> (has origin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000530> "x has the origin of y")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000530> "has origin"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000530> "move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1384
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1390
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <http://purl.obolibrary.org/obo/RO_0000086>)
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> ObjectUnionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000150> <https://openenergyplatform.org/ontology/oeo/OEO_00000331>))
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00000316>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00010231> (is subject of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010231> "A relation between an entity and an information artifact.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010231> "is subject of"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://openenergyplatform.org/ontology/oeo/OEO_00010231> "https://www.commoncoreontologies.org/ont00001801"^^xsd:anyURI)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010231> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/858
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/965
+
+renamed from 'has information content entity' to 'is subject of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2088
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2092")
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00010231> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00010378> (has spatial region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010378> "An is-about-relation between an information content entity and a spatial region that describes that the information content entity is about a spatial region.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010378> "has spatial region"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010378> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1404
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1441")
+SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010378> <http://purl.obolibrary.org/obo/IAO_0000136>)
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00010378> <http://purl.obolibrary.org/obo/IAO_0000030>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00010378> <http://purl.obolibrary.org/obo/BFO_0000006>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00020056> (quantity value of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020056> "A relation that relates a quantity value to its entity in reality.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020056> "quantity value of"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020056> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/700
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/710")
+SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <http://purl.obolibrary.org/obo/IAO_0000136>)
+InverseObjectProperties(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <https://openenergyplatform.org/ontology/oeo/OEO_00140002>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00020188> (has licence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020188> "A relation that holds between an information content entity and a licence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020188> "has license")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020188> "has licence"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020188> "issue https://github.com/OpenEnergyPlatform/ontology/issues/1061
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1090
+
+Relabel, redefine and add domain and range:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547")
+SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020188> <https://openenergyplatform.org/ontology/oeo/OEO_00010231>)
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00020188> <http://purl.obolibrary.org/obo/IAO_0000030>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00020188> <https://openenergyplatform.org/ontology/oeo/OEO_00020015>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00020461> (increases energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020461> "A relation between an energy transformation process or energy transfer process (p) and a subtype of energy (e), where (e) is positively regulated by an energy increase process (i) as subprocess of (p)."@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020461> "increases energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020461> "add
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2232")
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <http://purl.obolibrary.org/obo/BFO_0000015>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00020462> (decreases energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020462> "A relation between an energy transformation process or energy transfer process (p) and a subtype of energy (e), where (e) is negatively regulated by an energy decrease process (d) as subprocess of (p)."@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020462> "decreases energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020462> "add
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2232")
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <http://purl.obolibrary.org/obo/BFO_0000015>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00040010> (has unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00040010> "A property that links a quantity value to a unit in which the quantity value has been expressed.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00040010> "has unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00040010> "change range to oeo:unit
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2135
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141")
+ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00040010> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
+ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00040010> <https://openenergyplatform.org/ontology/oeo/OEO_00010489>)
+
+# Object Property: <https://openenergyplatform.org/ontology/oeo/OEO_00140002> (has quantity value)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00140002> "A relation between an entity and a quantity value.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00140002> "has quantity value"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00140002> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/505
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/509")
+SubObjectPropertyOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/858
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/965") <https://openenergyplatform.org/ontology/oeo/OEO_00140002> <https://openenergyplatform.org/ontology/oeo/OEO_00010231>)
+ObjectPropertyRange(Annotation(rdfs:comment "issue: https://github.com/OpenEnergyPlatform/ontology/issues/850
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/871") <https://openenergyplatform.org/ontology/oeo/OEO_00140002> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (<http://purl.obolibrary.org/obo/BFO_0000002>)
+
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000003> "occurrent"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (<http://purl.obolibrary.org/obo/BFO_0000004>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000006> (spatial region)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000006> "spatial region"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000006> <http://purl.obolibrary.org/obo/BFO_0000141>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000009> (two-dimensional spatial region)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000009> "two-dimensional spatial region"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000009> "move axiom to oeo-physical
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1738
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1776")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000009> <http://purl.obolibrary.org/obo/BFO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000009> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140002> <https://openenergyplatform.org/ontology/oeo/OEO_00020143>))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000016> "disposition"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000016> "add bearer axiom to oeo-import-edits
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1305
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1485
+move bearer axiom to oeo-shared
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1738
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1776
+replaced 'has bearer' with 'characteristic of' in oeo-shared
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> <http://purl.obolibrary.org/obo/BFO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000004>))
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000016> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000017> (realizable entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/BFO_0000020>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000019> (quality)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000019> "quality"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000019> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000020> "specifically dependent continuant"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000020> "add bearer axiom to oeo-import-edits
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1305
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1485")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000023> (role)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000023> "role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000024> (fiat object part)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000024> "fiat object part"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000024> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000027> (object aggregate)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000027> "object aggregate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000027> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000030> (object)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000030> "object"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000034> (function)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000034> "function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000035> (process boundary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000035> "process boundary"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000035> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (<http://purl.obolibrary.org/obo/BFO_0000040>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000141>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000141> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (<http://purl.obolibrary.org/obo/IAO_0000030>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/IAO_0000030> "add axiom has copyright license
+issue https://github.com/OpenEnergyPlatform/ontology/issues/1061
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1090
+
+Delete axiom has (copyright) licence:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000088> (<http://purl.obolibrary.org/obo/IAO_0000088>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/IAO_0000088> "Add 'has licence' axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547
+
+rework module structure and move axiom to oeo-shared-axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000310>)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000088> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020188> <https://openenergyplatform.org/ontology/oeo/OEO_00010412>))
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000104> (<http://purl.obolibrary.org/obo/IAO_0000104>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000310> (<http://purl.obolibrary.org/obo/IAO_0000310>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/IAO_0000310> "Add 'has licence' axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547
+
+rework module structure and move axiom to oeo-shared-axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000310> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020188> <https://openenergyplatform.org/ontology/oeo/OEO_00010412>))
+
+# Class: <http://purl.obolibrary.org/obo/RO_0002577> (<http://purl.obolibrary.org/obo/RO_0002577>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000047> (<http://purl.obolibrary.org/obo/UO_0000047>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/UO_0000047> "make subclass of 'physical unit'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2135
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141")
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000047> <https://openenergyplatform.org/ontology/oeo/OEO_00010490>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0010006> (<http://purl.obolibrary.org/obo/UO_0010006>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0010006> <https://openenergyplatform.org/ontology/oeo/OEO_00010490>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000011> (energy converting component)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000011> "An energy converting component is an artificial object that is usually a discrete part of an energy transformation unit with the function of transforming, transferring or changing a certain type of energy."@en)
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00000011> "formerly called energy transformer and formerly called energy converting device")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000011> "energy converting component"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000011> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/173
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/273
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/372
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/646
+
+renaming to component
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/895
+
+redefine
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1010
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1265
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1359
+
+move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1384
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1390
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000011> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00020102>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000061> (artificial object)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000061> "An artificial object is an object that was deliberately manufactured by humans to address a particular purpose.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000061> "Artefakt"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000061> "künstliches Objekt"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000061> "artificial object"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000061> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/86
+pull requests: https://github.com/OpenEnergyPlatform/ontology/pull/121 (artificial object definition)
+subclasses
+https://github.com/OpenEnergyPlatform/ontology/pull/128
+relation to space requirement
+https://github.com/OpenEnergyPlatform/ontology/pull/933
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000061> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002328> <https://openenergyplatform.org/ontology/oeo/OEO_00020136>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000150> (energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000150> "Energy is a quality of material entities which manifests as a capacity to perform work (such as causing motion or the interaction of molecules)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000150> "Energie"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://openenergyplatform.org/ontology/oeo/OEO_00000150> "Derived from https://www.lexico.com/en/definition/energy")
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00000150> "Energy is power integrated over time.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000150> "energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000150> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/224
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/364
+fix grammar error:
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/657
+update definition
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/660
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/665
+move to oeo-shared
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1030
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1101
+adjust definition
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1165
+
+Axiomatise relations between origin, energy and portion of matter:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1183
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1192
+
+Add bearer:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1305
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1485
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+replaced 'has bearer' with 'characteristic of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000150> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000040>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000150> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00000316>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000151> (energy carrier disposition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000151> "An energy carrier disposition is a disposition of an material entity that contains energy for conversion as usable energy."@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000151> "energy carrier disposition"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000151> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/209
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/276
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/407
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/627
+move to oeo-shared
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/869
+
+add has bearer axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1178
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+replaced 'has bearer' with 'characteristic of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000151> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000040>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000162> (factsheet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000162> "A factsheet is a document that collects information about a specific topic in a structured way.")
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00000162> "this entity is general and not specific to the OEP factsheets.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000162> "factsheet"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000162> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/250
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/271
+
+Add 'has licence' axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000162> <http://purl.obolibrary.org/obo/IAO_0000310>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000162> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020188> <https://openenergyplatform.org/ontology/oeo/OEO_00010412>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000191> (geothermal energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000191> "Geothermal energy is thermal energy that is released from within the earth's crust.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000191> "Erdwärme"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000191> "Geothermie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000191> "geothermal energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000191> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/727
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/739")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000191> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000191> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00030004>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000200> (supply grid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000200> "A supply grid is a supply system of systematically connected artificial objects that can work as a supply system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000200> "Versorgungsnetz"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000200> "grid"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000200> "network"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000200> "supply grid"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000200> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/36
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/385
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/114
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/137
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+make subclass of supply system:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1833
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1947")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000200> <https://openenergyplatform.org/ontology/oeo/OEO_00030025>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000207> (thermal energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000207> "Thermal energy is the energy that a material entity contains in the undirected motion of its constituent parts (e.g. molecules and atoms)."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000207> "Wärme"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000207> "thermische Energie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000207> "thermal energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000207> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/522
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/609
+
+move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1384
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1390
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652"@en)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000207> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000210> (heater)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000210> "A heater is an energy converting component that converts other forms of energy into useful heat.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000210> "heater"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000210> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/173
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/273
+
+use energy converting component in definition:
+https://github.com/OpenEnergyPlatform/ontology/pull/993
+
+change produces energy axiom to 'has energy output':
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/994
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1006")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000210> <https://openenergyplatform.org/ontology/oeo/OEO_00000011>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000316> (origin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000316> "Origin is a quality of a portion of matter or energy based on where it comes from. It is inherited from its primary sources.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000316> "Ursprung"@de)
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00000316> "* Biomass has a biogenic origin and if it is converted to biogas, the biogas inherits the the biogenic origin.
+* Hard coal has a fossil origin and if it is used in a coal power plant to generate electrical energy, the electrical energy inherits the fossil origin.
+* Wind energy has renewable origin and if it is converted to electrical energy using a wind turbine, the electrical energy inherits the renewable origin")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000316> "origin"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000316> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/108
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/130
+
+change def
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/741
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/861
+
+change definition and add comment with examples:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/974
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/976
+
+Axiomatise relations between origin, energy and portion of matter:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1183
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1192
+
+Move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1218
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1219
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+replaced 'has bearer' with 'characteristic of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000316> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000150> <https://openenergyplatform.org/ontology/oeo/OEO_00000331>)))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000331> (portion of matter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000331> "A portion of matter is an aggregate of material entities that have a state of matter."@en)
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00000331> "wiki page: https://github.com/OpenEnergyPlatform/ontology/wiki/Explanation-on-mass-nouns")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000331> "portion of matter"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000331> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/227
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/279
+
+definition update and editor note:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/738
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/759
+
+Axiomatise relations between origin, energy and portion of matter:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1183
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1192
+
+Move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1218
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1219
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000331> <http://purl.obolibrary.org/obo/BFO_0000027>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000331> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00000316>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000333> (power)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000333> "Power is the process attribute that is the amount of energy transformed or transferred per time unit."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000333> "Leistung"@de)
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00000333> "Power is the derivative of energy transformation over time")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000333> "power"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000333> "classification:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/205
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/386
+
+definition:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/79
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/369
+
+moved to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1543
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1625
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000333> <https://openenergyplatform.org/ontology/oeo/OEO_00030019>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000333> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000502> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000350> (quantity value)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000350> "A quantity value is an information content entity defined by a numeral together with a unit of measurement to quantify an entity."@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000350> "quantity value"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000350> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/205
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/386
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/495
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/496
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/505
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/518
+
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1405
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1606
+
+change axiom to oeo:unit
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2135
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000350> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000350> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00040010> <https://openenergyplatform.org/ontology/oeo/OEO_00010489>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000384> (solar energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000384> "Solar energy is radiative energy of the sun."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000384> "Solarenergie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000384> "solar energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000384> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/211
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/225
+restructure solar energy
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/663
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/672
+remove disposition renewable fuel
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/726
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/732
+added axiom
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1600
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1620
+replaced 'has bearer' with 'characteristic of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000384> <https://openenergyplatform.org/ontology/oeo/OEO_00020040>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000384> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://openenergyplatform.org/ontology/oeo/OEO_00230021>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000384> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00030004>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000387> (solar thermal collector)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000387> "A solar thermal collector is a heater that converts solar energy to solar thermal energy."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000387> "Solarkollektor"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://openenergyplatform.org/ontology/oeo/OEO_00000387> "https://en.wikipedia.org/w/index.php?title=Solar_thermal_collector&oldid=903948846"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000387> "solar thermal collector"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000387> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/761
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/782
+
+change produces energy and uses energy axioms to 'has energy output' and 'has energy input':
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/994
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1006
+
+add axiom to 'has part some solar radiation receiving surface'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1074
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1228
+
+improve definition:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1254
+https://github.com/OpenEnergyPlatform/ontology/pull/1432
+
+Remove has energy input/output axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000387> <https://openenergyplatform.org/ontology/oeo/OEO_00000210>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000387> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020199>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000387> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020047>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000388> (solar thermal energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000388> "Solar thermal energy is thermal energy that is the physical output of a solar thermal energy transformation."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000388> "Solarthermie"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000388> "solarthermische Energie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000388> "solar thermal energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000388> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/393
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/770")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000388> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000388> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00030004>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000407> (technology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000407> "A technology is a plan specification that describes how to combine artificial objects or other material entities and processes in a specific way."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000407> "Technologie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000407> "technology"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000407> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/136
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/334
+moved to oeo-shared, change definition, reclassify, add axiom
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1572
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1591
+rework module structure
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000407> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000015>))))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000419> (transformation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000419> "A transformation is a process that transforms one or more inputs into at least one output."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000419> "Umwandlung"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000419> "transformation"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000419> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/435
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/450
+
+input and output axioms:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1178
+rework module structure
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000419> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000002>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/BFO_0000002>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010248> (heat gain process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "A heat gain process is an energy transformation that has thermal energy as energy output.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "heat generation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "heat generation process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "heating")
+AnnotationAssertion(rdfs:comment <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "With the logical definition of heat gain process, heat transfer is inferred as subclass which is intended but depends on the perspective and the system boundaries. To avoid confusion, the main label was changed from heat generation to heat gain process.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "heat gain process"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010248> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1045
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1130
+
+Add alternative term:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1455
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1562
+
+replace energy-participant axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2120
+
+relabel
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2120
+
+add alternative label
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1772
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2257")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00010248> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> ObjectIntersectionOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0019002> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> ObjectIntersectionOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0019001> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>)))))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010248> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010385> (energy transformation function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010385> "An energy transformation function is the function of an artificial object that has been engineered to transform input energy into usable output energy of a different type.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010385> "energy transformation function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010385> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1438
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1445
+
+Move to oeo-shared:
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1437
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+Add 'realized in' axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1539
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1785
+
+replaced 'has bearer' with 'characteristic of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010385> <http://purl.obolibrary.org/obo/BFO_0000034>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010385> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010385> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010387> (heat generation function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010387> "A heat generation function is an energy transformation function to transform other types of energy to thermal energy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010387> "thermal energy transformation function")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010387> "heat generation function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010387> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1438
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1445
+
+Add 'realized in' axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1539
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1785")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010387> <https://openenergyplatform.org/ontology/oeo/OEO_00010385>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010387> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <https://openenergyplatform.org/ontology/oeo/OEO_00010248>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010412> (creative work licence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010412> "A creative work licence is a copyright license that determines ownership and permissions for literary work and multimedia work that combines various media types such as text, audio, images, animations, video and interactive content and its collections.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010412> "creative work license")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010412> "creative work licence"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010412> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010412> <https://openenergyplatform.org/ontology/oeo/OEO_00020185>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010489> (unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010489> "A unit of measurement is a generically dependent continuant that represents a standardised quantity value of a quantifiable entity"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010489> "Einheit"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010489> "Maßeinheit"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010489> "unit of measurement"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010489> "unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010489> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1871
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1892")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010489> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00010490> (physical unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00010490> "A physical unit is a unit that represents a standardised quantity value of a physical quantifiable entity."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00010490> "physikalische Einheit"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00010490> "physical unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00010490> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1871
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1892
+remove equivalence axiom to uo:unit
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2135
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00010490> <https://openenergyplatform.org/ontology/oeo/OEO_00010489>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020003> (energy transformation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020003> "Energy transformation is a transformation in which one or more certain types of energy as input result in certain types of energy as output."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020003> "Energieumwandlung"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020003> "energy transformation"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020003> "class added:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/77
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/371
+
+make class a subclass of transformation:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/435
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/450
+
+add input and output relations:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/680
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/690
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/702
+
+add relation to energy transformation unit:
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/895
+
+change 'has physical input / output' axioms to 'has energy input / output':
+https://github.com/OpenEnergyPlatform/ontology/issues/994
+https://github.com/OpenEnergyPlatform/ontology/pull/1041
+
+add axiom relating to energy carrier / input and output axioms:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1178
+
+update definition:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1175
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1182
+
+make equivalent class:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1211
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1251
+
+move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1384
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1390
+
+added process attributes:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1543
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1625
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+replace energy-participant axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2120
+
+simplify energy axioms with 'increases energy' and 'decreases energy':
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> <https://openenergyplatform.org/ontology/oeo/OEO_00000419>)
+SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/980
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1010") <https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://openenergyplatform.org/ontology/oeo/OEO_00000011>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://openenergyplatform.org/ontology/oeo/OEO_00020039>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://openenergyplatform.org/ontology/oeo/OEO_00020102>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000500> <https://openenergyplatform.org/ontology/oeo/OEO_00000333>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000500> <https://openenergyplatform.org/ontology/oeo/OEO_00140049>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020003> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020004> (gas grid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020004> "A gas grid is a supply grid that distributes gaseous fuel, e.g. methane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020004> "Gasnetz"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020004> "gas grid"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020004> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/36
+pull request: https://github.com/OpenEnergyPlatform/ontology/385
+add oekg annotation
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1529
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1897")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020004> <https://openenergyplatform.org/ontology/oeo/OEO_00000200>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020007>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020005> (heating grid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020005> "A heating grid is a supply grid that distributes thermal energy via circulating steam or liquids."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020005> "Wärmenetz"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020005> "heating grid"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020005> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/36
+pull request: https://github.com/OpenEnergyPlatform/ontology/385
+add oekg annotation
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1529
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1897")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020005> <https://openenergyplatform.org/ontology/oeo/OEO_00000200>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020008>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020006> (grid component)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020006> "A grid component is an energy transformation unit that is a discrete part of a supply grid serving a specific purpose. A grid component is defined by having a grid component role."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020006> "Netzkomponente"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020006> "grid component"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020006> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/36
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/385
+subclass of energy transformation unit
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/895
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+dependence to 'grid component role'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1960
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2054")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020006> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00410067>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020006> <https://openenergyplatform.org/ontology/oeo/OEO_00020102>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00000200>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020007> (gas grid component)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020007> "A gas grid component is a grid component that is part of a gas grid."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020007> "Gasnetzkomponente"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020007> "gas grid component"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020007> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/36
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/231
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/385"@en)
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020007> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00020004>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020007> <https://openenergyplatform.org/ontology/oeo/OEO_00020006>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020008> (heating grid component)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020008> "A heating grid component is a grid component that is part of a heating grid."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020008> "Wärmenetzkomponente"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020008> "heating grid component"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020008> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/36
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/231
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/385"@en)
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020008> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://openenergyplatform.org/ontology/oeo/OEO_00020005>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020008> <https://openenergyplatform.org/ontology/oeo/OEO_00020006>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020015> (licence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020015> "A licence is an information content entity that contains an official permission or permit to do, use or own something.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020015> "Lizenz"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020015> "license")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020015> "licence"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020015> "issue https://github.com/OpenEnergyPlatform/ontology/issues/31
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/561
+
+move to oeo-shared
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/740
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020015> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020039> (energy carrier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020039> "An energy carrier is a material entity that has an energy carrier disposition.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020039> "Energieträger"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020039> "energy carrier"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020039> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/407
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/627
+move to oeo-shared
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/869
+improve definition:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1169
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1173
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020039> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <https://openenergyplatform.org/ontology/oeo/OEO_00000151>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020039> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020040> (radiative energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020040> "Radiative energy is energy that has been transmitted by a radiation process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020040> "Strahlungsenergie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020040> "radiative energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020040> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/660
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/665")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020040> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020046> (solar energy transformation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020046> "Solar energy transformation is an energy transformation that converts solar energy.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020046> "solar energy transformation"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020046> "class:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/663
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/672
+has input relation:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/668
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/701
+delete has physical output relation:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/980
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1010
+
+change 'has physical input / output' axioms to 'has energy input / output':
+https://github.com/OpenEnergyPlatform/ontology/issues/994
+https://github.com/OpenEnergyPlatform/ontology/pull/1041
+
+replace energy-participant axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2120")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020046> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> ObjectIntersectionOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0019002> <https://openenergyplatform.org/ontology/oeo/OEO_00000384>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> ObjectIntersectionOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0019001> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)))))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020046> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020047> (solar thermal energy transformation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020047> "Solar thermal energy transformation is a solar energy transformation that converts solar energy into thermal energy.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020047> "solar thermal energy transformation"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020047> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/663
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/672
+
+change 'has physical input / output' axioms to 'has energy input / output':
+https://github.com/OpenEnergyPlatform/ontology/issues/994
+https://github.com/OpenEnergyPlatform/ontology/pull/1041
+
+replace energy-participant axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2120
+
+simplify energy axioms with 'increases energy' and 'decreases energy':
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020047> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://openenergyplatform.org/ontology/oeo/OEO_00000387>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020047> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <https://openenergyplatform.org/ontology/oeo/OEO_00000388>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020047> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <https://openenergyplatform.org/ontology/oeo/OEO_00000384>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020059> (geothermal heat transfer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020059> "Geothermal heat transfer is a heat transfer from the earth crust to a transportable material entity. E.g. a liquid or gas.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020059> "geothermal heat transfer"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020059> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/727
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/739
+
+change 'has physical input / output' axioms to 'has energy input / output':
+https://github.com/OpenEnergyPlatform/ontology/issues/994
+https://github.com/OpenEnergyPlatform/ontology/pull/1041
+
+simplify energy axioms with 'increases energy' and 'decreases energy'
+https://github.com/OpenEnergyPlatform/ontology/issues/2190
+https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020059> <https://openenergyplatform.org/ontology/oeo/OEO_00140101>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020059> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020059> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <https://openenergyplatform.org/ontology/oeo/OEO_00000191>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020085> (renewable energy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020085> "A renewable energy is an energy that has renewable origin.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020085> "erneuerbare Energie"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020085> "renewable energy"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020085> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/741
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/861
+
+Move to oeo-shared:
+issue:https://github.com/OpenEnergyPlatform/ontology/issues/1423
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1437
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020085> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000150> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000530> <https://openenergyplatform.org/ontology/oeo/OEO_00030004>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020085> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020102> (energy transformation unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020102> "An energy transformation unit is an artificial object that transforms, changes or transfers a certain type of energy.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020102> "energy transformation unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020102> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/465
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/895
+move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1384
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1390
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+remove has energy output axiom
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>)
+SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/980
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1010") <https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00000011>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020104>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020103> (energy transfer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020103> "Energy transfer is an energy transformation in form of a spatial transmission, that does not change the types of energies, apart from losses, e.g. waste heat.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020103> "Energieübertragung"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020103> "energy transfer"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020103> "class added:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/465
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/895")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020103> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020104> (outage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020104> "An outage is a process during which an artificial object cannot perform or operate.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020104> "outage"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020104> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/887
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/897
+
+move to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1384
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1390
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020104> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <https://openenergyplatform.org/ontology/oeo/OEO_00020102>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020136> (space requirement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "A space requirement is a two-dimensional spatial region that covers the area needed by an object or object aggregate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "Flächenbedarf"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "Platzbedarf"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "Raumbedarf"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "land use"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "space requirement"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020136> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/889
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/933
+
+extend definition and add alternative term
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1051
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1084
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020136> <http://purl.obolibrary.org/obo/BFO_0000009>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020143> (area value)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020143> "An area value is a quantity value indicating the size of a two-dimensional spatial region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020143> "Flächenwert"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020143> "area quantity value"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020143> "area value"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020143> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/889
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/933
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+restructuring of quantity values
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1848
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1851")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020143> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020143> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000009>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020143> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <https://openenergyplatform.org/ontology/oeo/OEO_00340068>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020143> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00040010> <http://purl.obolibrary.org/obo/UO_0000047>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020185> (copyright licence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020185> "A copyright licence is a licence that states the ownership and contractually sets the rights and obligations to use, copy, and distribute a creative work.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020185> "Urheberrechtslizenz"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020185> "copyright license"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020185> "copyright licence"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020185> "add relation has copyright license
+issue https://github.com/OpenEnergyPlatform/ontology/issues/1061
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1090
+
+Harmonise use of British English:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020185> <https://openenergyplatform.org/ontology/oeo/OEO_00020015>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020186> (data licence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020186> "A data licence is a licence that determines ownership, database protection, and permissions for data.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020186> "Datenlizenz"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020186> "data license"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020186> "data licence"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020186> "issue https://github.com/OpenEnergyPlatform/ontology/issues/1061
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1090
+
+Harmonise use of British English:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020186> <https://openenergyplatform.org/ontology/oeo/OEO_00020015>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020187> (software licence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020187> "A software licence is a copyright licence that determines ownership and permissions for software, code, or models.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020187> "Softwarelizenz"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020187> "software license"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020187> "software licence"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020187> "issue https://github.com/OpenEnergyPlatform/ontology/issues/1061
+pull request https://github.com/OpenEnergyPlatform/ontology/pull/1090
+
+Harmonise use of British English:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547
+
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "fix wrong classification
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1153
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1163") <https://openenergyplatform.org/ontology/oeo/OEO_00020187> <https://openenergyplatform.org/ontology/oeo/OEO_00020185>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020197> (tangential proper part)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020197> "A tangential proper part is a fiat object part of an entity which shares a boundary with that entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://openenergyplatform.org/ontology/oeo/OEO_00020197> "https://en.wikipedia.org/wiki/Region_connection_calculus")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020197> "tangential proper part"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020197> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1074
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1209")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020197> <http://purl.obolibrary.org/obo/BFO_0000024>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020198> (surface)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020198> "A surface is a tangential proper part of an object that extends in two dimensions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020198> "Oberfläche"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020198> "surface"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020198> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1074
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1209")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020198> <https://openenergyplatform.org/ontology/oeo/OEO_00020197>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020198> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000030>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020199> (solar radiation receiving surface)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020199> "A solar radiation receiving surface is a surface that is receiving solar energy via solar radiation.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020199> "solar radiation receiving surface"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020199> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1074
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1209
+
+remove equivalence axiom with has energy input
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020199> <https://openenergyplatform.org/ontology/oeo/OEO_00020198>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020200> (solar receiving object)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020200> "A solar receiving object is an artificial object that has a solar radiation receiving surface as part.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020200> "solar receiving object"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020200> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1074
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1228
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1265
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1359
+remove has energy output axiom
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00020200> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020199>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020200> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020267> (energy technology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020267> "An energy technology is a technology that describes how to combine energy transformation units, energy transformations, energy carriers and energy in a specific way.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020267> "energy technology"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020267> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1572
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1591
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020267> <https://openenergyplatform.org/ontology/oeo/OEO_00000407>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020267> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020306> (geothermal heat technology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020306> "A geothermal heat technology is a heat generation technology that describes how to combine geothermal heat units, geothermal heat transfer processes, energy carriers and energy in a specific way.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020306> "geothermal heat technology"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020306> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1572
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1610")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020306> <https://openenergyplatform.org/ontology/oeo/OEO_00020308>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020059>))))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020307> (solar thermal heat technology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020307> "A solar thermal heat technology is a heat generation technology that describes how to combine solar heat units, solar thermal energy transformation processes, energy carriers and energy in a specific way.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020307> "solar thermal heat technology"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020307> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1572
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1610")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020307> <https://openenergyplatform.org/ontology/oeo/OEO_00020308>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020047>))))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020308> (heat generation technology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00020308> "A heat generation technology is an energy technology that describes how to combine heat generating units, heat generation processes, energy carriers and energy in a specific way.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00020308> "heating technology"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00020308> "heat generation technology"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020308> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1572
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1610
+
+add alternative label
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1772
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2257")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020308> <https://openenergyplatform.org/ontology/oeo/OEO_00020267>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00010248>))))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030004> (renewable)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00030004> "Renewable is an origin of energies that replenish on a human time scale.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00030004> "erneuerbar"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00030004> "renewable"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00030004> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/108
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/130
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/397
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/398
+include \"or energies\"
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/728
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/742
+change def
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/741
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/861
+
+Axiomatise relations between origin, energy and portion of matter:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1183
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1192
+
+Move to oeo-shared:
+issue:https://github.com/OpenEnergyPlatform/ontology/issues/1423
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1437
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+replaced 'has bearer' with 'characteristic of'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1907
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1928")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030004> <https://openenergyplatform.org/ontology/oeo/OEO_00000316>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030019> (process attribute)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00030019> "A process attribute is a dependent occurrent that existentially depends on a process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00030019> "Prozessattribut"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00030019> "process attribute"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00030019> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/205
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/386
+rework module structure
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030019> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030025> (supply system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00030025> "A supply system is a system that connects producers and consumers.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00030025> "Versorgungssystem"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00030025> "supply system"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00030025> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/432
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/493
+
+move to oeo-shared
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1329
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1615
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030025> <http://purl.obolibrary.org/obo/RO_0002577>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00140049> (energy conversion efficiency)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00140049> "Energy conversion efficiency is a process attribute describing the ratio between the input of an energy transformation and the outputs that are used.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140049> "Energieumwandlungseffizienz"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140049> "Wirkungsgrad"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00140049> "energy conversion efficiency"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00140049> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/434
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/591
+
+moved to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1543
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1625
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+add oekg annotation
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1529
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1897")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140049> <https://openenergyplatform.org/ontology/oeo/OEO_00030019>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140049> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00000502> <https://openenergyplatform.org/ontology/oeo/OEO_00020003>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140049> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140002> <https://openenergyplatform.org/ontology/oeo/OEO_00140050>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00140050> (efficiency value)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00140050> "An efficiency value is a quantity value stating the ratio between a process's inputs and the outputs that are used.")
+AnnotationAssertion(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/256
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/779") <http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140050> "efficiency")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00140050> "efficiency value"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00140050> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/434
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/591
+
+moved to oeo-shared:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1543
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1625
+
+rework module structure
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+
+add oekg annotation
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2063
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2065")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140050> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140050> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00040010> <http://purl.obolibrary.org/obo/UO_0010006>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00140101> (heat transfer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00140101> "Heat transfer is an energy transfer of thermal energy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140101> "Wärmeübertragung"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00140101> "heat transfer"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00140101> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/730
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/733
+
+subclass of energy transfer
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/895
+
+change 'has physical input / output' axioms to 'has energy input / output':
+https://github.com/OpenEnergyPlatform/ontology/issues/994
+https://github.com/OpenEnergyPlatform/ontology/pull/1041
+
+Shorten definition:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1269
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1299
+
+simplify energy axioms with 'increases energy' and 'decreases energy':
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140101> <https://openenergyplatform.org/ontology/oeo/OEO_00020103>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140101> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140101> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00140102> (heat exchanger)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00140102> "A heat exchanger is an energy converting component that is used for a heat transfer process."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140102> "Wärmetauscher"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00140102> "Wärmeübertrager"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00140102> "heat exchanger"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00140102> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/713
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/734
+
+use energy converting component in definition:
+https://github.com/OpenEnergyPlatform/ontology/pull/993
+
+change produces energy and uses energy axioms to 'has energy output' and 'has energy input':
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/994
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1006
+
+fix definition:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1263
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1264
+
+Remove has energy input/output:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2910
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140102> <https://openenergyplatform.org/ontology/oeo/OEO_00000011>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00140102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00140101>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00230021> (photon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00230021> "A photon is a material entity that is a light particle."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00230021> "Photon"@de)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00230021> "photon"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00230021> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/661
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/663
+pull request: https://github.com/OpenEnergyPlatform/ontology/issues/674
+add origin
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/515
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/684
+remove origin 
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/861
+classify as material entity
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1165"@en)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00230021> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00230021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://openenergyplatform.org/ontology/oeo/OEO_00020040>))
+SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/726
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/732") <https://openenergyplatform.org/ontology/oeo/OEO_00230021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <https://openenergyplatform.org/ontology/oeo/OEO_00000151>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00310008> (heat generating unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00310008> "A heat generating unit is an energy transformation unit that has the function to produce thermal energy.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00310008> "heat generating unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00310008> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1254
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1360
+
+remove has energy output axiom
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00310008> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://openenergyplatform.org/ontology/oeo/OEO_00010387>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310008> <https://openenergyplatform.org/ontology/oeo/OEO_00020102>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00010248>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00310011> (heat plant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00310011> "A heat plant is an energy transformation unit consisting of heat generating units and a grid component that feeds thermal energy into a heating grid.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00310011> "heat plant"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00310011> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1254
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1360")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00310011> ObjectIntersectionOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00310008>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310011> <https://openenergyplatform.org/ontology/oeo/OEO_00020102>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00020008>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00310008>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00010248>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00310012> (heat transfer unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00310012> "A heat transfer unit is a heat generating unit that contains a heat exchanger and not a heater.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00310012> "heat transfer unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00310012> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1254
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1360")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310012> <https://openenergyplatform.org/ontology/oeo/OEO_00310008>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310012> ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00000210>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00140102>)))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00310017> (geothermal heat unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00310017> "A geothermal heat unit is a heat transfer unit that uses geothermal energy as source.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00310017> "geothermal heat unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00310017> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1254
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1360
+
+remove 'has energy input' axiom
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310017> <https://openenergyplatform.org/ontology/oeo/OEO_00310012>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020059>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00310048> (solar heat unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00310048> "A solar heat unit is a heat generating unit that has a solar collector.")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00310048> "solar heat unit"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00310048> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1254
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1360
+
+Remove has energy input axiom:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2233")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310048> <https://openenergyplatform.org/ontology/oeo/OEO_00310008>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://openenergyplatform.org/ontology/oeo/OEO_00000387>))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00310048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://openenergyplatform.org/ontology/oeo/OEO_00020047>))
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00340062> (quantity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00340062> "A quantity is a quality of a material entity where the magnitude  of the quality can be quantified via a quantity value, which means that it can be expressed as a number and a unit.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://openenergyplatform.org/ontology/oeo/OEO_00340062> "Derived from: https://jcgm.bipm.org/vim/en/1.1.html")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00340062> "quantity"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00340062> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1510
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1839")
+EquivalentClasses(<https://openenergyplatform.org/ontology/oeo/OEO_00340062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000019> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00140002> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)))
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00340062> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00340068> (size)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00340068> "Size is a quantity of an entity that quantifies its spatial extend.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://openenergyplatform.org/ontology/oeo/OEO_00340068> "Derived from: http://purl.allotrope.org/ontologies/result#AFR_0002109 and http://purl.obolibrary.org/obo/PATO_0000117")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00340068> "size"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00340068> "restructuring of quantity values
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1848
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1851
+Update size and add amount
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1896
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1905")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00340068> <https://openenergyplatform.org/ontology/oeo/OEO_00340062>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00360020> (region of relevance)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00360020> "A region of relevance is a spatial region that is used in a study or analysis, or is part of spatial planning."@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00360020> "region of relevance"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00360020> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1745
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1749
+
+updated definition
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1766
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1791")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00360020> <http://purl.obolibrary.org/obo/BFO_0000006>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00410067> (grid component role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00410067> "A grid component role is a role of an energy transformation unit that is a discrete part of a supply grid serving a specific purpose."@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00410067> "grid component role"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00410067> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1960
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2054")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00410067> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013> (<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1959
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2022
+
+add simplified meno axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2137
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2158")
+SubClassOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013> <https://www.commoncoreontologies.org/ont00000535>)
+SubClassOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0019002> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>))
+
+# Class: <https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014> (<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1959
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2022
+
+add simplified meno axioms
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2137
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2158")
+SubClassOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014> <https://www.commoncoreontologies.org/ont00000131>)
+SubClassOf(<https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0019001> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>))
+
+# Class: <https://www.commoncoreontologies.org/ont00000004> (<https://www.commoncoreontologies.org/ont00000004>)
+
+AnnotationAssertion(rdfs:comment <https://www.commoncoreontologies.org/ont00000004> "In CCO, the SubClassOf axioms are actually anonymous ancestors and inherited from process (BFO 2020).")
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://www.commoncoreontologies.org/ont00000004> "issue https://github.com/OpenEnergyPlatform/ontology/issues/2014
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2016")
+SubClassOf(<https://www.commoncoreontologies.org/ont00000004> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<https://www.commoncoreontologies.org/ont00000004> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000117> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000035>)))
+SubClassOf(<https://www.commoncoreontologies.org/ont00000004> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000132> <http://purl.obolibrary.org/obo/BFO_0000015>))
+
+# Class: <https://www.commoncoreontologies.org/ont00000131> (<https://www.commoncoreontologies.org/ont00000131>)
+
+SubClassOf(<https://www.commoncoreontologies.org/ont00000131> <https://www.commoncoreontologies.org/ont00000004>)
+
+# Class: <https://www.commoncoreontologies.org/ont00000535> (<https://www.commoncoreontologies.org/ont00000535>)
+
+SubClassOf(<https://www.commoncoreontologies.org/ont00000535> <https://www.commoncoreontologies.org/ont00000004>)
+
+
+SubClassOf(Annotation(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
+pull request: https://github.com/OpenEnergyPlatform/ontology/issues/1167") ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <https://openenergyplatform.org/ontology/oeo/OEO_00000151>))
+SubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <https://openenergyplatform.org/ontology/oeo/OEO_00000207>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <https://openenergyplatform.org/ontology/oeo/OEO_00000151>))
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/RO_0019001>) <https://openenergyplatform.org/ontology/oeo/OEO_00020461>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000117> <http://purl.obolibrary.org/obo/RO_0019002>) <https://openenergyplatform.org/ontology/oeo/OEO_00020462>)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/UO_0000186> "make subclass of 'physical unit'
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2135
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141")
 )
