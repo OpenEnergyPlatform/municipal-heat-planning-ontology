@@ -13,6 +13,6 @@ WHERE {
     oboInOwl:inSubset
     dcterms:contributor  }
   ?term ?property ?value .
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MHPO_")))
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "https://purl.org/mhpo/ontology/MHPO_")))
   FILTER (!isIRI(?value))
 }
