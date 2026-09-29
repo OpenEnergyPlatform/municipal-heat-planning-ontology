@@ -17,9 +17,8 @@ These are the current imports in MHPO
 | Import | URL | Type |
 | ------ | --- | ---- |
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | slme |
-| iao | http://purl.obolibrary.org/obo/iao.owl | slme |
+| iao | https://raw.githubusercontent.com/information-artifact-ontology/IAO/v2026-03-30/iao.owl | slme |
 | oeo | https://openenergyplatform.org/ontology/oeo/ | slme |
-| cco | https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/510dad76be0ef710b65a421075af912af25342b7/src/cco-merged/CommonCoreOntologiesMerged.ttl | slme |
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
 

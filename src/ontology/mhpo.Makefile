@@ -21,10 +21,10 @@ $(MIRRORDIR)/bfo.owl:
 # -----------------------------------------------------------------------------
 
 # Überschreibt die Basis-URI für die Generierung
-URIBASE = http://purl.org/mhpo/ontology
+URIBASE = https://purl.org/mhpo/ontology
 
 # Überschreibt die spezifische Basis-URI für diese Ontologie
-ONTBASE = http://purl.org/mhpo/
+ONTBASE = https://purl.org/mhpo/
 
 # Ein neues Target, das die URIs in den generierten Dateien korrigiert
 fix-uris:
