@@ -1,0 +1,1001 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://purl.org/mhpo//mhpo-base.owl#"
+     xml:base="https://purl.org/mhpo//mhpo-base.owl"
+     xmlns:dce="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:oeo="https://openenergyplatform.org/ontology/oeo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.commoncoreontologies.org/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://purl.org/mhpo//mhpo-base.owl">
+        <owl:versionIRI rdf:resource="https://purl.org/mhpo//releases/2026-09-29/mhpo-base.owl"/>
+        <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <dcterms:creator>MHPO Developer Team &lt;https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/blob/production/CITATION.cff&gt;</dcterms:creator>
+        <dcterms:description>The municipal heat planning ontology (MHPO) is a domain reference ontology that covers the relevant terminology for the German &quot;Kommunale Wärmeplanung&quot;. Community heat planning in Germany is a structured process in which municipalities and cities plan their future heat supply based on energy demand, existing infrastructure, and climate protection goals. 
+The aim is to reduce greenhouse gas emissions and heat consumption, increase the use of renewable energy, decrease dependence on fossil fuels and improve resilience of the system. The planning is typically carried out within the framework of climate protection programs and is supported by federal funding. The primary use case of MHPO is to describe data and metadata of the heat plans.</dcterms:description>
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dcterms:license rdf:resource="https://opensource.org/license/mit"/>
+        <dcterms:title>Municipal Heat Planning Ontology</dcterms:title>
+        <rdfs:comment>Contact &lt;mirjam.stappel@uos.de&gt; or &lt;Ludwig.Huelk@rl-institut.de&gt;</rdfs:comment>
+        <rdfs:comment>External documentation see &lt;https://openenergyplatform.github.io/municipal-heat-planning-ontology&gt; or &lt;https://purl.org/mhpo&gt;</rdfs:comment>
+        <owl:versionInfo>to be added after first release</owl:versionInfo>
+        <owl:versionInfo>2026-09-29</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- https://openenergyplatform.org/ontology/oeo/OEO_00020426 -->
+
+    <owl:AnnotationProperty rdf:about="https://openenergyplatform.org/ontology/oeo/OEO_00020426"/>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001754 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.commoncoreontologies.org/ont00001754"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- https://openenergyplatform.org/ontology/oeo/OEO_00010378 -->
+
+    <owl:ObjectProperty rdf:about="https://openenergyplatform.org/ontology/oeo/OEO_00010378"/>
+    
+
+
+    <!-- https://openenergyplatform.org/ontology/oeo/OEO_00020056 -->
+
+    <owl:ObjectProperty rdf:about="https://openenergyplatform.org/ontology/oeo/OEO_00020056"/>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030019 -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/mhpo/ontology/MHPO_00030019">
+        <rdfs:subPropertyOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00010378"/>
+        <rdfs:domain rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020003"/>
+        <rdfs:range rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020021"/>
+        <obo:IAO_0000115 xml:lang="en">An is-about-relation between a municipal heat plan and the heat supply area the heat municipal heat plan refers to.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">represents heat supply area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21</oeo:OEO_00020426>
+        <www:ont00001754>Section 14  of the German Heat Planning Act (WPG)</www:ont00001754>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001808 -->
+
+    <owl:ObjectProperty rdf:about="https://www.commoncoreontologies.org/ont00001808"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    
+
+
+    <!-- https://openenergyplatform.org/ontology/oeo/OEO_00000350 -->
+
+    <owl:Class rdf:about="https://openenergyplatform.org/ontology/oeo/OEO_00000350"/>
+    
+
+
+    <!-- https://openenergyplatform.org/ontology/oeo/OEO_00360020 -->
+
+    <owl:Class rdf:about="https://openenergyplatform.org/ontology/oeo/OEO_00360020"/>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020000 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An Information Content Entity that consists of a set of propositions that describe some Entity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
+        <skos:exactMatch>https://www.commoncoreontologies.org/ont00000853</skos:exactMatch>
+        <oeo:OEO_00020426>pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020003 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A municipal heat plan is a plan specification that contains a heating plan in accordance with §23 of the German Heating Planning Act (WPG). It includes a cartographic representation of the current status and potential analysis, the division into heat supply zones, the indicators of the target scenario, the presentation of heat supply types for the target year, and measures of the implementation strategy. The textual and graphical explanations of the suitability assessment, the current status analysis, the target scenario, and the implementation strategy may be attached to the heat plan as external references.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">KWP</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Kommunale Wärmeplanung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">WP_Plan</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">municipal heat plan</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020005 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020005">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020000"/>
+        <obo:IAO_0000115>An aggregated inventory analysis is a descriptive information content entity that contains an aggregation of the existing conditions analysis for a certain heat planning area, in accordance with WPG §15.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Bestandsanalyse</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">WP_Bestandsanalyse_aggregiert</obo:IAO_0000118>
+        <rdfs:comment>According to the WPG Annex 2 I, the aggregated inventory analysis contains information about
+1. the current annual final energy consumption of heat by energy source and final energy sector in kilowatt-hours, and the resulting greenhouse gas emissions in tons of carbon dioxide equivalent,
+2. the current share of renewable energy and unavoidable waste heat in the annual final energy consumption of heat by energy source, expressed as a percentage,
+3. the current annual final energy consumption of district heating by energy source in kilowatt-hours,
+4. the current share of renewable energy and unavoidable waste heat in the annual final energy consumption of district heating by energy source, expressed as a percentage,
+5. the current number of decentralized heat generators, including building transfer stations, by type of heat generator, including the energy source used.</rdfs:comment>
+        <rdfs:label xml:lang="en">aggregated inventory analysis</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020006 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020006">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020000"/>
+        <obo:IAO_0000115>An aggregated potential analysis is a descriptive information content entity that contains an summary of the analysis of the potentials for a certain heat planning area, in accordance with WPG Annex 2 II.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Potenzialanalyse</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">WP_Potenzialanalyse_aggregiert</obo:IAO_0000118>
+        <rdfs:comment>In accordance with WPG §16, the planning authority determines the potentials for:
+- heat generation from renewable energy sources
+- utilization of unavoidable waste heat
+- utilization of central heat storage systems
+- energy savings through the reduction of heat demand in buildings, as well as in industrial and commercial processes.</rdfs:comment>
+        <rdfs:label xml:lang="en">aggregated potential analysis</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020007 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115>The target scenario is an objective specification that uses indicators to describe how the goal of a heat supply based on renewable energy or the use of unavoidable waste heat is to be achieved. Unless otherwise specified, the indicators must be provided for the planned area as a whole and for the years 2030, 2035, 2040, and 2045, respectively. In accordance with WPG Annex 2 III.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">WP_Zielszenarioindikatoren</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Zielszenario</obo:IAO_0000118>
+        <rdfs:comment>The indicators are defined in WPG Annex 2 III and are:
+1. the annual final energy consumption of the entire heat supply in kilowatt-hours per year, differentiated by final energy sectors and energy carriers.
+2. the annual greenhouse gas emissions, within the meaning of Section 2 No. 1 of the Federal Climate Change Act, of the entire heat supply of the planned area, in tonnes of carbon dioxide equivalent
+3. the annual final energy consumption of district heating or other grid-based heat supply by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of the grid-based heat supply in percent
+4. the share of grid-based heat supply in the total final energy consumption of the heat supply in percent.
+5. the number of buildings connected to a heating network and their share of the total number of buildings in the planned area in percent.
+6. the annual final energy consumption from gas networks by energy carrier in kilowatt-hours per year, and the share of the energy carriers in the total final energy consumption of gaseous energy carriers in percent.
+7. the number of buildings connected to a gas network and their share of the total number of buildings in the planned area in percent.</rdfs:comment>
+        <rdfs:label xml:lang="en">target scenario</rdfs:label>
+        <oeo:OEO_00020426>pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020008 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
+        <obo:IAO_0000115>An implementation measure is an action specification that specifies the measures to be taken according to the implementation strategy of a municipal heat plan.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Maßnahme</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">WP_Maßnahme</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">implementation measure</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020009 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role of a region in a municipal heat plan is a role that can be assigned to a region of relevance in a municipal heat plan.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">role of region in municipal heat plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020010 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020010">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a two-dimensional spatial region that covers the area of a municipality.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">municipality area role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020011 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020011">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a region of relevance within a municipality for which a municipal heat plan is created.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 2  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">heat plan area role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020012 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020012">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020013"/>
+        <obo:IAO_0000115>A role of a subarea of a heat supply area that is unallocated for heat supply.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">unallocated heat supply subarea role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020013 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020013">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a subarea of a heat supply area that  is designated for heat supply.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">heat plan subarea role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020014 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020014">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <obo:IAO_0000115>A role of a heat plan subarea identified in the potential analysis because the use of certain heat supply potentials is excluded or significantly restricted due to legal, environmental, technical, or other site-specific constraints.</obo:IAO_0000115>
+        <obo:IAO_0000119>Annex 2, Part II of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">excluded area role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020016 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020016">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <obo:IAO_0000115>A role of a planned heat plan subarea that is borne when the subarea has increased energy saving potential due to its energy- or climate-related suitability as a redevelopment area under the German Building Act or due to a high share of buildings with high specific final energy consumption for space heating.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 136(2) of the German Building Act (BauGB)
+Section 18(5)  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">energy saving area role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020017 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020017">
+        <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00360020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A municipality area is a region of relevance that encompasses the exact territory of a municipality.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Gemeindegebiet</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">municipality area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020018 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020018">
+        <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00360020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A heat plan area is a subarea of a municipality for which a municipal heat plan is created. It consists of several heat supply subregions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Beplantes Gebiet</obo:IAO_0000118>
+        <obo:IAO_0000118>WP_Waermversorgungsgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118>Wärmeversorgungsgebiet</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 2  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">heat plan area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020019 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020019">
+        <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00360020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A heat plan subarea is a region of relevance that consists of several parcels of land or parts thereof, comprising individual or multiple building blocks. It is part of a heat supply area of a municipality and is grouped together by the planning authority for the purpose of assessing potential heat supply options and for the corresponding division into projected heat supply areas.</obo:IAO_0000115>
+        <obo:IAO_0000118>WP_BeplantesTeilgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118>beplantes Teilgebiet</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">heat plan subarea</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+        <www:ont00001754>Section 3(1) no. 3  of the German Heat Planning Act (WPG)</www:ont00001754>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020020 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020020">
+        <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00360020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An unallocated heat supply subarea is a region of relevance that is part of a municipality area and that is not designated as a prospective heat supply area in the municipal heat plan.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">WP_NichtBeplantesTeilgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">nicht beplantes Teilgebiet</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">unallocated heat supply subarea</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020021 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020021">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An area for decentralized heat supply is a heat plan subarea that has or is expected to have a decentralized primary heat supply, i.e. other than via district heating or a natural gas network.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Gebiet für dezentrale Wärmeversorgung</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 6 WPG  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">area for decentralized heat supply</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020022 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020022">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of an area for decentralized heat supply is a heat plan subarea that is not primarily indented to be supplied by a district heating or natural gas network.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">role of area for decentralized heat supply</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020023 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020023">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030008"/>
+        <obo:IAO_0000115>A role of a district heating area where the area will be connected to a newly developed district heating grid in the future.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">role of district heating development area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020024 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020024">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030008"/>
+        <obo:IAO_0000115>A role of a district heating area in which end users located in the immediate vicinity of an existing heat network are to be connected to it without requiring the expansion of the heat network</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">role of district heating densification area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020025 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020025">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030008"/>
+        <obo:IAO_0000115>A role of a district heating area where the area will be connected for the first time to an existing district heating grid through the construction of new heat pipelines.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">role of district heating expansion area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00020026 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00020026">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00020021"/>
+                    <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030005"/>
+                    <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030007"/>
+                    <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030013"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+        <obo:IAO_0000115>A projected heat plan subarea is a heat plan subarea that is either a district heating area, a hydrogen grid area, an area for decentralized heat supply or an area under suitablility assessment.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Voraussichtliches Wärmeversorgungsgebiet</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 14  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">projected heat plan subarea</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030001 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115>An implementation strategy is a descriptive information content entity that describes the implementation measures to be realized in order to achieve the objective of supplying heat generated exclusively from renewable energy sources or unavoidable waste heat by the target year.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Umsetzungsstrategie</obo:IAO_0000118>
+        <rdfs:comment>According to WPG Annex 2 VI, the implementation strategy shall be described in textual form. In particular, the implementation measures shall specify:
+
+1. which steps are required for the implementation of a measure.
+2. by which point in time the implementation of the measure is intended to be completed.
+3. which costs are associated with the planning and implementation of the measure,
+4. who bears the costs referred to in No. 3.
+5. which positive effects of the measures on achieving the target scenario and the objectives of this Act are expected, and
+6. in the case of an area with more than 45,000 inhabitants, which financing mechanisms for implementing the strategies and measures for transitioning consumers to renewable energies were identified and how they were weighted.</rdfs:comment>
+        <rdfs:label xml:lang="en">implementation strategy</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030005 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030005">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A hydrogen grid area is heat plan subarea in which a hydrogen network exists or is planned, and where a significant proportion of the local end users are to be supplied with heat via the hydrogen network.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Wasserstoffnetzgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">hydrogen network area</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 23  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">hydrogen grid area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030006 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030006">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in a heat plan subarea and indicates that the subarea is designated for heat supply through a hydrogen network.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(23) of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">hydrogen grid area role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030007 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030007">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A district heating area is a heat plan subarea in which a district heating network exists or for which it is planned. Whithin this area, a significant proportion of the local end users are to be supplied whith heat via the district heating network.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Wärmenetzgebiet</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">district heating area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030008 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030008">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <obo:IAO_0000115>A role that inheres in a heat plan subarea and indicates that the subarea is designated for heat supply through a district heating network, where a district heating network exists or is planned and a significant proportion of local end users are intended to be supplied via that network.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">district heating area role</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030009 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030009">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030007"/>
+        <owl:disjointWith rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030010"/>
+        <owl:disjointWith rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030011"/>
+        <obo:IAO_0000115>A district heating densification area is a district heating area in which end users located in the immediate vicinity of an existing heat network are to be connected to it without requiring the expansion of the heat network</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Wärmenetzverdichtungsgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">heat network densification area</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">district heating densification area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030010 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030010">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030007"/>
+        <owl:disjointWith rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030011"/>
+        <obo:IAO_0000115>A district heating expansion area is an district heating area that will be connected for the first time to an existing district heating grid through the construction of new heat pipelines.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Wärmenetzausbaugebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">heat network expansion area</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label>district heating expansion area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030011 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030011">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030007"/>
+        <obo:IAO_0000115>A district heating development area is a district heating area that will be connected to a newly developed district heating grid in the future.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Wärmenetzneubaugebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">heat network development area</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 18  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:comment>A new district heating network is a heating network
+a) for which construction begins after December 31, 2023.
+b) that, for the first time after January 1, 2024, exceeds the size of a building network
+c) for which construction begins for the purpose of network expansion after December 31, 2023, and which is not thermally connected to an existing upstream network, or is connected only to a limited extent, either through a direct hydraulic connection or indirectly via heat transfer.</rdfs:comment>
+        <rdfs:label>district heating development area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030012 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030012">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An energy saving area is a heat plan subarea with an expected increased energy saving potential.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Energieeinspargebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Teilgebiete mit erhöhtem Energieeinsparpotenzial</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 136(2) of the German Building Act (BauGB)
+Section 18(5)  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:comment>Such areas may be either areas that appear suitable for future designation as redevelopment areas under a separate urban planning decision, as defined in 1 of Part 1 of Chapter 2 of the Building Code; of areas with a high proportion of buildings having high specific final energy consumption for space heating, in which measures to reduce final energy demand are particularly suitable for supporting the transition to a greenhouse gas-neutral heat supply.</rdfs:comment>
+        <rdfs:label xml:lang="en">energy saving area</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030013 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030013">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An area under suitability assessment is a heat plan subarea that that is being reviewed for the suitability of its future heat supply. It is not assigned to a hydrogen network area, district heating area, nor an area for decentralized heat supply. Reasons for such a suitablility assessment are unclear conditions for such an assignment, or a significant share of the local end users that is expected to be supplied with heat in another way, such as through grid-bound green methane supplied via an existing or planned gas distribution network.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Prüfgebiet</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">area under suitability assessment</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030014 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030014">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020009"/>
+        <obo:IAO_0000115>A role that inheres in a planned heat plan subarea when, within municipal heat planning, the subarea is not assigned to a hydrogen network area, district heating area, or decentralized heat supply area because the conditions required for such an assignment are not yet sufficiently known, or because a significant share of the local end users is expected to be supplied with heat in another way, such as through grid-bound green methane supplied via an existing or planned gas distribution network.</obo:IAO_0000115>
+        <obo:IAO_0000119>Section 3(1) no. 10 and Section 28 of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">role of area under suitability assessment</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030016 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030016">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An exclusion area is a heat plan subarea in which certain heat supply potentials are excluded or significantly restricted, such as a water protection area or mineral spring protection area. It is defined in the potential analysis in municipal heat planning.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Ausschlussgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Wärmeplanungsausschlussgebiet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">excluded area</obo:IAO_0000118>
+        <obo:IAO_0000119>Annex 2, Part II of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">area excluded from heat planning</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/12
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030017 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030017">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001808"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A suitability assessment is a descriptive information content entity that documents the initial research of grid bound heat supply, based on available information and stakeholder consultation, whether one or more heat plan subareas are highly likely not suitable for supply by a district heating network or a hydrogen grid.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Eignungsprüfung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">suitability screeening</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 14  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">initial suitability assessment</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030018 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030018">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001808"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00020019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A shortened heat planning is a descriptive information content entity that documents, in a municipal heat plan, that one or more heat plan subareas are represented as prospective decentralized heat supply areas based on a suitability assessment indicating that they are highly likely not suitable for supply by a district heating network or a hydrogen grid. Only potentials relevant for decentralized heat supply are considered for these subareas.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Dokumentation der verkürzten Wärmeplanung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">shortened heat planning documentation</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">verkürzte Wärmeplanung</obo:IAO_0000118>
+        <obo:IAO_0000119>Section 14  of the German Heat Planning Act (WPG)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">shortened heat planning</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/17
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/21</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030020 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A building stock is an object aggregate of buildings located in a spatial region.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Anzahl Gebäude</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Gebäudebestand</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Gesamtgebäudeanzahl</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/23
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030021 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030021">
+        <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000350"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00020056"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A building count is a quantity value that measures the number of buildings in a building stock.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">building stock size</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">building count</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/23
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00020023"/>
+            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00020024"/>
+            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00020025"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
