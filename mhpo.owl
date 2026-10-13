@@ -4330,6 +4330,12 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 
     <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A building stock is an object aggregate of buildings located in a spatial region.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Anzahl Gebäude</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Gebäudebestand</obo:IAO_0000118>
@@ -4756,15 +4762,15 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141</oeo:OEO_
                         <owl:someValuesFrom rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000150"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-                <rdfs:subClassOf rdf:nodeID="genid276"/>
+                <rdfs:subClassOf rdf:nodeID="genid277"/>
             </owl:Class>
         </owl:annotatedSource>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid276"/>
+        <owl:annotatedTarget rdf:nodeID="genid277"/>
         <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
 pull request: https://github.com/OpenEnergyPlatform/ontology/issues/1167</oeo:OEO_00020426>
     </owl:Axiom>
-    <owl:Restriction rdf:nodeID="genid276">
+    <owl:Restriction rdf:nodeID="genid277">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
         <owl:someValuesFrom rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000151"/>
     </owl:Restriction>
