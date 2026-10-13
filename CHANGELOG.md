@@ -12,6 +12,14 @@ For each version, important additions, changes and removals are listed here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.X.X] - 20XX-XX-XX
+
+### Added
+- building, residential building stock, non-residential building stock, public building stock, industrial building stock, commercial and service building stock, building function, public building function, industrial building function, commercial and service building function, residential building function (#41)
+### Changed
+### Removed
+
+
 ## [0.1.0] Initial Release - 2026-09-29
 
 ### Added
