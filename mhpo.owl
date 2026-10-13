@@ -4382,6 +4382,18 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
     
 
 
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030025 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030025">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030023"/>
+        <obo:IAO_0000115 xml:lang="en">A commercial and service building function is a building function to provide space for commercial and service activities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">commercial and service building function</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013">
