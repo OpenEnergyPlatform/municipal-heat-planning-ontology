@@ -4344,6 +4344,20 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
     
 
 
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030022 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030022">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030003"/>
+        <obo:IAO_0000115 xml:lang="en">A public building stock is a non-residential building stock that consists of non-residential buildings owned, operated, or used by a municipality to perform municipal tasks.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">public non-residential building stock</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">stock of public buildings</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">public building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01013">
