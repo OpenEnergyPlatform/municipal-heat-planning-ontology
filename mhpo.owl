@@ -3985,7 +3985,10 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 
     <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000">
         <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000061"/>
+        <obo:IAO_0000115 xml:lang="en">A building is an artificial object that is designed and constructed to provide one or more roofed and usually enclosed spaces for human activities or for the shelter of persons, animals, or material entities.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">building</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
     </owl:Class>
     
 
