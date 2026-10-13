@@ -4061,6 +4061,22 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 
     <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030004">
         <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030025"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A commercial and service building stock is a kind of non-residential building stock that consists of commercial and service buildings.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">GHD building stock</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">commercial building stock</obo:IAO_0000118>
@@ -4762,15 +4778,15 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141</oeo:OEO_
                         <owl:someValuesFrom rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000150"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-                <rdfs:subClassOf rdf:nodeID="genid277"/>
+                <rdfs:subClassOf rdf:nodeID="genid282"/>
             </owl:Class>
         </owl:annotatedSource>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid277"/>
+        <owl:annotatedTarget rdf:nodeID="genid282"/>
         <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
 pull request: https://github.com/OpenEnergyPlatform/ontology/issues/1167</oeo:OEO_00020426>
     </owl:Axiom>
-    <owl:Restriction rdf:nodeID="genid277">
+    <owl:Restriction rdf:nodeID="genid282">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
         <owl:someValuesFrom rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000151"/>
     </owl:Restriction>
