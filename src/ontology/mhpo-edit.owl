@@ -139,7 +139,7 @@ AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020028> "A relation between an information content entity and a quantity value, where the information content entity is part of a municipal heat plan, e.g. an aggregated inventory analysis or a target scenario, that comprises the respective parameter."@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020028> "covers parameter"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020028> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/40
-pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13")
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/43")
 SubObjectPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020028> owl:topObjectProperty)
 ObjectPropertyDomain(<https://purl.org/mhpo/ontology/MHPO_00020028> <http://purl.obolibrary.org/obo/IAO_0000030>)
 ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00020028> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
