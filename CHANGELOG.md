@@ -12,6 +12,11 @@ For each version, important additions, changes and removals are listed here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [X.X.X] Unreleased - 2026-XX-XX
+### Added
+- covers parameter (#43)
+
+
 ## [0.1.0] Initial Release - 2026-09-29
 
 ### Added
@@ -21,7 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - municipality area, heat supply area, area for decentralized heat supply, unallocated heat supply subarea, and respective roles (#15)
 - district heating area and subclasses, energy saving area, hydrogen grid area, area under suitability assessment, and respective roles (#15)
 - projected heat supply subarea (#15)
-
 
 
 ## [0.0.0] Initial Release - Ontology Development Kit (ODK) - 2026-03-05
