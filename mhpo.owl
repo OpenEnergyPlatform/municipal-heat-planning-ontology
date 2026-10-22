@@ -3981,6 +3981,18 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
     
 
 
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030000 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000">
+        <rdfs:subClassOf rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000061"/>
+        <obo:IAO_0000115 xml:lang="en">A building is an artificial object that is designed and constructed to provide one or more roofed and usually enclosed spaces for human activities or for the shelter of persons, animals, or material entities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">building</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
     <!-- https://purl.org/mhpo/ontology/MHPO_00030001 -->
 
     <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030001">
@@ -3999,6 +4011,80 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
         <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/9
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/13
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/27</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030002 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030002">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030024"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A residential building stock is a kind of building stock that consists of residential buildings.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">stock of residential buildings</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">residential building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030003 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030003">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030020"/>
+        <obo:IAO_0000115 xml:lang="en">A non-residential building stock is a kind of building stock that consists of non-residential buildings.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">stock of non-residential buildings</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">non-residential building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030004 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030004">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030025"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A commercial and service building stock is a kind of non-residential building stock that consists of commercial and service buildings.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">GHD building stock</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">commercial building stock</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">stock of commercial and service buildings</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">trade and service building stock</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">commercial and service building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
     </owl:Class>
     
 
@@ -4178,6 +4264,35 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
     
 
 
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030015 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030015">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030026"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An industrial building stock is a kind of non-residential building stock that consists of industrial buildings.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">stock of industrial buildings</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">industrial building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
     <!-- https://purl.org/mhpo/ontology/MHPO_00030016 -->
 
     <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030016">
@@ -4247,6 +4362,12 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
 
     <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A building stock is an object aggregate of buildings located in a spatial region.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Anzahl Gebäude</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Gebäudebestand</obo:IAO_0000118>
@@ -4273,6 +4394,96 @@ pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-onto
         <rdfs:label xml:lang="en">building count</rdfs:label>
         <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/23
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030022 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030022">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.org/mhpo/ontology/MHPO_00030000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                                <owl:someValuesFrom rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030027"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A public building stock is a non-residential building stock that consists of non-residential buildings owned, operated, or used by a municipality to perform municipal tasks.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">public non-residential building stock</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">stock of public buildings</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">public building stock</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030023 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <obo:IAO_0000115 xml:lang="en">A building function is a function of a building that has been designed to provide space for a specific type of use.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">building function</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030024 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030024">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030023"/>
+        <obo:IAO_0000115 xml:lang="en">A residential building function is a building function to provide space for human habitation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">residential building function</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030025 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030025">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030023"/>
+        <obo:IAO_0000115 xml:lang="en">A commercial and service building function is a building function to provide space for commercial and service activities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">commercial and service building function</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030026 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030026">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030023"/>
+        <obo:IAO_0000115 xml:lang="en">An industrial building function is a building function to provide space for industrial activities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">industrial building function</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/mhpo/ontology/MHPO_00030027 -->
+
+    <owl:Class rdf:about="https://purl.org/mhpo/ontology/MHPO_00030027">
+        <rdfs:subClassOf rdf:resource="https://purl.org/mhpo/ontology/MHPO_00030023"/>
+        <obo:IAO_0000115 xml:lang="en">A public building function is a building function to provide space for public or community activities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">public building function</rdfs:label>
+        <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/41</oeo:OEO_00020426>
     </owl:Class>
     
 
@@ -4599,15 +4810,15 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2141</oeo:OEO_
                         <owl:someValuesFrom rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000150"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-                <rdfs:subClassOf rdf:nodeID="genid271"/>
+                <rdfs:subClassOf rdf:nodeID="genid292"/>
             </owl:Class>
         </owl:annotatedSource>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid271"/>
+        <owl:annotatedTarget rdf:nodeID="genid292"/>
         <oeo:OEO_00020426>issue: https://github.com/OpenEnergyPlatform/ontology/issues/1167
 pull request: https://github.com/OpenEnergyPlatform/ontology/issues/1167</oeo:OEO_00020426>
     </owl:Axiom>
-    <owl:Restriction rdf:nodeID="genid271">
+    <owl:Restriction rdf:nodeID="genid292">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
         <owl:someValuesFrom rdf:resource="https://openenergyplatform.org/ontology/oeo/OEO_00000151"/>
     </owl:Restriction>
@@ -4842,5 +5053,5 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/issues/1167</oeo:OE
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
