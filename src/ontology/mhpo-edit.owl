@@ -78,6 +78,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))
 Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00010378>))
 Declaration(ObjectProperty(<https://openenergyplatform.org/ontology/oeo/OEO_00020056>))
+Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00020028>))
 Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00030019>))
 Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -100,7 +101,7 @@ Declaration(AnnotationProperty(<https://www.commoncoreontologies.org/ont00001754
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative label")
 
@@ -132,6 +133,16 @@ AnnotationAssertion(rdfs:label owl:versionInfo "versionInfo")
 ############################
 #   Object Properties
 ############################
+
+# Object Property: <https://purl.org/mhpo/ontology/MHPO_00020028> (covers parameter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020028> "A relation between an information content entity and a quantity value, where the information content entity is part of a municipal heat plan, e.g. an aggregated inventory analysis or a target scenario, that comprises the respective parameter."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020028> "covers parameter"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020028> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/40
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/43")
+SubObjectPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020028> owl:topObjectProperty)
+ObjectPropertyDomain(<https://purl.org/mhpo/ontology/MHPO_00020028> <http://purl.obolibrary.org/obo/IAO_0000030>)
+ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00020028> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
 
 # Object Property: <https://purl.org/mhpo/ontology/MHPO_00030019> (represents heat supply area)
 

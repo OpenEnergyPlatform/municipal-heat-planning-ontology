@@ -15,10 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.X.X] - 20XX-XX-XX
 
 ### Added
+- covers parameter (#43)
 - building, residential building stock, non-residential building stock, public building stock, industrial building stock, commercial and service building stock, building function, public building function, industrial building function, commercial and service building function, residential building function (#41)
 ### Changed
 ### Removed
-
 
 ## [0.1.0] Initial Release - 2026-09-29
 
@@ -29,7 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - municipality area, heat supply area, area for decentralized heat supply, unallocated heat supply subarea, and respective roles (#15)
 - district heating area and subclasses, energy saving area, hydrogen grid area, area under suitability assessment, and respective roles (#15)
 - projected heat supply subarea (#15)
-
 
 
 ## [0.0.0] Initial Release - Ontology Development Kit (ODK) - 2026-03-05
