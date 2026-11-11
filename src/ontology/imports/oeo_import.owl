@@ -180,14 +180,14 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1923")
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (<http://purl.obolibrary.org/obo/BFO_0000050>)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000050> "issue https://github.com/OpenEnergyPlatform/ontology/issues/596
 Pull request https://github.com/OpenEnergyPlatform/ontology/pull/599
 Pull request https://github.com/OpenEnergyPlatform/ontology/pull/603")
 InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (<http://purl.obolibrary.org/obo/BFO_0000051>)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000051> "issue https://github.com/OpenEnergyPlatform/ontology/issues/596
 Pull request https://github.com/OpenEnergyPlatform/ontology/pull/599
@@ -208,19 +208,19 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000117> <http://pur
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000132> "issue https://github.com/OpenEnergyPlatform/ontology/issues/2014
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2016")
 
-# Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (<http://purl.obolibrary.org/obo/IAO_0000136>)
+# Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (is about)
 
 InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000136> <https://openenergyplatform.org/ontology/oeo/OEO_00010231>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (<http://purl.obolibrary.org/obo/RO_0000052>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (characteristic of)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000052> "add inverse:
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (<http://purl.obolibrary.org/obo/RO_0000053>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic")
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000053> "update inverse:
@@ -228,7 +228,7 @@ issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (<http://purl.obolibrary.org/obo/RO_0000056>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000056> "make inverse of has participant
 issue https://github.com/OpenEnergyPlatform/ontology/issues/979
@@ -237,7 +237,7 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (<http://purl.obolibrary.org/obo/RO_0000057>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (has participant)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000057> "make inverse of participates in
 issue https://github.com/OpenEnergyPlatform/ontology/issues/979
@@ -249,7 +249,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1225")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000003>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000081> (<http://purl.obolibrary.org/obo/RO_0000081>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000081> (role of)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000081> "add domain and range:
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
@@ -259,19 +259,19 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/BFO_0000023>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000085> (<http://purl.obolibrary.org/obo/RO_0000085>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000085> (has function)
 
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000004>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000034>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (<http://purl.obolibrary.org/obo/RO_0000086>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
 
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (<http://purl.obolibrary.org/obo/RO_0000087>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has role)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000087> "extend domain / definition
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1030
@@ -279,7 +279,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1101")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000091> (<http://purl.obolibrary.org/obo/RO_0000091>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000091> (has disposition)
 
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/BFO_0000004>)
@@ -479,7 +479,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/871") <https:/
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (<http://purl.obolibrary.org/obo/BFO_0000002>)
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
 
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
@@ -487,7 +487,7 @@ DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolib
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000003> "occurrent"@en)
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (<http://purl.obolibrary.org/obo/BFO_0000004>)
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
 
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020>)
@@ -582,7 +582,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000035> "process boundary"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000035> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (<http://purl.obolibrary.org/obo/BFO_0000040>)
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
 
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000141>)
@@ -592,7 +592,7 @@ DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolib
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000141> <http://purl.obolibrary.org/obo/BFO_0000004>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (<http://purl.obolibrary.org/obo/IAO_0000030>)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/IAO_0000030> "add axiom has copyright license
 issue https://github.com/OpenEnergyPlatform/ontology/issues/1061
@@ -603,11 +603,11 @@ issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1547")
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000104> (<http://purl.obolibrary.org/obo/IAO_0000104>)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000104> (plan specification)
 
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000310> (<http://purl.obolibrary.org/obo/IAO_0000310>)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000310> (document)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/IAO_0000310> "Add 'has licence' axiom:
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1275
