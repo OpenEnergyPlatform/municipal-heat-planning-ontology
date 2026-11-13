@@ -84,6 +84,7 @@ Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00020028>))
 Declaration(ObjectProperty(<https://purl.org/mhpo/ontology/MHPO_00030019>))
 Declaration(ObjectProperty(<https://www.commoncoreontologies.org/ont00001808>))
 Declaration(DataProperty(<https://purl.org/mhpo/ontology/MHPO_00020030>))
+Declaration(DataProperty(<https://purl.org/mhpo/ontology/MHPO_00020033>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -126,6 +127,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Annotation Property: rdfs:comment (comment)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> rdfs:comment "A relation that links a municipality to its 8-digits official municipality code.")
 AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
 # Annotation Property: owl:versionInfo (versionInfo)
@@ -163,13 +165,21 @@ ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl
 #   Data Properties
 ############################
 
-# Data Property: <https://purl.org/mhpo/ontology/MHPO_00020030> (has community identification key)
+# Data Property: <https://purl.org/mhpo/ontology/MHPO_00020030> (has official regional code)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020030> "A relation that links a municipality to its community identification key."@en)
-AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020030> "has community identification key"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020030> "A relation that links a municipality to its 12-digits official regional code."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020030> "has official regional code"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020030> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
 SubDataPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020030> owl:topDataProperty)
+
+# Data Property: <https://purl.org/mhpo/ontology/MHPO_00020033> (has official municipality code)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020033> "A relation that links a municipality to its 8-digits official municipality code."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020033> "has official municipality code"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020033> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
+SubDataPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020033> owl:topDataProperty)
 
 
 
