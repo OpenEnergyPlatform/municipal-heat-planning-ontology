@@ -127,7 +127,6 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Annotation Property: rdfs:comment (comment)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> rdfs:comment "A relation that links a municipality to its 8-digits official municipality code.")
 AnnotationAssertion(rdfs:label rdfs:comment "comment")
 
 # Annotation Property: owl:versionInfo (versionInfo)
@@ -172,6 +171,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020030> "h
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020030> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
 SubDataPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020030> owl:topDataProperty)
+DataPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00020030> xsd:string)
 
 # Data Property: <https://purl.org/mhpo/ontology/MHPO_00020033> (has official municipality code)
 
@@ -180,6 +180,7 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020033> "h
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020033> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
 SubDataPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020033> owl:topDataProperty)
+DataPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00020033> xsd:string)
 
 
 
@@ -450,6 +451,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020026> <https://purl.org/mhpo
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020031> "An official municipality code is a symbol that consists of a sequence of 8 digits/numbers that represent and identify politically independent municipalities or unincorporated areas in Germany. The key identifies a holder at a certain date."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "AGS"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "Amtlicher Gemeindeschlüssel"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "community identification key"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "official municipality key"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020031> "Based on https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html?templateQueryString=AGS and https://en.wikipedia.org/wiki/Community_Identification_Number as of 2026-11-13")
 AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020031> "Der Amtliche Gemeindeschlüssel gliedert sich wie folgt:
@@ -463,14 +465,13 @@ AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020031> 
 4th–5th digits   = County or independent city code
 6th–8th digits = Municipality code"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020031> "official municipality code"@en)
-AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020031> "community identification key"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020031> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020031> <http://purl.obolibrary.org/obo/IAO_0000028>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020032> (official regional code)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020032> "An official regional code is a symbol that consists of a sequence of 12 digitss that represent and identify politically independent municipalities or unincorporated areas in Germany. The key identifies a holder at a certain date."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020032> "An official regional code is a symbol that consists of a sequence of 12 digits that represent and identify politically independent municipalities or unincorporated areas in Germany. The key identifies a holder at a certain date."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020032> "ARS"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020032> "Amtlicher Regionalschlüssel"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020032> "official regional key"@en)
