@@ -164,7 +164,10 @@ ObjectPropertyRange(<https://purl.org/mhpo/ontology/MHPO_00030019> <https://purl
 
 # Data Property: <https://purl.org/mhpo/ontology/MHPO_00020030> (has community identification key)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020030> "A relation that links a municipality to its community identification key."@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020030> "has community identification key"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020030> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
 SubDataPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020030> owl:topDataProperty)
 
 
