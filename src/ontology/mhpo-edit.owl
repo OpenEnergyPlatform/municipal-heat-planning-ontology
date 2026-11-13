@@ -173,24 +173,6 @@ SubDataPropertyOf(<https://purl.org/mhpo/ontology/MHPO_00020030> owl:topDataProp
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data entity)
-
-
-# Class: <http://purl.obolibrary.org/obo/IAO_0000033> (directive information entity)
-
-
-# Class: <http://purl.obolibrary.org/obo/IAO_0000104> (plan specification)
-
-
-# Class: <http://purl.obolibrary.org/obo/IAO_0000310> (document)
-
-
-# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000350> (quantity value)
-
-
-# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00020015> (licence)
-
-
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020000> (descriptive information content entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020000> "An Information Content Entity that consists of a set of propositions that describe some Entity.")
@@ -648,6 +630,5 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> <https://openenergypla
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <https://purl.org/mhpo/ontology/MHPO_00030020>))
 
 
-DisjointClasses(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000310> <https://openenergyplatform.org/ontology/oeo/OEO_00000350> <https://openenergyplatform.org/ontology/oeo/OEO_00020015> <https://purl.org/mhpo/ontology/MHPO_00020000> <https://purl.org/mhpo/ontology/MHPO_00020031>)
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
 )
