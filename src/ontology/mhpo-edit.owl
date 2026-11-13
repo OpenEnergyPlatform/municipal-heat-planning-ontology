@@ -103,7 +103,7 @@ Declaration(AnnotationProperty(<https://www.commoncoreontologies.org/ont00001754
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative label")
 
@@ -433,8 +433,28 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020026> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00020031> (community identification key)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020031> "A community identification key is a symbol that consists of a sequence of digits/numbers that represent and identify politically independent municipalities or unincorporated areas in Germany."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "ARS"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "Amtlicher Regionalschlüssel"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "official municipality key"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020031> "official regional code"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020031> "Based on https://en.wikipedia.org/wiki/Community_Identification_Number as of 2026-11-13")
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020031> "Der Amtliche Regionalschlüssel gliedert sich wie folgt:
+1.–2. Stelle   = Kennzahl des Bundeslandes
+3. Stelle      = Kennzahl des Regierungsbezirks; wenn nicht vorhanden: 0
+4.–5. Stelle   = Kennzahl des Landkreises oder der kreisfreien Stadt
+6.–9. Stelle   = Verbandsschlüssel
+10.–12. Stelle = Gemeindekennzahl"@de)
+AnnotationAssertion(rdfs:comment <https://purl.org/mhpo/ontology/MHPO_00020031> "The Official Regional Code is structured as follows:
+1st–2nd digits   = code of federal state
+3rd digit      = Administrative district code; if not available: 0
+4th–5th digits   = County or independent city code
+6th–9th digits   = Association code
+10th–12th digits = Municipality code"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020031> "community identification key"@en)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020031> <http://purl.obolibrary.org/obo/IAO_0000030>)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020031> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/45
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/48")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020031> <http://purl.obolibrary.org/obo/IAO_0000028>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 
