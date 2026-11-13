@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://purl.org/mhpo/imports/oeo_import.owl>
-<https://purl.org/mhpo/releases/2026-10-20/imports/oeo_import.owl>
+<https://purl.org/mhpo/releases/2026-11-13/imports/oeo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://openenergyplatform.org/ontology/oeo/releases/2.13.0/oeo.owl>)
-Annotation(owl:versionInfo "2026-10-20")
+Annotation(owl:versionInfo "2026-11-13")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -45,6 +45,7 @@ Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000191>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000200>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000207>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000210>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000315>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000316>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000331>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00000333>))
@@ -91,6 +92,7 @@ Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020307>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00020308>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030004>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030019>))
+Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030022>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00030025>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140049>))
 Declaration(Class(<https://openenergyplatform.org/ontology/oeo/OEO_00140050>))
@@ -128,9 +130,12 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002328>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002410>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002502>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
@@ -185,6 +190,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1923")
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/BFO_0000050> "issue https://github.com/OpenEnergyPlatform/ontology/issues/596
 Pull request https://github.com/OpenEnergyPlatform/ontology/pull/599
 Pull request https://github.com/OpenEnergyPlatform/ontology/pull/603")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000050> owl:topObjectProperty)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
 
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (<http://purl.obolibrary.org/obo/BFO_0000051>)
@@ -196,6 +202,11 @@ Pull request https://github.com/OpenEnergyPlatform/ontology/pull/603
 fix duplicate implementation of `Inverse Of`
 issue https://github.com/OpenEnergyPlatform/ontology/issues/979
 pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000051> owl:topObjectProperty)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000054> (<http://purl.obolibrary.org/obo/BFO_0000054>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000054> owl:topObjectProperty)
 
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000117> (<http://purl.obolibrary.org/obo/BFO_0000117>)
 
@@ -210,6 +221,7 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2016")
 
 # Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (<http://purl.obolibrary.org/obo/IAO_0000136>)
 
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000136> owl:topObjectProperty)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000136> <https://openenergyplatform.org/ontology/oeo/OEO_00010231>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
@@ -218,6 +230,7 @@ ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.o
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000052> "add inverse:
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1844
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1852")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0002314>)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (<http://purl.obolibrary.org/obo/RO_0000053>)
@@ -233,6 +246,7 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obo
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0000056> "make inverse of has participant
 issue https://github.com/OpenEnergyPlatform/ontology/issues/979
 pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000056> owl:topObjectProperty)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/RO_0000057>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
@@ -246,6 +260,7 @@ pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086
 Add range axiom for `has participant`
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1157
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1225")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000057> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000003>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
@@ -302,6 +317,14 @@ pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0000057>)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0002353>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002314> (<http://purl.obolibrary.org/obo/RO_0002314>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/RO_0002502>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002328> (<http://purl.obolibrary.org/obo/RO_0002328>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002328> owl:topObjectProperty)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002352> (<http://purl.obolibrary.org/obo/RO_0002352>)
 
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0000056>)
@@ -315,11 +338,23 @@ pull request https://github.com/OpenEnergyPlatform/ontology/pull/1086")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/RO_0000056>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/RO_0002328>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002410> (<http://purl.obolibrary.org/obo/RO_0002410>)
+
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0002410> "Removed class expression (process or 'material entity') both as domain and as range
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/2103
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2104")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002410> owl:topObjectProperty)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002502> (<http://purl.obolibrary.org/obo/RO_0002502>)
+
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002502> owl:topObjectProperty)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0019000> (<http://purl.obolibrary.org/obo/RO_0019000>)
 
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <http://purl.obolibrary.org/obo/RO_0019000> "import from RO
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/2053
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2094")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019000> <http://purl.obolibrary.org/obo/RO_0002410>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0019000> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0019000> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
@@ -439,6 +474,7 @@ AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020461> "add
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2232")
+SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> owl:topObjectProperty)
 ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00020461> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
 
@@ -449,6 +485,7 @@ AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00020462> "add
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/2190
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/2232")
+SubObjectPropertyOf(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> owl:topObjectProperty)
 ObjectPropertyDomain(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<https://openenergyplatform.org/ontology/oeo/OEO_00020462> <https://openenergyplatform.org/ontology/oeo/OEO_00000150>)
 
@@ -828,6 +865,21 @@ change produces energy axiom to 'has energy output':
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/994
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1006")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000210> <https://openenergyplatform.org/ontology/oeo/OEO_00000011>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000315> (organisation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00000315> "An organisation role is a role of an aggregate of people that has a collective goal and a set of organisation rules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00000315> "organization role")
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00000315> "organisation role"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00000315> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/314
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/370
+rework module structure 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+remove disjointness with person
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1702
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1716")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00000315> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00000316> (origin)
 
@@ -1676,6 +1728,28 @@ rework module structure
 issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
 pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652")
 SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030019> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030022> (organisation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://openenergyplatform.org/ontology/oeo/OEO_00030022> "An organisation is an immaterial entity that has the organisation role and there exists some sort of legal framework that recognises the entity and its continued existence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00030022> "Organisation"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://openenergyplatform.org/ontology/oeo/OEO_00030022> "organization"@en)
+AnnotationAssertion(rdfs:label <https://openenergyplatform.org/ontology/oeo/OEO_00030022> "organisation"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://openenergyplatform.org/ontology/oeo/OEO_00030022> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/416
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/421
+added term in oeo-shared:
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/871
+deleted term in oeo-social:
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/983
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/992
+rework module structure
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1592
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1652
+added disjointness 
+issue: https://github.com/OpenEnergyPlatform/ontology/issues/1702
+pull request: https://github.com/OpenEnergyPlatform/ontology/pull/1716")
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030022> <http://purl.obolibrary.org/obo/BFO_0000141>)
+SubClassOf(<https://openenergyplatform.org/ontology/oeo/OEO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://openenergyplatform.org/ontology/oeo/OEO_00000315>))
 
 # Class: <https://openenergyplatform.org/ontology/oeo/OEO_00030025> (supply system)
 

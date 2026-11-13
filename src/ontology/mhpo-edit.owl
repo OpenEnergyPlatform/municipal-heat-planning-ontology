@@ -56,6 +56,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020023>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020024>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020025>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020026>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00020029>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030001>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030005>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030006>))
@@ -101,7 +102,7 @@ Declaration(AnnotationProperty(<https://www.commoncoreontologies.org/ont00001754
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative label")
 
@@ -418,6 +419,18 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/15")
 EquivalentClasses(<https://purl.org/mhpo/ontology/MHPO_00020026> ObjectUnionOf(<https://purl.org/mhpo/ontology/MHPO_00020021> <https://purl.org/mhpo/ontology/MHPO_00030005> <https://purl.org/mhpo/ontology/MHPO_00030007> <https://purl.org/mhpo/ontology/MHPO_00030013>))
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020026> <https://purl.org/mhpo/ontology/MHPO_00020019>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00020029> (municipality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00020029> "A municipality is a kind of organisation that represents a public administrative division having corporate status and powers of self-government or jurisdiction as granted by national and regional laws to which it is subordinate."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020029> "Gemeinde"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020029> "Kommune"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00020029> "politische Gemeinde"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00020029> "based on: https://en.wikipedia.org/wiki/Municipality as of 2026-13-11")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00020029> "municipality"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00020029> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/46
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/47")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00020029> <https://openenergyplatform.org/ontology/oeo/OEO_00030022>)
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030001> (implementation strategy)
 

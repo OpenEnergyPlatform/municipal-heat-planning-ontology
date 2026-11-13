@@ -7,3 +7,4 @@ https://openenergyplatform.org/ontology/oeo/OEO_00020187	# software licence
 https://openenergyplatform.org/ontology/oeo/OEO_00010412	# creative work licence
 https://openenergyplatform.org/ontology/oeo/OEO_00020186	# data licence
 https://openenergyplatform.org/ontology/oeo/OEO_00000350	# quantity value
+https://openenergyplatform.org/ontology/oeo/OEO_00030022	# organisation
