@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - covers parameter (#43)
-- community identification key, has community identification key (#48)
+- official regional code, official municipality code, has official regional code, has official municipality code (#48)
 
 ## [0.1.0] Initial Release - 2026-09-29
 
