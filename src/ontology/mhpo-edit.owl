@@ -617,6 +617,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030022> "A building is an artificial object that is designed and constructed to provide one or more roofed and usually enclosed spaces for human activities or for the shelter of persons, animals, or material entities."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030022> "Gebäude"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030022> "https://en.wikipedia.org/wiki/Building"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030022> "building"@en)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030022> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>)
 
