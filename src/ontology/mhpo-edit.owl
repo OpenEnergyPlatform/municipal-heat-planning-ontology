@@ -78,6 +78,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030024>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030025>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030026>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030027>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030028>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -668,6 +669,17 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030027> "r
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030027> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030027> <https://purl.org/mhpo/ontology/MHPO_00030023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030028> (residential building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030028> "A residential building stock is a kind of building stock that comprises the residential buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030028> "Wohngebäudebestand"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030028> "stock of residential buildings"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030028> "residential building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030028> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> <https://purl.org/mhpo/ontology/MHPO_00030020>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<https://purl.org/mhpo/ontology/MHPO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://purl.org/mhpo/ontology/MHPO_00030027>))))
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
