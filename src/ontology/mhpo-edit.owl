@@ -83,6 +83,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030029>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030030>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030031>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030032>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030033>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -627,7 +628,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030022> "A building is an artificial object that is designed and constructed to provide one or more roofed and usually enclosed spaces for human activities or for the shelter of persons, animals, or material entities."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030022> "Gebäude"@de)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030022> "https://en.wikipedia.org/wiki/Building"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030022> "https://en.wikipedia.org/wiki/Building")
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030022> "building"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030022> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
@@ -660,7 +661,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030025> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030026> (public building function)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030026> "A public building function is  a function of a building that is designed to provide space for public or community activities."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030026> "A public building function is a function of a building that is designed to provide space for public or community activities."@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030026> "public building function"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030026> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
@@ -727,6 +728,17 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030032> "p
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030032> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030032> <https://purl.org/mhpo/ontology/MHPO_00030029>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030033> (mixed-use building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030033> "A mixed-use building stock is a building stock that comprises the mixed-use buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030033> "Bestand gemischt genutzter Gebäude mit Wohnen"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030033> "Gebäudebestand mit Mischnutzung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030033> "stock of mixed-use buildings"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030033> "mixed-use building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030033> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030033> <https://purl.org/mhpo/ontology/MHPO_00030020>)
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
