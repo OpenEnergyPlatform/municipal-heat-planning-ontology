@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] Initial Release - 2026-09-29
 
 ### Added
+- building, building function, commercial and service building function, industrial building function, public building function, residential building function (#55)
+- residential building stock, mixed-use building stock, non-residential building stock, commercial and service building stock, industrial building stock, public building stock (#55)
 - initial suitability assessment, shortened heat planning, has represented heat supply area (#21)
 - building stock, building count (#26)
 - municipal heat plan, aggregated inventory analysis, aggregated potential analysis, target scenario, implementation measure, implementation strategy (#9)
