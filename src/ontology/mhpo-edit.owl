@@ -683,7 +683,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030028> "r
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030028> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> <https://purl.org/mhpo/ontology/MHPO_00030020>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<https://purl.org/mhpo/ontology/MHPO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://purl.org/mhpo/ontology/MHPO_00030027>))))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030029> (non-residential building stock)
 
@@ -708,7 +707,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030030> "c
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030030> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030030> <https://purl.org/mhpo/ontology/MHPO_00030029>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030030> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<https://purl.org/mhpo/ontology/MHPO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://purl.org/mhpo/ontology/MHPO_00030024>))))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030031> (industrial building stock)
 
@@ -719,7 +717,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030031> "i
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030031> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030031> <https://purl.org/mhpo/ontology/MHPO_00030029>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030031> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<https://purl.org/mhpo/ontology/MHPO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://purl.org/mhpo/ontology/MHPO_00030025>))))
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030032> (public building stock)
 
@@ -730,7 +727,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030032> "p
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030032> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030032> <https://purl.org/mhpo/ontology/MHPO_00030029>)
-SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030032> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<https://purl.org/mhpo/ontology/MHPO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://purl.org/mhpo/ontology/MHPO_00030026>))))
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
