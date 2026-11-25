@@ -687,7 +687,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> ObjectAllValuesFrom(<h
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030029> (non-residential building stock)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030029> "A non-residential building stock is a kind of building stock that comprises the non-residential buildings of a spatial region."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Gebäudebestadn für Nichtwohngebäude"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Gebäudebestand für Nichtwohngebäude"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Nichtwohngebäudebestand"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "stock of non-residential buildings"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030029> "non-residential building stock"@en)
