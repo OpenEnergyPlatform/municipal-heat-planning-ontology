@@ -75,6 +75,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030022>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030023>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030024>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -641,6 +642,14 @@ AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030024> "c
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030024> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030024> <https://purl.org/mhpo/ontology/MHPO_00030023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030025> (industrial building function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030025> "An industrial building function is a function of a building that is designed to provide space for industrial activities.")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030025> "industrial building function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030025> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030025> <https://purl.org/mhpo/ontology/MHPO_00030023>)
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
