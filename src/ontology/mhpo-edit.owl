@@ -699,7 +699,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030029> <https://purl.org/mhpo
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030030> "A commercial and service building stock is a kind of non-residential building stock that comprises the commercial and service buildings of a spatial region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "GHD building stock"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "Gebäude für Gewerbe, Handel und Dienstleistungen"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "Gebäudebestand für Gewerbe, Handel und Dienstleistungen"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "commercial building stock"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "stock of commercial and service buildings"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "trade and service building stock"@en)
