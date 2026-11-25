@@ -72,6 +72,18 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030022>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030023>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030024>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030025>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030026>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030027>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030028>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030029>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030030>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030031>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030032>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030033>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -611,6 +623,122 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <https://purl.org/mhpo/ontology/MHPO_00030020>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030022> (building)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030022> "A building is an artificial object that is designed and constructed to provide one or more roofed and usually enclosed spaces for human activities or for the shelter of persons, animals, or material entities."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030022> "Gebäude"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.org/mhpo/ontology/MHPO_00030022> "https://en.wikipedia.org/wiki/Building")
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030022> "building"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030022> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030022> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <https://purl.org/mhpo/ontology/MHPO_00030023>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030023> (building function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030023> "A building function is a function of a building that has been designed to provide space for a specific type of use."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030023> "building function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030023> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030023> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030024> (commercial and service building function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030024> "A commercial and service building function is a function of a building that is designed to provide space for commercial and service activities."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030024> "commercial and service building function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030024> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030024> <https://purl.org/mhpo/ontology/MHPO_00030023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030025> (industrial building function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030025> "An industrial building function is a function of a building that is designed to provide space for industrial activities."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030025> "industrial building function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030025> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030025> <https://purl.org/mhpo/ontology/MHPO_00030023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030026> (public building function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030026> "A public building function is a function of a building that is designed to provide space for public or community activities."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030026> "public building function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030026> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030026> <https://purl.org/mhpo/ontology/MHPO_00030023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030027> (residential building function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030027> "A residential building function is a function of a building that is designed to provide space for human habitation."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030027> "residential building function"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030027> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030027> <https://purl.org/mhpo/ontology/MHPO_00030023>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030028> (residential building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030028> "A residential building stock is a building stock that comprises the residential buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030028> "Wohngebäudebestand"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030028> "stock of residential buildings"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030028> "residential building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030028> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> <https://purl.org/mhpo/ontology/MHPO_00030020>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030029> (non-residential building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030029> "A non-residential building stock is a building stock that comprises the non-residential buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Gebäudebestand für Nichtwohngebäude"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Nichtwohngebäudebestand"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "stock of non-residential buildings"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030029> "non-residential building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030029> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030029> <https://purl.org/mhpo/ontology/MHPO_00030020>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030030> (commercial and service building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030030> "A commercial and service building stock is a non-residential building stock that comprises the commercial and service buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "GHD building stock"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "Gebäudebestand für Gewerbe, Handel und Dienstleistungen"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "commercial building stock"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "stock of commercial and service buildings"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "trade and service building stock"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030030> "commercial and service building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030030> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030030> <https://purl.org/mhpo/ontology/MHPO_00030029>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030031> (industrial building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030031> "An industrial building stock is a non-residential building stock that comprises the industrial buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030031> "Gebäudebestand für Industriegebäude"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030031> "stock of industrial buildings"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030031> "industrial building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030031> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030031> <https://purl.org/mhpo/ontology/MHPO_00030029>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030032> (public building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030032> "A public building stock is a non-residential building stock that comprises the public buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030032> "public non-residential building stock"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030032> "öffentlicher Gebäudebestand"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030032> "public building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030032> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030032> <https://purl.org/mhpo/ontology/MHPO_00030029>)
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030033> (mixed-use building stock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030033> "A mixed-use building stock is a building stock that comprises the mixed-use buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030033> "Bestand gemischt genutzter Gebäude mit Wohnen"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030033> "Gebäudebestand mit Mischnutzung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030033> "stock of mixed-use buildings"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030033> "mixed-use building stock"@en)
+AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030033> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
+pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030033> <https://purl.org/mhpo/ontology/MHPO_00030020>)
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
