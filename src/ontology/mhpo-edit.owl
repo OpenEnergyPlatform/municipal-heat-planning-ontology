@@ -72,6 +72,7 @@ Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030017>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030018>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030020>))
 Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030021>))
+Declaration(Class(<https://purl.org/mhpo/ontology/MHPO_00030022>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -611,6 +612,13 @@ AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/26")
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> <https://openenergyplatform.org/ontology/oeo/OEO_00000350>)
 SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030021> ObjectSomeValuesFrom(<https://openenergyplatform.org/ontology/oeo/OEO_00020056> <https://purl.org/mhpo/ontology/MHPO_00030020>))
+
+# Class: <https://purl.org/mhpo/ontology/MHPO_00030022> (building)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030022> "A building is an artificial object that is designed and constructed to provide one or more roofed and usually enclosed spaces for human activities or for the shelter of persons, animals, or material entities."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030022> "Gebäude"@de)
+AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030022> "building"@en)
+SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030022> <https://openenergyplatform.org/ontology/oeo/OEO_00000061>)
 
 
 DisjointClasses(<https://purl.org/mhpo/ontology/MHPO_00020023> <https://purl.org/mhpo/ontology/MHPO_00020024> <https://purl.org/mhpo/ontology/MHPO_00020025>)
