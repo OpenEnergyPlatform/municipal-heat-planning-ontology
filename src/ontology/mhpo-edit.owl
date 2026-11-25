@@ -644,7 +644,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030023> <http://purl.obolibrar
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030024> (commercial and service building function)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030024> "A commercial and service building function is a building function to provide space for commercial and service activities."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030024> "A commercial and service building function is a function of a building that is designed to provide space for commercial and service activities."@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030024> "commercial and service building function"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030024> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
@@ -660,7 +660,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030025> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030026> (public building function)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030026> "A public building function is a building function to provide space for public or community activities."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030026> "A public building function is  a function of a building that is designed to provide space for public or community activities."@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030026> "public building function"@en)
 AnnotationAssertion(<https://openenergyplatform.org/ontology/oeo/OEO_00020426> <https://purl.org/mhpo/ontology/MHPO_00030026> "issue: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/issues/24
 pull request: https://github.com/OpenEnergyPlatform/municipal-heat-planning-ontology/pull/55")
@@ -676,7 +676,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030027> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030028> (residential building stock)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030028> "A residential building stock is a kind of building stock that comprises the residential buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030028> "A residential building stock is a building stock that comprises the residential buildings of a spatial region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030028> "Wohngebäudebestand"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030028> "stock of residential buildings"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030028> "residential building stock"@en)
@@ -686,7 +686,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030028> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030029> (non-residential building stock)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030029> "A non-residential building stock is a kind of building stock that comprises the non-residential buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030029> "A non-residential building stock is a building stock that comprises the non-residential buildings of a spatial region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Gebäudebestand für Nichtwohngebäude"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "Nichtwohngebäudebestand"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030029> "stock of non-residential buildings"@en)
@@ -697,7 +697,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030029> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030030> (commercial and service building stock)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030030> "A commercial and service building stock is a kind of non-residential building stock that comprises the commercial and service buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030030> "A commercial and service building stock is a non-residential building stock that comprises the commercial and service buildings of a spatial region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "GHD building stock"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "Gebäudebestand für Gewerbe, Handel und Dienstleistungen"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030030> "commercial building stock"@en)
@@ -710,7 +710,7 @@ SubClassOf(<https://purl.org/mhpo/ontology/MHPO_00030030> <https://purl.org/mhpo
 
 # Class: <https://purl.org/mhpo/ontology/MHPO_00030031> (industrial building stock)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030031> "An industrial building stock is a kind of non-residential building stock that comprises the industrial buildings of a spatial region."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.org/mhpo/ontology/MHPO_00030031> "An industrial building stock is a non-residential building stock that comprises the industrial buildings of a spatial region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030031> "Gebäudebestand für Industriegebäude"@de)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.org/mhpo/ontology/MHPO_00030031> "stock of industrial buildings"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/mhpo/ontology/MHPO_00030031> "industrial building stock"@en)
